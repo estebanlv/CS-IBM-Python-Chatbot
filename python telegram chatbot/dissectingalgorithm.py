@@ -44,7 +44,7 @@ for i in range(lmessage): #loop to go through all the characters in the list
 print(newtext)
 solvedtext = ''.join(newtext) #joins the list to create a string
 print(solvedtext)
-word = solvedtext.split(' ')#Splits the string at every space space
+word = solvedtext.split()#Splits the string at every space
 lword = len(word) #Counts the words within the list
 for x in range(lword):
     print(word[x]) #prints all the words in the sentence
