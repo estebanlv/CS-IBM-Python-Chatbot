@@ -7,7 +7,7 @@ letters = ["A","B","C","D","E","F","G","H","I","K","J","L","M","N","O","P","Q","
 def removepunctuation():
     text_file = open("texttoread.txt", "r") #opens the text file to read it
     lines = text_file.read() #reads every line in the file and stores it in a list
-    lines = lines.lower()
+    lines = lines.lower() #converts the whole string into lowercase
     character_list = list(lines) #separates the string into characters
     length_character_list = len(character_list) #counts the amount of characters in a list
     for i in range(length_character_list): #loop to go through all the characters in the list
@@ -55,9 +55,8 @@ def joinandsplitspace(character_list):
     print(joined_text)
     list_of_words = joined_text.split()#Splits the string at every space
     lword_list = len(list_of_words) #Counts the words within the list
-    for x in range(lword_list):
+    for x in range(lword_list): #for every word in this list...
         print(list_of_words[x]) #prints all the words in the sentence
-
 
 print("This program will read anything on a text file and save the words into a database")
 char_list = removepunctuation() #saves the list from the other def in another list
