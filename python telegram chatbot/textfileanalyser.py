@@ -43,14 +43,14 @@ def removepunctuation():
         elif "£" in character_list:
             character_list.remove("£")
         elif "$" in character_list:
-            character_listremove("$")
+            character_list.remove("$")
         elif "*" in character_list:
             character_list.remove("*")
         elif ";" in character_list:
             character_list.remove(";")
     print (character_list)
     text_file.close() #closes the file
-    return character_list; #retrns the list of character for the next section
+    return character_list; #returns the list of character for the next section
 
 def joinandsplitspace(character_list):
     joined_text = ''.join(character_list) #joins the list to create a string
@@ -68,18 +68,22 @@ def dostats(ystr):
     apps_number =  apps_number + 1 #adds 1 to the variable
     apps_num_str = str(apps_number) #stores it as a string
     sheet[cell].value = apps_num_str #stores the updated number in the same cell it came from e.g. [B2]
-
+    wb.save("wordsdatabase.xlsx")
 
 def wordcheck(words_list):
     word_list_length = len(words_list) #checks the number of words in the list
+    print(word_list_length)
     for x in range(word_list_length): #for evry word in the list do
-        for y in range(1,10000): #repeat 10000 times. so every word is checked
+        print(words_list[x])
+        for y in range(2,10001): #repeat 10000 times. so every word is checked
             ystr = str(y)
             cell = letters[0] + ystr #creates the cell for the new word
-            if words_list[x] == sheet[cell].value: #checks to see if the word is the same that the one in the database
+            word_from_database = sheet[cell].value
+            #print(word_from_database)
+            if words_list[x] == word_from_database: #checks to see if the word is the same that the one in the database
+                print("same")
                 dostats(ystr) #if it is, then do the statistics part
-            else:
-                print("The word has not been found in the database")
+
 
 print("This program will read anything on a text file and save the words into a database")
 char_list = removepunctuation() #saves the list from the other def in another list
