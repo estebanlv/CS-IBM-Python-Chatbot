@@ -1,6 +1,8 @@
 from openpyxl import load_workbook #This loads a library that allows me to read/write excel files
 wb = load_workbook(filename = 'wordsdatabase.xlsx') #Tell the program what file i'm using
 sheet = wb['main'] #Tells the program which sheet in the document i'm using
+secsheet = wb['secondary']
+total = wb['total']
 letters = ["A","B","C","D","E","F","G","H","I","K","J","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
 #These variable above is for cell values
 
@@ -57,11 +59,32 @@ def joinandsplitspace(character_list):
     lword_list = len(list_of_words) #Counts the words within the list
     for x in range(lword_list): #for every word in this list...
         print(list_of_words[x]) #prints all the words in the sentence
+    return list_of_words;
+
+def dostats(ystr):
+    #number of apparitions statistics
+    cell = letters[1] + ystr #creates the cell e.g. [B2]
+    apps_number = int(sheet[cell].value) #saves the number in a integer variable
+    apps_number =  apps_number + 1 #adds 1 to the variable
+    apps_num_str = str(apps_number) #stores it as a string
+    sheet[cell].value = apps_num_str #stores the updated number in the same cell it came from e.g. [B2]
+
+
+def wordcheck(words_list):
+    word_list_length = len(words_list) #checks the number of words in the list
+    for x in range(word_list_length): #for evry word in the list do
+        for y in range(1,10000): #repeat 10000 times. so every word is checked
+            ystr = str(y)
+            cell = letters[0] + ystr #creates the cell for the new word
+            if words_list[x] == sheet[cell].value: #checks to see if the word is the same that the one in the database
+                dostats(ystr) #if it is, then do the statistics part
+            else:
+                print("The word has not been found in the database")
 
 print("This program will read anything on a text file and save the words into a database")
 char_list = removepunctuation() #saves the list from the other def in another list
-joinandsplitspace(char_list)
-
+word_list = joinandsplitspace(char_list) #saves the word list from the procedure into another global variable
+wordcheck(word_list) #calls the wordcheck function to run the words through a database
 
 
 #text_file = open("texttoread.txt", "r") #opens the text file to read it
