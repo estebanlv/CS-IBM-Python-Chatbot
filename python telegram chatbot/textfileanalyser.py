@@ -61,6 +61,14 @@ def joinandsplitspace(character_list):
         print(list_of_words[x]) #prints all the words in the sentence
     return list_of_words;
 
+def addtothetotal():
+    #add 1 to the total amount of words recorded for the percentage stats
+    total_cell = "B2" #This is the exact cell where this data has to be stored
+    total_words_recorded = int(total[total_cell].value) #extracts the number from the cell
+    total_words_recorded = total_words_recorded + 1 #adds one to that value
+    total_words_recorded_str = str(total_words_recorded) #transforms it into a string
+    total[total_cell].value = total_words_recorded_str #stores the number-string in the cell that it came from
+
 def dostats(ystr):
     #number of apparitions statistics
     cell = letters[1] + ystr #creates the cell e.g. [B2]
@@ -68,6 +76,7 @@ def dostats(ystr):
     apps_number =  apps_number + 1 #adds 1 to the variable
     apps_num_str = str(apps_number) #stores it as a string
     sheet[cell].value = apps_num_str #stores the updated number in the same cell it came from e.g. [B2]
+    addtothetotal()
     wb.save("wordsdatabase.xlsx")
 
 def wordcheck(words_list):
@@ -76,20 +85,33 @@ def wordcheck(words_list):
     for x in range(word_list_length): #for evry word in the list do
         print(words_list[x])
         for y in range(2,10001): #repeat 10000 times. so every word is checked
-            ystr = str(y)
+            ystr = str(y) #transforms the value into a string in order to create the cell
             cell = letters[0] + ystr #creates the cell for the new word
-            word_from_database = sheet[cell].value
+            word_from_database = sheet[cell].value #saves the value from the cell inside a local variable
             #print(word_from_database)
             if words_list[x] == word_from_database: #checks to see if the word is the same that the one in the database
                 print("same")
                 dostats(ystr) #if it is, then do the statistics part
+
+def calculatepercentage():
+    for y in range(2,10001):
+        ystr = str(y) #transforms the value into a string in order to create the cell
+        word_app_cell = letters[1] + ystr #creates the cell for the new word
+        total_cell = "B2" #cell where the total is stored at
+        word_no_of_apps = int(sheet[word_app_cell].value) #stores the apps from a single word
+        total_no_of_apps = int(total[total_cell].value) #stores the apps in total (all words)
+        word_percentage = (word_no_of_apps / total_no_of_apps) * 100 #percentage calculation
+        word_percentage_str = str(word_percentage) #transform into a string to store in database
+        percentage_cell = letters[2] + ystr #creates the cell for the percentage
+        sheet[percentage_cell].value = word_percentage_str #stores the percentage value
+    wb.save("wordsdatabase.xlsx")
 
 
 print("This program will read anything on a text file and save the words into a database")
 char_list = removepunctuation() #saves the list from the other def in another list
 word_list = joinandsplitspace(char_list) #saves the word list from the procedure into another global variable
 wordcheck(word_list) #calls the wordcheck function to run the words through a database
-
+calculatepercentage()
 
 #text_file = open("texttoread.txt", "r") #opens the text file to read it
 #lines = text_file.readlines() #reads every line in the file and stores it in a list
