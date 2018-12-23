@@ -77,7 +77,6 @@ def dostats(ystr):
     apps_num_str = str(apps_number) #stores it as a string
     sheet[cell].value = apps_num_str #stores the updated number in the same cell it came from e.g. [B2]
     addtothetotal()
-    wb.save("wordsdatabase.xlsx")
 
 def savetheword(word):
     #saves the unknown words into the secondary database
@@ -89,7 +88,6 @@ def savetheword(word):
     secsheet[word_save_cell].value = word #stores the word on that cell
     num_of_tot_words_insec_str = str(num_of_tot_words_insec + 1) #converts it into a string
     total[tot_words_insec_cell].value = num_of_tot_words_insec_str #stores the new amount of words in the sec database
-    wb.save("wordsdatabase.xlsx") #saves the document
 
 def wordcheck(words_list):
     word_list_length = len(words_list) #checks the number of words in the list
