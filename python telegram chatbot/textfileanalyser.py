@@ -79,11 +79,24 @@ def dostats(ystr):
     addtothetotal()
     wb.save("wordsdatabase.xlsx")
 
+def savetheword(word):
+    #saves the unknown words into the secondary database
+    tot_words_insec_cell = "B3" #where the total num of words in the secondary database is stored
+    num_of_tot_words_insec = int(total[tot_words_insec_cell].value) #gets the number of total words in sec. database
+    row_number = num_of_tot_words_insec + 2 #next row number availeable (no data inside of it)
+    row_number_str = str(row_number) #converts it into a string
+    word_save_cell = letters[0] + row_number_str #makes the cell where there isnt any data in
+    secsheet[word_save_cell].value = word #stores the word on that cell
+    num_of_tot_words_insec_str = str(num_of_tot_words_insec + 1) #converts it into a string
+    total[tot_words_insec_cell].value = num_of_tot_words_insec_str #stores the new amount of words in the sec database
+    wb.save("wordsdatabase.xlsx") #saves the document
+
 def wordcheck(words_list):
     word_list_length = len(words_list) #checks the number of words in the list
     print(word_list_length)
     for x in range(word_list_length): #for evry word in the list do
         print(words_list[x])
+        failed_attempts = 0 #variable used to count how many failed tries did it take to get the right word
         for y in range(2,10001): #repeat 10000 times. so every word is checked
             ystr = str(y) #transforms the value into a string in order to create the cell
             cell = letters[0] + ystr #creates the cell for the new word
@@ -92,6 +105,13 @@ def wordcheck(words_list):
             if words_list[x] == word_from_database: #checks to see if the word is the same that the one in the database
                 print("same")
                 dostats(ystr) #if it is, then do the statistics part
+            else: #if the word is not in the database then...
+                failed_attempts = failed_attempts + 1 #for every failed attempt, 1 is added to the variable
+
+        if failed_attempts == 9999: #if every word in the main file failed then...
+            print("not same")
+            word = words_list[x] #saves the word to pass it into the function
+            savetheword(word) #calls the savethe word function
 
 def calculatepercentage():
     for y in range(2,10001):
