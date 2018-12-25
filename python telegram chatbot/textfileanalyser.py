@@ -70,7 +70,8 @@ def addtothetotal():
     total[total_cell].value = total_words_recorded_str #stores the number-string in the cell that it came from
 
 def secwordsrecorded():
-    total_recorded_sec_cell = "B4"
+    #stores the amount of times words have been stored in the secondary database (reps included)
+    total_recorded_sec_cell = "B4" #cell where the data is found
     total_words_recorded = int(total[total_recorded_sec_cell].value) #extracts the number from the cell
     total_words_recorded = total_words_recorded + 1 #adds one to that value
     total_words_recorded_str = str(total_words_recorded) #transforms it into a string
@@ -104,10 +105,10 @@ def savetheword(word):
     secsheet[word_save_cell].value = word #stores the word on that cell
     num_of_tot_words_insec_str = str(num_of_tot_words_insec + 1) #converts it into a string
     total[tot_words_insec_cell].value = num_of_tot_words_insec_str #stores the new amount of words in the sec database
-    no_apps_cell = letters[1] + row_number_str
-    no_of_apps_int = int(secsheet[no_apps_cell].value)
-    no_of_apps_str = str(no_of_apps_int + 1)
-    secsheet[no_apps_cell].value =  no_of_apps_str
+    no_apps_cell = letters[1] + row_number_str #get the cell where the apps are stored
+    no_of_apps_int = int(secsheet[no_apps_cell].value) #gets the value and transforms it into an integer
+    no_of_apps_str = str(no_of_apps_int + 1) #add one apparition to the number
+    secsheet[no_apps_cell].value =  no_of_apps_str #saves it back to the cell as a string
     secwordsrecorded()
 
 def wordcheck(words_list):
@@ -122,12 +123,12 @@ def wordcheck(words_list):
             word_from_database = sheet[cell].value #saves the value from the cell inside a local variable
             word_from_sec_database = secsheet[cell].value #saves the value from the cell inside a local variable
             #print(word_from_database)
-            if words_list[x] == word_from_database: #checks to see if the word is the same that the one in the database
+            if words_list[x] == word_from_database: #checks to see if the word is the same as the one in the database
                 print("same")
                 dostats(ystr) #if it is, then do the statistics part
-            elif words_list[x] == word_from_sec_database:
+            elif words_list[x] == word_from_sec_database: #if the word is the same as the one in the secondary database
                 print("same sec")
-                dosecstats(ystr)
+                dosecstats(ystr) #if it is, then do the sec statistics part
             else: #if the word is not in the database then...
                 failed_attempts = failed_attempts + 1 #for every failed attempt, 1 is added to the variable
 
@@ -149,7 +150,7 @@ def calculatepercentage():
         sheet[percentage_cell].value = word_percentage_str #stores the percentage value
 
 def calculatesecpercentage():
-    row_count = secsheet.max_row
+    row_count = secsheet.max_row #checks how many rows are in the secondary database
     for y in range(2,row_count):
         ystr = str(y) #transforms the value into a string in order to create the cell
         word_app_cell = letters[1] + ystr #creates the cell for the new word
