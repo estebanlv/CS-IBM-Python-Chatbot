@@ -69,6 +69,14 @@ def addtothetotal():
     total_words_recorded_str = str(total_words_recorded) #transforms it into a string
     total[total_cell].value = total_words_recorded_str #stores the number-string in the cell that it came from
 
+def addtothesectotal():
+    #add 1 to the total amount of words recorded for the percentage stats
+    total_cell = "B3" #This is the exact cell where this data has to be stored
+    total_words_recorded = int(total[total_cell].value) #extracts the number from the cell
+    total_words_recorded = total_words_recorded + 1 #adds one to that value
+    total_words_recorded_str = str(total_words_recorded) #transforms it into a string
+    total[total_cell].value = total_words_recorded_str #stores the number-string in the cell that it came from
+
 def dostats(ystr):
     #number of apparitions statistics
     cell = letters[1] + ystr #creates the cell e.g. [B2]
@@ -77,6 +85,15 @@ def dostats(ystr):
     apps_num_str = str(apps_number) #stores it as a string
     sheet[cell].value = apps_num_str #stores the updated number in the same cell it came from e.g. [B2]
     addtothetotal()
+
+def dosecstats(ystr):
+    #number of apparitions statistics
+    cell = letters[1] + ystr #creates the cell e.g. [B2]
+    apps_number = int(secsheet[cell].value) #saves the number in a integer variable
+    apps_number =  apps_number + 1 #adds 1 to the variable
+    apps_num_str = str(apps_number) #stores it as a string
+    secsheet[cell].value = apps_num_str #stores the updated number in the same cell it came from e.g. [B2]
+    addtothesectotal()
 
 def savetheword(word):
     #saves the unknown words into the secondary database
@@ -88,6 +105,10 @@ def savetheword(word):
     secsheet[word_save_cell].value = word #stores the word on that cell
     num_of_tot_words_insec_str = str(num_of_tot_words_insec + 1) #converts it into a string
     total[tot_words_insec_cell].value = num_of_tot_words_insec_str #stores the new amount of words in the sec database
+    no_apps_cell = letters[1] + row_number_str
+    no_of_apps_int = int(secsheet[no_apps_cell].value)
+    no_of_apps_str = str(no_of_apps_int + 1)
+    secsheet[no_apps_cell].value =  no_of_apps_str
 
 def wordcheck(words_list):
     word_list_length = len(words_list) #checks the number of words in the list
@@ -99,10 +120,14 @@ def wordcheck(words_list):
             ystr = str(y) #transforms the value into a string in order to create the cell
             cell = letters[0] + ystr #creates the cell for the new word
             word_from_database = sheet[cell].value #saves the value from the cell inside a local variable
+            word_from_sec_database = secsheet[cell].value #saves the value from the cell inside a local variable
             #print(word_from_database)
             if words_list[x] == word_from_database: #checks to see if the word is the same that the one in the database
                 print("same")
                 dostats(ystr) #if it is, then do the statistics part
+            elif words_list[x] == word_from_sec_database:
+                print("same sec")
+                dosecstats(ystr)
             else: #if the word is not in the database then...
                 failed_attempts = failed_attempts + 1 #for every failed attempt, 1 is added to the variable
 
