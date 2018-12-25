@@ -1,4 +1,8 @@
+import time
 from openpyxl import load_workbook #This loads a library that allows me to read/write excel files
+
+start = time.time()
+
 wb = load_workbook(filename = 'wordsdatabase.xlsx') #Tell the program what file i'm using
 sheet = wb['main'] #Tells the program which sheet in the document i'm using
 secsheet = wb['secondary']
@@ -170,7 +174,8 @@ calculatepercentage()
 calculatesecpercentage()
 wb.save("wordsdatabase.xlsx")
 
-
+end = time.time()
+print(end - start)
 
 #row_count = sheet.max_row
 #print (row_count)
