@@ -69,13 +69,12 @@ def addtothetotal():
     total_words_recorded_str = str(total_words_recorded) #transforms it into a string
     total[total_cell].value = total_words_recorded_str #stores the number-string in the cell that it came from
 
-def addtothesectotal():
-    #add 1 to the total amount of words recorded for the percentage stats
-    total_cell = "B3" #This is the exact cell where this data has to be stored
-    total_words_recorded = int(total[total_cell].value) #extracts the number from the cell
+def secwordsrecorded():
+    total_recorded_sec_cell = "B4"
+    total_words_recorded = int(total[total_recorded_sec_cell].value) #extracts the number from the cell
     total_words_recorded = total_words_recorded + 1 #adds one to that value
     total_words_recorded_str = str(total_words_recorded) #transforms it into a string
-    total[total_cell].value = total_words_recorded_str #stores the number-string in the cell that it came from
+    total[total_recorded_sec_cell].value = total_words_recorded_str #stores the number-string in the cell that it came from
 
 def dostats(ystr):
     #number of apparitions statistics
@@ -93,7 +92,7 @@ def dosecstats(ystr):
     apps_number =  apps_number + 1 #adds 1 to the variable
     apps_num_str = str(apps_number) #stores it as a string
     secsheet[cell].value = apps_num_str #stores the updated number in the same cell it came from e.g. [B2]
-    addtothesectotal()
+    secwordsrecorded()
 
 def savetheword(word):
     #saves the unknown words into the secondary database
@@ -109,6 +108,7 @@ def savetheword(word):
     no_of_apps_int = int(secsheet[no_apps_cell].value)
     no_of_apps_str = str(no_of_apps_int + 1)
     secsheet[no_apps_cell].value =  no_of_apps_str
+    secwordsrecorded()
 
 def wordcheck(words_list):
     word_list_length = len(words_list) #checks the number of words in the list
@@ -134,7 +134,7 @@ def wordcheck(words_list):
         if failed_attempts == 9999: #if every word in the main file failed then...
             print("not same")
             word = words_list[x] #saves the word to pass it into the function
-            savetheword(word) #calls the savethe word function
+            savetheword(word) #calls the savetheword function
 
 def calculatepercentage():
     for y in range(2,10001):
@@ -147,14 +147,32 @@ def calculatepercentage():
         word_percentage_str = str(word_percentage) #transform into a string to store in database
         percentage_cell = letters[2] + ystr #creates the cell for the percentage
         sheet[percentage_cell].value = word_percentage_str #stores the percentage value
-    wb.save("wordsdatabase.xlsx")
 
+def calculatesecpercentage():
+    row_count = secsheet.max_row
+    for y in range(2,row_count):
+        ystr = str(y) #transforms the value into a string in order to create the cell
+        word_app_cell = letters[1] + ystr #creates the cell for the new word
+        total_cell = "B4" #cell where the total is stored at
+        word_no_of_apps = int(secsheet[word_app_cell].value) #stores the apps from a single word
+        total_no_of_apps = int(total[total_cell].value) #stores the apps in total (all words)
+        word_percentage = (word_no_of_apps / total_no_of_apps) * 100 #percentage calculation
+        word_percentage_str = str(word_percentage) #transform into a string to store in database
+        percentage_cell = letters[2] + ystr #creates the cell for the percentage
+        secsheet[percentage_cell].value = word_percentage_str #stores the percentage value
 
 print("This program will read anything on a text file and save the words into a database")
 char_list = removepunctuation() #saves the list from the other def in another list
 word_list = joinandsplitspace(char_list) #saves the word list from the procedure into another global variable
 wordcheck(word_list) #calls the wordcheck function to run the words through a database
 calculatepercentage()
+calculatesecpercentage()
+wb.save("wordsdatabase.xlsx")
+
+
+
+#row_count = sheet.max_row
+#print (row_count)
 
 #text_file = open("texttoread.txt", "r") #opens the text file to read it
 #lines = text_file.readlines() #reads every line in the file and stores it in a list
