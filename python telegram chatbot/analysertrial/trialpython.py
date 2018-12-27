@@ -11,9 +11,10 @@ letters = ["A","B","C","D","E","F","G","H","I","K","J","L","M","N","O","P","Q","
 #These variable above is for cell values
 
 def removepunctuation():
-    output = open('trialfixed.txt', 'a')
-    with open('trial.txt', buffering = 20000000) as f:
-        for line in f:
+    output = open('trialfixed.txt', 'a') #opens file to append it.
+    with open('trial.txt', buffering = 20000000) as f: #opens the text file
+        for line in f: #for every line in the file...
+        #this code below is used to remove the punctuation from the text
             saveline = line.replace('.','')
             saveline = saveline.replace(',','')
             saveline = saveline.replace(':','')
@@ -36,11 +37,11 @@ def removepunctuation():
             saveline = saveline.replace('£','')
             saveline = saveline.replace('$','')
             saveline = saveline.replace('  ',' ')
-            saveline = saveline.rstrip()
-            saveline = saveline.replace(' ','\n')
-            saveline = str.lower(saveline)
-            output.write(saveline)  
-    output.close()
+            saveline = saveline.rstrip() #removes all the newlines \n
+            saveline = saveline.replace(' ','\n') #puts every word in a different line
+            saveline = str.lower(saveline) #converts everything to lowercase
+            output.write(saveline)
+    output.close() #saves and closes the file
 
 def addtothetotal():
     #add 1 to the total amount of words recorded for the percentage stats
@@ -156,7 +157,7 @@ def calculatesecpercentage():
         word_percentage_str = str(word_percentage) #transform into a string to store in database
         percentage_cell = letters[2] + ystr #creates the cell for the percentage
         secsheet[percentage_cell].value = word_percentage_str #stores the percentage value
- 
+
 print("This program will read anything on a text file and save the words into a database")
 removepunctuation()
 wordcheck()
@@ -165,15 +166,4 @@ calculatesecpercentage()
 wb.save("wordsdatabase.xlsx")
 
 end = time.time()
-print(end - start)
-
-
-#def readtextfile():
-#    output = open('trialfixedtotal.txt', 'a')
- #   with open('trialfixed.txt', buffering = 20000000) as f:
-  #      for line in f:
-   #         #saveline = line.replace('\n',' ')
-    #        saveline = line.replace('\n ',' ')
-     #       saveline = saveline.replace(' \n,',' ')
-     #       output.write(saveline)
-    #output.close()
+print(end - start) #time taken for the program to run
