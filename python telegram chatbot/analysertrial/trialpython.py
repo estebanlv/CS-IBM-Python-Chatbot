@@ -105,32 +105,62 @@ def joinandsplitspace(word_list):
 def dotopics(ystr, topic):
     notequal = 0
     #selects the next empty cell
-    topic_no_cell = letters[4] + ystr
-    number_of_topics = int(sheet[topic_no_cell].value)
-    if number_of_topics == 0:
-        num_letter = number_of_topics + 5
-        empty_topic_cell = letters[num_letter] + ystr
-        sheet[empty_topic_cell].value = topic
-        number_of_topics = number_of_topics + 1
-        number_of_topics_str = str(number_of_topics)
-        sheet[topic_no_cell].value = number_of_topics_str
-    elif number_of_topics != 0:
-        num_letter = number_of_topics + 4
-        for y in range(number_of_topics):
-            topic_cell = letters[num_letter] + ystr
-            topic_database = str(sheet[topic_cell].value)
-            if topic == topic_database:
+    topic_no_cell = letters[4] + ystr #creates a cell that contains the number of topics of a word
+    number_of_topics = int(sheet[topic_no_cell].value) #extracts the number of topics of a word
+    if number_of_topics == 0: #if there isnt any topics...
+        num_letter = number_of_topics + 5 #first cell column letter [F]
+        empty_topic_cell = letters[num_letter] + ystr #creates the cell where the first topic should be at
+        sheet[empty_topic_cell].value = topic #stores the topic in the empty cell
+        number_of_topics = number_of_topics + 1 #increases the number of topics by one
+        number_of_topics_str = str(number_of_topics) #stores it as a string
+        sheet[topic_no_cell].value = number_of_topics_str #stores the value at the respective cell
+    elif number_of_topics != 0: #if the number of topics isnt 0 then...
+        num_letter = number_of_topics + 4 #who the fuck knows what this line does
+        for y in range(number_of_topics): #for every topic do...
+            topic_cell = letters[num_letter] + ystr #create cell where the topic is stored
+            topic_database = str(sheet[topic_cell].value) #extracts the string within the cell
+            if topic == topic_database: #if the topic is the same do absolutely nothing
                 print("same")
-            else:
+            else: #if it isnt the same...
                 notequal = notequal + 1
                 num_letter = num_letter + 1
-    if notequal == number_of_topics:
-        num_letter = number_of_topics + 5
-        empty_topic_cell = letters[num_letter] + ystr
-        sheet[empty_topic_cell].value = topic
-        number_of_topics = number_of_topics + 1
-        number_of_topics_str = str(number_of_topics)
-        sheet[topic_no_cell].value = number_of_topics_str
+    if notequal == number_of_topics: #if the topic is not within the topic list already do...
+        num_letter = number_of_topics + 5 #checks the last empty column
+        empty_topic_cell = letters[num_letter] + ystr #creates the empty cell
+        sheet[empty_topic_cell].value = topic #saves the topic on the cell
+        number_of_topics = number_of_topics + 1 #increases the number of topics by one
+        number_of_topics_str = str(number_of_topics) #stores it as a string
+        sheet[topic_no_cell].value = number_of_topics_str #stores the value at the respective cell
+
+def dosectopics(ystr, topic):
+    notequal = 0
+    #selects the next empty cell
+    topic_no_cell = letters[4] + ystr #creates a cell that contains the number of topics of a word
+    number_of_topics = int(secsheet[topic_no_cell].value) #extracts the number of topics of a word
+    if number_of_topics == 0: #if there isnt any topics...
+        num_letter = number_of_topics + 5 #first cell column letter [F]
+        empty_topic_cell = letters[num_letter] + ystr #creates the cell where the first topic should be at
+        secsheet[empty_topic_cell].value = topic #stores the topic in the empty cell
+        number_of_topics = number_of_topics + 1 #increases the number of topics by one
+        number_of_topics_str = str(number_of_topics) #stores it as a string
+        secsheet[topic_no_cell].value = number_of_topics_str #stores the value at the respective cell
+    elif number_of_topics != 0: #if the number of topics isnt 0 then...
+        num_letter = number_of_topics + 4 #who the fuck knows what this line does
+        for y in range(number_of_topics): #for every topic do...
+            topic_cell = letters[num_letter] + ystr #create cell where the topic is stored
+            topic_database = str(secsheet[topic_cell].value) #extracts the string within the cell
+            if topic == topic_database: #if the topic is the same do absolutely nothing
+                print("same")
+            else: #if it isnt the same...
+                notequal = notequal + 1
+                num_letter = num_letter + 1
+    if notequal == number_of_topics: #if the topic is not within the topic list already do...
+        num_letter = number_of_topics + 5 #checks the last empty column
+        empty_topic_cell = letters[num_letter] + ystr #creates the empty cell
+        secsheet[empty_topic_cell].value = topic #saves the topic on the cell
+        number_of_topics = number_of_topics + 1 #increases the number of topics by one
+        number_of_topics_str = str(number_of_topics) #stores it as a string
+        secsheet[topic_no_cell].value = number_of_topics_str #stores the value at the respective cell
 
 def wordcheck():
     topic = input("Enter the main topic of this text:")
@@ -159,6 +189,7 @@ def wordcheck():
             elif words_list[x] == word_from_sec_database: #if the word is the same as the one in the secondary database
                 #print("same sec")
                 dosecstats(ystr) #if it is, then do the sec statistics part
+                dosectopics(ystr, topic)
             else: #if the word is not in the database then...
                 failed_attempts = failed_attempts + 1 #for every failed attempt, 1 is added to the variable
         #if x == 100:
