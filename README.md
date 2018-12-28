@@ -1,7 +1,6 @@
 # CS-Project-V2
 
 Things to do (practical):
-- make the topics stats in the text analyser
 - once the textanalyser is done, train the chatbot as much as possible
 - after training create an algorithm to calculate the relevance for each word
 - start coding the sentenceanalyser for the chatbot (analyses the sentence from the user to extract key information) 
