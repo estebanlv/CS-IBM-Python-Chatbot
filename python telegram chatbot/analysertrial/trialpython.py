@@ -102,7 +102,38 @@ def joinandsplitspace(word_list):
         #print(list_of_words[x]) #prints all the words in the sentence
     return list_of_words;
 
+def dotopics(ystr, topic):
+    notequal = 0
+    #selects the next empty cell
+    topic_no_cell = letters[4] + ystr
+    number_of_topics = int(sheet[topic_no_cell].value)
+    if number_of_topics == 0:
+        num_letter = number_of_topics + 5
+        empty_topic_cell = letters[num_letter] + ystr
+        sheet[empty_topic_cell].value = topic
+        number_of_topics = number_of_topics + 1
+        number_of_topics_str = str(number_of_topics)
+        sheet[topic_no_cell].value = number_of_topics_str
+    elif number_of_topics != 0:
+        num_letter = number_of_topics + 4
+        for y in range(number_of_topics):
+            topic_cell = letters[num_letter] + ystr
+            topic_database = str(sheet[topic_cell].value)
+            if topic == topic_database:
+                print("same")
+            else:
+                notequal = notequal + 1
+                num_letter = num_letter + 1
+    if notequal == number_of_topics:
+        num_letter = number_of_topics + 5
+        empty_topic_cell = letters[num_letter] + ystr
+        sheet[empty_topic_cell].value = topic
+        number_of_topics = number_of_topics + 1
+        number_of_topics_str = str(number_of_topics)
+        sheet[topic_no_cell].value = number_of_topics_str
+
 def wordcheck():
+    topic = input("Enter the main topic of this text:")
     text_file = open("trialfixed.txt", "r") #opens the text file to read it
     word_list = text_file.read()
     print("read")
@@ -110,7 +141,7 @@ def wordcheck():
     word_list_length = len(words_list)
     print(word_list_length)
     #timex = time.time()
-    for x in range(word_list_length): #for evry word in the list do
+    for x in range(word_list_length): #for every word in the list do
         #print(words_list[x])
         #timex = time.time()
         #print (x, '/', word_list_length)
@@ -124,6 +155,7 @@ def wordcheck():
             if words_list[x] == word_from_database: #checks to see if the word is the same as the one in the database
                 #print("same")
                 dostats(ystr) #if it is, then do the statistics part
+                dotopics(ystr, topic)
             elif words_list[x] == word_from_sec_database: #if the word is the same as the one in the secondary database
                 #print("same sec")
                 dosecstats(ystr) #if it is, then do the sec statistics part
