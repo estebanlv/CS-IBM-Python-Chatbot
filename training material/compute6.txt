@@ -1,0 +1,20 @@
+Reacting to a rapidly changing marketplace has accelerated the need for new approaches to modernizing and building applications.
+
+To help organizations respond to our dynamic world, IBM is delivering IBM Cloud Private Hosted on VMware vCenter Server on IBM Cloud, which brings together the power of containerized IBM software, Kubernetes, and VMware to organizations on the IBM Cloud.
+
+IBM Cloud Private Hosted brings the power of microservices and containers to your VMware environment in the IBM Cloud. This service extends the same familiar VMware and IBM Cloud Private operational model and tooling from on-premises into the IBM Cloud. IBM deploys the environment for you, but you maintain complete control and visibility down the entire stack.
+
+You can choose either a 'production' or 'development/test' deployment size for IBM Cloud Private Hosted depending on how much capacity is needed on VMware vCenter Server on IBM Cloud. The development/test deployment is designed for small development/test workloads while the large deployment is designed for large production workloads. Automation built by IBM will then configure and install IBM Cloud Private Hosted as on your cloud instance. Cloud Automation Manager (CAM) is also configured and installed as a function of IBM Cloud Private Hosted.
+
+The 'production' minimum configuration size is 3 ESXi nodes each with 28 physical cores, 384 GB RAM, and 8 TB of attached storage.
+
+For 'development/test' use cases, we recommend a minimum configuration size is 3 ESXi nodes each with 16 physical cores, 128 GB RAM, and 8 TB of attached storage.
+
+IBM Cloud Private Hosted licensing must be purchased separately from this ordering portal. You can do so by contacting your IBM account representative or by purchasing through Passport Advantage.
+
+Key Features
+Control and access the whole stack from the container workload down to the VMware stack running on dedicated servers.
+Access to a native catalog of services through IBM Cloud Private Hosted.
+Manage VMware VMs in the cloud and on premise with Cloud Automation Manager.
+Add capacity, patch, and upgrade the platform on your schedule.
+Use the same VMware tools and skills you use on-premises to manage the IBM-hosted VMware environment.

@@ -1,0 +1,57 @@
+Enterprises can now confidently migrate mission critical workloads to the IBM Cloud, capable of delivering an aggregate 99.99% uptime in six multi-zone regions around the world.
+
+Mission critical applications are those legacy applications that require near continuous availability. They are essential to the survival of the business and cannot be impacted. This capability enables our clients to deploy in IBM Cloud a more robust high availability solution than they can afford to implement in a traditional data center.
+
+A fully managed service delivered by IBM Services, Mission Critical VMware on IBM Cloud delivers greater availability, resiliency, and support than many enterprises currently maintain on premises.
+
+This capability provides near-continuous availability of VMs, without the need for modification. This design consists of a full stack of VMware software-defined virtualization technology and associated tooling to enable the consumption of services. The stack includes performance and capacity management (vRealize Suite), Active Directory, resiliency, integration with Netcool/Bluecare, and integration with the IBM Services Platform with Watson.
+
+Key Benefits
+Multi-site solution that leverages IBM Cloud multi-zone locations
+Highly available environment with targeted aggregate SLA 99.99%
+Zero data loss on disk.
+Automated recovery from site failure of compute, storage, and network
+Managing your VMware virtual infrastructure comprising of compute, network, and storage virtualization can be complex, costly, and time consuming.
+
+IBM Integrated Managed Infrastructure (IMI) can simplify VMware virtual infrastructure management with modular services. IMI uses advanced automation and analytics to manage critical infrastructure components worldwide and to deliver dynamic remote management services for a broad range of traditional and cloud virtual infrastructures. And you only pay for what you need.
+
+IMI can serve as a single, trusted provider to reduce complexity of monitoring and managing virtual IT infrastructures by offering single-pane-of-glass managed services for VMware Cloud Foundation and VMware vCenter Server environments.
+
+IMI provides managed services for Cloud Foundation and vCenter Server instances, which include advanced VMware vSphere management, full VMware NSX coverage to ensure highly available and secure virtual network infrastructure, and VMware vSAN monitoring to ensure availability of data.
+
+Key benefits
+Well-defined architecture and automated deployment, jointly developed by VMware and IBM experts.
+Reliable performance backed by industry-leading SLAs and best practices to monitor and manage your deployed virtual infrastructure.
+Leveraging tools such as vRealize Operations Manager, vRealize Log Insight, vRealize Network Insight, and custom scripts to capture, analyze and report the entire virtual infrastructure.
+Transform your virtual datacenter, enhance enterprise mobility, and improve application delivery through seamless adoption of compute, network, and storage virtualization.
+Veeam enables Availability for the Always-On Enterprise™ with integrated backup, recovery and replication on IBM Cloud. Veeam delivers efficient backups of IBM Cloud for VMware Solutions workloads and flexible recovery from IBM Cloud backup repositories.
+
+Veeam is quickly and seamlessly deployed in your IBM Cloud environment for:
+Fast and agentless image-based backups
+Recovery of entire VMs, individual files, and application items
+Item-level recovery and eDiscovery for Microsoft Exchange, SharePoint, and Active Directory
+Transaction-level restore of Oracle and Microsoft SQL Server databases
+Automatic testing and reporting of every backup and replica
+Monitoring and alerting to unseen issues which can impact backup and application performance
+
+Veeam Backup and Replication seamlessly integrates directly with your VMware hypervisors to help your enterprise achieve high availability. It provides recovery point and time objectives of less than 15 minutes for your applications and data.
+
+The Veeam on IBM Cloud service is only available to V1.8 and higher instances.
+
+IBM Resiliency Managed Service for Veeam on IBM Cloud
+
+IBM Resiliency Backup as a Service with Veeam provides a fully-managed backup service using Veeam backup software to clients who want to protect their critical business data. This service provides a choice of data protection solutions to enable security-rich, automated protection of critical business data on dedicated on-premises environments, IBM Cloud infrastructures, or IBM Resiliency Services Center, either as primary or secondary locations. This service also provides a scalable and flexible data protection solution to reduce the total cost of ownership and manage the compliance requirements of client.
+IBM Resiliency Services provide a fully managed service to clients who do not want to manage the complexity of their own Disaster Recovery solution. The following types of managed services are available for Zerto on IBM Cloud:
+
+IBM Orchestrated Managed Services for Zerto
+
+This service includes the provision of the IBM Cloud Resiliency Orchestration service for the Zerto on IBM Cloud offering.
+
+With IBM Cloud Resiliency Orchestration integration, the offering allows for continuous protection of virtual machines, operating systems, and data to the IBM Cloud, with uninterrupted DR testing, RTO/RPO visibility, fail-over and fail-back capability and all are managed via the Cloud Resiliency Orchestration dashboard by IBM Resiliency Services Global Command Center.
+
+This offering provides a service to IBM Cloud clients who are leveraging the Zerto on IBM Cloud Disaster Recovery offering.
+IBM Managed Services for Zerto (without Orchestration)
+
+This service includes the provision of a managed DR solution for the Zerto on IBM Cloud offering.
+
+This offering provides a service to IBM Cloud clients who want a managed service for Zerto Virtual Replication without the IBM Cloud Resiliency Orchestration service on the IBM Cloud. This IBM Resiliency Services offering provides a fully managed service model for Zerto on IBM Cloud.

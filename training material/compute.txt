@@ -1,0 +1,43 @@
+IBM Cloud Kubernetes Service creates a cluster of compute hosts and deploys highly available containers. A Kubernetes cluster lets you securely manage the resources that you need to quickly deploy, update, and scale applications.
+Features
+Native Kubernetes Experience
+Use the tools and APIs you already know for a single, consistent experience, even when working across different cloud infrastructures.
+Leverage Watson
+Easily integrate cognitive solutions with a variety of Watson APIs to extend the power of your applications.
+Secure Clusters
+IBM provides security features to protect your cluster infrastructure, isolate your compute resources, and ensure security compliance in your container deployments.
+Self-healing Containers
+Configure a custom Kubernetes cluster that auto-scales and recovers containers based on defined policies.
+Logging and Monitoring
+Use the built-in logging and metrics service to monitor the performance of both your clusters and containers.
+Intelligent Scheduling
+Kubernetes automatically deploys containers on compute hosts according to the available resources across the cluster.
+IBM Cloud Kubernetes Service delivers powerful tools by combining Docker containers, the Kubernetes technology, an intuitive user experience, and built-in security and isolation to automate the deployment, operation, scaling, and monitoring of containerized apps in a cluster of compute hosts.
+Single-tenant Kubernetes clusters with compute, network, and storage infrastructure isolation	
+Create your own customized infrastructure that meets the requirements of your organization.
+Provision a dedicated and secured Kubernetes master, worker nodes, virtual networks, and storage by using the resources provided by IBM Cloud infrastructure (SoftLayer).
+Fully managed Kubernetes master that is continuously monitored and updated by IBM to keep your cluster available.
+Option to provision worker nodes as bare metal servers with Trusted Compute.
+Store persistent data, share data between Kubernetes pods, and restore data when needed with the integrated and secure volume service.
+Benefit from full support for all native Kubernetes APIs.
+Multizone clusters to increase high availability	
+Easily manage worker nodes of the same machine type (CPU, memory, virtual or physical) with worker pools.
+Guard against zone failure by spreading nodes evenly across select multizones and using anti-affinity pod deployments for your apps.
+Decrease your costs by using multizone clusters instead of duplicating the resources in a separate cluster.
+Benefit from automatic load balancing across apps with the multizone load balancer (MZLB) that is set up automatically for you in each zone of the cluster.
+Highly available masters	
+Available in clusters that run Kubernetes version 1.10 or later.
+Reduce cluster downtime such as during master updates with highly available masters that are provisioned automatically when you create a cluster.
+Spread your masters across zones in a multizone cluster to protect your cluster from zonal failures.
+Image security compliance with Vulnerability Advisor	
+Set up your own repo in our secured Docker private image registry where images are stored and shared by all users in the organization.
+Benefit from automatic scanning of images in your private IBM Cloud registry.
+Review recommendations specific to the operating system used in the image to fix potential vulnerabilities.
+Continuous monitoring of the cluster health	
+Use the cluster dashboard to quickly see and manage the health of your cluster, worker nodes, and container deployments.
+Find detailed consumption metrics by using IBM® Cloud Monitoring and quickly expand your cluster to meet work loads.
+Review logging information by using IBM® Cloud Log Analysis to see detailed cluster activities.
+Secure exposure of apps to the public	
+Choose between a public IP address, an IBM provided route, or your own custom domain to access services in your cluster from the internet.
+IBM Cloud service integration	
+Add extra capabilities to your app through the integration of IBM Cloud services, such as Watson APIs, Blockchain, data services, or Internet of Things.

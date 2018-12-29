@@ -1,0 +1,16 @@
+Veeam enables Availability for the Always-On Enterprise™ with integrated backup, recovery and replication on IBM Cloud. Veeam delivers efficient backups of IBM Cloud for VMware Solutions workloads and flexible recovery from IBM Cloud backup repositories.
+
+Veeam is quickly and seamlessly deployed in your IBM Cloud environment for:
+Fast and agentless image-based backups
+Recovery of entire VMs, individual files, and application items
+Item-level recovery and eDiscovery for Microsoft Exchange, SharePoint, and Active Directory
+Transaction-level restore of Oracle and Microsoft SQL Server databases
+Automatic testing and reporting of every backup and replica
+Monitoring and alerting to unseen issues which can impact backup and application performance
+
+Veeam Backup and Replication seamlessly integrates directly with your VMware hypervisors to help your enterprise achieve high availability. It provides recovery point and time objectives of less than 15 minutes for your applications and data.
+Zerto on IBM Cloud provides on-premise and IBM Cloud customers with a secure, flexible and scalable Disaster Recovery solution. It is a single tenant solution, ordered and provisioned from the IBM Cloud for VMware Solutions console, with the option of Cloud Foundation or vCenter Server as a target environment. These environments are deployed on IBM Cloud according to standardized pre-defined compute and network configurations.
+
+By using standardized IBM Cloud compute, network, and storage infrastructure dedicated to your deployment, the provisioning process is fully automated, and the environment is rapidly deployed to the IBM Cloud and made available to you. You can access and manage the IBM-hosted environment via the native Zerto and VMware tools, Command Line Interface (CLI), or other familiar vSphere API-compatible tools.
+
+Zerto on IBM Cloud is a flexible solution that allows you to scale compute capacity horizontally.

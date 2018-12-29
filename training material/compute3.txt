@@ -1,0 +1,17 @@
+This service gives you the WebSphere Application Server experience in Bluemix. Choose from traditional or Liberty installations of WebSphere Application Server, preconfigured and hosted on your own Red Hat Enterprise Linux guest.
+Features
+WebSphere Experience
+Reuse your WebSphere administration skills and scripts to ease your transition to cloud.
+Full-Feature Application Servers
+Leverage sophisticated enterprise features like transactions, just like you do on-premise.
+Shell and Admin UI Management
+Use a secure shell, or log into the Admin Center/Console to control your WebSphere environment.
+Customize just what you need
+We've already installed and configured WebSphere, now all you have to do is make those minor changes to get your application just the way you need it.
+It's a cloud service after all. Use it for an hour. Drive it hard. Delete it. Grab a new one when you need it; it's up to you.
+BM® WebSphere Application Server for IBM Cloud facilitates quick setup on a pre-configured WebSphere Application Server Liberty, Traditional Network Deployment, or Traditional WebSphere Java EE instance in a hosted cloud environment on IBM Cloud.
+You are given a familiar WebSphere administration experience and have full access to the underlying operating system. You can reuse your existing scripts and make the little system tweaks that you need to make to work with your own, or third party, frameworks. The Admin Center and Admin Consoles are provided to administer your WebSphere Application Server Liberty, ND or Traditional service, just like your on-premises WebSphere configurations.
+
+The WebSphere Application Server in IBM Cloud Network Deployment Plan consists of a WebSphere Application Server Network Deployment cell environment with two or more virtual machines. The first virtual machine contains the Deployment Manager and IBM HTTP Server and the remaining virtual machines contain custom nodes (node agents) federated to the Deployment Manager. Use your existing wsadmin scripts to create your WebSphere configuration or use the WebSphere Admin Console to manually configure the environment. These new capabilities allow users to set up a clustered environment, which is a critical aspect of any middleware enterprise application. Clients can now elect to cluster a topology to load balance requests across two or more Instances.
+
+The WebSphere Application Server in IBM Cloud Network Deployment Plan also includes the use of a Liberty collective. The Liberty collective is an administrative domain for a group of Liberty profiles (servers) and consists of two or more virtual machines. The first virtual machine contains the collective controller Liberty server, which is a control point for the Liberty collective. In addition to the Liberty collective, this virtual machine also contains the IBM HTTP Server, which allows access to your applications from a web browser. The remaining virtual machines are the collective hosts where the collective members reside (Liberty profile servers). The Liberty Admin Center feature is also enabled on the Liberty controller server.

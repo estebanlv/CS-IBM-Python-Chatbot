@@ -1,0 +1,49 @@
+Security and compliance are the largest concerns of customers who are considering cloud infrastructure and thus the largest barrier to cloud adoption. To address this, IBM has partnered with Intel & HyTrust to create a "first to market" VMware solution that not only encrypts but also geo-fences data at the hardware level, providing users with a solid foundation to address their security and compliance concerns. Whether clients are looking to meet the upcoming GDPR (General Data Protection Regulation) requirements, or just looking to reduce audit risk for PCI, HIPAA, and other common certifications, this solution is ideal.
+
+IBM Cloud Secure Virtualization combines the power of IBM Cloud, Intel TXT (Intel Trusted Execution Technology), VMware, and HyTrust security software to give your business the benefits of cloud computing while maintaining the strongest levels of data protection, visibility, and auditing.
+
+Intel TXT allows the reading and writing of platform signatures and other secrets (such as keys) into a discrete TPM chip. Intel TXT is built into Intel® Xeon® processors, and includes capabilities in the microprocessor, chipset, I/O subsystems, and other platform components. When coupled with VMware vCenter, HyTrust CloudControl (HTCC), and HyTrust DataControl (HTDC), Intel TXT helps verify whether hosts launch into a trusted state, identify the physical location of hosts, and helps these systems prevent an attack on the centralized infrastructure of a cloud. These capabilities reinforce confidentiality and integrity of data in the face of increasingly hostile environments.
+
+IBM Cloud Secure Virtualization is deployed on the IBM Cloud infrastructure according to a VMware, HyTrust, IBM and Intel validated design reference architecture. IBM Cloud Secure Virtualization is initially deployed as a four-node cluster within the choice of client of available IBM Cloud Data Centers worldwide.
+
+To implement this service, you must have an IBM Professional Services agreement to ensure best practice configuration parameters and optimal delivery time of your environment. Once the environment is built, it is handed to you for management.
+Cloud security solutions help defend and protect the most important asset in the IT inventory – the hypervisor. For most organizations, their virtualization infrastructure is the crown jewel of the IT organization and the hypervisor the "one ring to rule them all". With that in mind, it is more important than ever to pay particular attention to cloud security solutions that help better harden the hypervisor, lock down access, and provide better visibility into and control over the environment.
+
+With HyTrust CloudControl (HTCC) you get a variety of security and policy enhancements without impacting the GUI that your vSphere, NSX, and ESXi administrators already know and use.? HTCC is deployed as a transparent proxy, and it mediates the actions taken by hypervisor administrators using familiar interfaces. Approved actions are allowed, disapproved actions are blocked, and additional approval is enabled, with logging all along.
+
+Key Features
+
+Complete Virtual Stack Protection
+Instant policy-based protection for the hypervisor, VMs, and data
+Continuous monitoring of hypervisor and VMs for security and compliance
+One-click security and compliance remediation on vulnerable VMs
+
+Visibility and Control
+Complete visibility of the entire security state, configurations, administrator actions, and compliance for all VMs running in virtualized, private, or software-defined data centers (SDDCs)
+
+BoundaryControl
+Prevent VMs from being moved from a designated host or onto a host that does not have acceptable security policy
+Enforce data policy based on software tags or using Intel TXT
+HyTrust DataControl (HTDC) is a powerful encryption and key management solution. HTDC can secure an entire workload, including the operating systems, applications, and data, throughout its lifecycle - from deployment and migration to sanctioned decommission. HTDC includes an easy-to-use, high-available, and FIPS 140-2 Level 1 validated key management solution, and a zero-downtime, zero-touch, hardware-accelerated encryption solution.
+
+Key Features
+FIPS 140-2 Level 3 support with HSM (or FIPS 140-2 Level 1 certified without)
+KMIP support
+Dashboard and log based forensic analytics
+Role-based access control (RBAC) for administrative controls over policy and key access
+Cross-cloud (public and private) key management
+Pre-integration with HyTrust CloudControl and HyTrust BoundaryControl to provide automated data geo-fencing for workloads
+File/folder level encryption on selected operating systems
+Pre-integration with Intel TXT/TPM for hardware host attestation
+HyTrust KeyControl (HTKC) simplifies management of encrypted workloads by automating and simplifying the lifecycle of encryption keys; including key storage, distribution, rotation, and key revocation. Using FIPS 140-2 compliant encryption, businesses can easily manage encryption keys at scale. HyTrust KeyControl is a VMware certified, scalable, and feature-rich KMIP 1 server to simplify key management for encrypted workloads. It serves as a Key Management Server for VMware vSphere and vSAN encrypted clients, or other products that support KMIP.
+
+HyTrust KeyControl manages the encryption keys for all your virtual machines and encrypted data stores and can scale to support thousands of encrypted workloads in large deployments.
+
+Key Features
+Enterprise scale and availability
+VMware Certified Key Manager Server (KMS) for vSphere 6.5, 6.7 – vSAN6.6
+Supports KMIP
+Highly Availability (HA) active- active deployments and clustering
+Up to four KeyControl Nodes in a cluster. Please refer to the Best Practice guide to extend beyond the initial implementation of a 2-Node KeyControl cluster.
+FIPS 140-2 Level 1 validated. FIPS 140-2 Level 3 compliance via HSM support Pre-integration with Intel TXT/TPM for hardware host attestation
+Easily upgradable to HyTrust DataControl for complete, multi-cloud workload encryption. Please refer to the Best Practice guide to extend the initial implementation of HyTrust KeyControl.

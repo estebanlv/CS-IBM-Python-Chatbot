@@ -1,0 +1,14 @@
+HPCaaS from Rescale enables you to rapidly deploy your HPC jobs on the IBM Cloud with your chosen execution environment. The service allows you to pick your desired software package, compute and storage configuration for your HPC job. Once submitted, HPCaaS from Rescale provides a live tailing feature and enables easy access to the execution environment for debugging. Once your job has completed, you can download the results or continue to do further analysis on the IBM Cloud.
+Custom HPC Clusters On Demand
+Create customized private clusters in seconds. Tailor your hardware configurations and let the platforms handle the work of building a cluster for you, instant or on demand.
+Run Simulation Software
+Select your simulation of choice. Rescale supports a wide variety of simulation software including commercial, open source, and custom code.
+Create Templates and Variables
+Securely upload your input files. Add your own custom templates or use the library of template files provided by Rescale's simulation platform.
+View Simulation Progress in Real Time
+Live Tailing and intermediate file access allow you to instantly view, download, and track any output file in real time.
+Perform High-Level Analysis
+Analyze key, high-level results directly in your web browser. Rescale's simulation platform allow you to sort and visualize your data to quickly gain design insights.
+HPCaaS from Rescale enables you to rapidly deploy your HPC jobs on the IBM Cloud with your chosen execution environment. The service allows you to pick your desired software package, compute and storage configuration for your HPC job. Once submitted, HPCaaS from Rescale provides a live tailing feature and enables easy access to the execution environment for debugging. Once your job is completed, you can download the results or continue to do further analysis on the IBM Cloud.
+
+HPCaaS from Rescale is a third party service that is fully integrated into the IBM Cloud catalog. All consumption associated with this service will be included on your monthly IBM Cloud invoice. You will benefit from a joint support model between IBM Cloud and Rescale.

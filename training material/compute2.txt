@@ -1,0 +1,17 @@
+Bare metal servers provide the raw horsepower you demand for your processor-intensive and disk I/O-intensive workloads. These servers come with the most complete package of standard features and services.
+IBM Bare Metal Servers provide performance, flexibility, on-demand provisioning, and control. Choose between hourly or monthly pre-configured servers or customize with single to quad processing solutions that range from 4 to 72 cores. Bare metal servers are available worldwide and with no monthly contracts so you can build the best solution for your workloads.
+Control & Security
+A single tenant bare metal server is dedicated to customers for complete control, flexibility, and security.
+Customizable
+Choose a processor that best meets your performance needs. Upgrade from the base configuration to fine tune the hardware for your workload with customizable RAM, SSD, and more.
+On-demand
+Provision servers in IBM Cloud data centers around the world in two to four hours. If you need to be online in minutes or only need limited resources, select an hourly bare metal server.
+Powerful
+Available options from single processor 4-core architectures to quad-processor 12-core architectures and up to 3TB RAM. Local storage ranges from 800 GB to 1.2 TB SSDs and up to 36 drivers per server.
+GPUs
+Provision bare metal servers with cutting-edge GPUs to handle your most complex compute-intensive workloads. NVIDIA Tesla GPUs on IBM Cloud are designed for high performance acceleration of scientific computation, data analytics, and professional-grade virtualized graphics.
+SAP
+Shift SAP environments from on-prem to the fully powered IBM Cloud to realize all the advantages of cloud: cost reductions, on-demand flexibility, and limitless growth potential. SAP HANA 4-socket and 8-socket bare metal servers are SAP certified for production S/4 HANA workloads.
+IBM® Cloud Bare Metal Servers are the cornerstone for your infrastructure-as-a-service solution. Whether you're a gaming developer who requires high-speed I/O or you need to up high-performance servers for your users, Bare Metal Servers can answer your compute needs.
+
+Your Bare Metal Servers is an hourly or monthly, single-tenant server that is dedicated to you; it is not shared in any part, including server resources, with other customers. You manage your server, which is provisioned without a hypervisor, and can be deployed in one or more data centers. Multiple Bare Metal Servers can communicate on the IBM Cloud virtual private network as if stationed on the same rack.

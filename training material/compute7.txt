@@ -1,0 +1,22 @@
+The FortiGate Security Appliance on IBM Cloud service provides top-rated network and content security services. By combining an intuitive operating system and an applied threat intelligence platform, the service offers you exceptional workload security performance with better visibility and control. This all starts with the flagship firewall platform, FortiGate 300 series Security Appliance. IBM Cloud deploys a pair of dedicated single-tenant appliances that are connected upstream from your VMware servers. The appliances protect all the servers and virtual machines on the public VLAN of your instances.
+
+The appliances are deployed in a highly available active-passive mode with synchronized configurations. IBM Cloud deploys the FortiGate 300 series Security Appliance within a Virtual Domain (VDOM) on the dedicated appliance, which gives you full access to that virtual domain without compromising the integrity of the appliance. You have virtually full access to advanced features and the ability to fine tune the appliance to a much higher degree than other products. The firewall blocks or shapes traffic before the traffic ever reaches your VMware servers. You can manage the FortiGate Security Appliance on IBM Cloud service by using the FortiOS Web Client or the Command Line Interface via SSH.
+Fortinet on IBM Cloud provides top-rated network and content security services for your VMware environment. By combining an intuitive operating system and an applied threat intelligence platform, the solution offers you exceptional workload security performance with better visibility and control. This starts with the FortiGate Virtual Appliance. IBM Cloud deploys a pair of dedicated FortiGate virtual machines (VMs) and configures them on the management interface. Later, you can attach and configure other interfaces as needed. In addition, SNAT and firewall rules are created on the management NSX Edge along with static routes on the FortiGate VMs to allow outbound public internet access for license activation and for acquiring latest security policies and content.
+
+FortiGate virtual appliances allow you to mitigate blind spots by implementing critical security controls within your virtual infrastructure. They also allow you to rapidly provision security infrastructure whenever and wherever it is needed. FortiGate virtual appliances have all the security and networking services common to traditional hardware-based FortiGate appliances. With the addition of virtual appliances from Fortinet on IBM Cloud, you can deploy a mix of hardware and virtual appliances, operating together and managed from a common centralized management platform.
+
+Using the advanced FortiOS™ operating system, FortiGate appliances effectively neutralize a wide range of security threats facing your virtualized environment. Whether deployed at the edge as a front-line defense, or deep within the virtual infrastructure for inter-zone security, FortiGate appliances protect your infrastructure with some of the most effective security services available today by enabling the features you need: application control, web filtering, IPS, AV and malware to secure your workload.
+
+The following licensing options are available for FortiGate virtual appliances:
+
+Standard FW
+Stateful Packet Inspection, VLAN Protection and Advanced Logging, Ingress/Egress Firewall Rules, SSL/IPSec VPN Termination and 24x7 support.
+
+Standard FW + UTM
+All Standard Firewall services PLUS Advanced Malware Protection (AMP) service (which includes: Antivirus, Botnet IP/Domain Service, Mobile Malware Security, FortiSandbox Cloud, Virus Outbreak Protection Service and Content Disarm & Reconstruct), as well as Web Filtering, IPS, Antispam, Application Control and FortiCare.
+
+Standard FW + Enterprise
+All Standard Firewall and UTM services PLUS the following the services:
+CASB – Provides visibility, compliance, data security and threat protection for cloud-based services.
+Industrial Security Service – Provides signatures for common ICS/SCADA protocols.
+Security Rating – Provides audit checking capabilities to identify critical vulnerabilities and configuration weaknesses and implement best practice recommendations.

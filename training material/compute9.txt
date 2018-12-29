@@ -1,0 +1,26 @@
+The KMIP for VMware on IBM Cloud service provides a 24x7 highly available service to manage encryption keys that are used by VMware in the IBM Cloud. The service not only offers runtime capability to allow customers to create, retrieve, activate, revoke, and destroy the encryption keys, but also provides management capability to maintain the association between the client credentials and those encryption keys.
+
+KMIP for VMware on IBM Cloud serves as a standard Key Management Service (KMS) that accepts client encryption key operations required by VMware vSphere encryption and VMware vSAN encryption using the Key Management Interoperability Protocol (KMIP). Supported client applications are VMware vCenter 6.5 and VMware vSphere 6.5.
+
+KMIP for VMware on IBM Cloud serves as an adapter to the IBM Key Protect Service, which is a standard IBM RESTful service that provides full-fledged encryption key management capability including customer root key management, data encryption key management, and customer root key-based data encryption key wrapping and unwrapping. The management service of KMIP for VMware on IBM Cloud allows you to configure the relationship between your VMware client certificate, which is used to authenticate with and access the KMIP for VMware service, your IBM Key Protect Service instance, which is used for key management, and your customer root key stored within this instance, which is used for key management transactions. The runtime adapter service of KMIP for VMware on IBM Cloud allows the transformation of KMIP key management operations to RESTful requests to the IBM Key Protect Service for a unified IBM Cloud key management experience.
+
+KMIP for VMware on IBM Cloud relies on IBM Cloud Key Protect for highly available root key storage and key management services and provides its own highly available interface using multiple service endpoints and replicated databases in each region where the service is offered.
+
+The KMIP for VMware on IBM Cloud service is available to V2.2 or later instances only.
+
+IBM Cloud for VMware Solutions enables you to quickly and seamlessly integrate or migrate your on-premises VMware workloads to the IBM® Cloud by using the scalable, secure, and high-performance IBM Cloud infrastructure and the industry-leading VMware hybrid virtualization technology. It also allows you to easily deploy your VMware virtual environments and manage the infrastructure resources on IBM Cloud.
+IBM® Spectrum Protect Plus™ on IBM Cloud is a data protection and availability solution for virtual environments. It can be implemented as a stand-alone solution or integrated with your IBM Spectrum Protect environment to off-load copies for long term storage and data governance with scale and efficiency.
+
+IBM® Spectrum Protect Plus™ on IBM Cloud provides the data protection, data reuse, and recovery tools to the IBM Cloud for VMware Solutions users.
+
+IBM® Spectrum Protect Plus on IBM Cloud:
+Deploys scalable, efficient, and easy-to-use data protection for modern IT environments
+Achieves instant search and recovery of virtual machines (VMs), databases, and files from a single global catalog
+Enables self-service access to data for DevOps and analytics teams
+Can be configured to protect production VMs with the touch of a button
+Integrates with IBM® Spectrum Protect™ (optional) for advanced data protection and storage
+Instantly identifies storage utilization and backup compliance status with service level agreement (SLA)-driven protection management and monitoring
+
+This service is available only to VMware Cloud Foundation instances and VMware vCenter Server instances that are deployed in (or upgraded to) V2.2 or later releases.
+
+For instances that are deployed in V2.5 or later, this service is installed with a separate server to host the vSnap repository and the VADP proxy.
