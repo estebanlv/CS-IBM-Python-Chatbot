@@ -37,7 +37,7 @@ def removepunctuation():
             saveline = saveline.replace('£','')
             saveline = saveline.replace('$','')
             saveline = saveline.replace('  ',' ')
-            saveline = saveline.replace('\n','')
+            saveline = saveline.replace('\n',' ')
             #saveline = saveline.rstrip() #removes all the newlines \n
             saveline = saveline.replace(' ','\n') #puts every word in a different line
             saveline = str.lower(saveline) #converts everything to lowercase
