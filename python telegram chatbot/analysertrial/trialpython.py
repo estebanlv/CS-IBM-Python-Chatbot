@@ -15,7 +15,7 @@ def removepunctuation():
     with open('trial.txt', buffering = 20000000) as f: #opens the text file
         for line in f: #for every line in the file...
         #this code below is used to remove the punctuation from the text
-            saveline = line.replace('.','')
+            saveline = line.replace('.',' ')
             saveline = saveline.replace(',','')
             saveline = saveline.replace(':','')
             saveline = saveline.replace(';','')
@@ -37,7 +37,8 @@ def removepunctuation():
             saveline = saveline.replace('£','')
             saveline = saveline.replace('$','')
             saveline = saveline.replace('  ',' ')
-            saveline = saveline.rstrip() #removes all the newlines \n
+            saveline = saveline.replace('\n','')
+            #saveline = saveline.rstrip() #removes all the newlines \n
             saveline = saveline.replace(' ','\n') #puts every word in a different line
             saveline = str.lower(saveline) #converts everything to lowercase
             output.write(saveline)
@@ -77,7 +78,7 @@ def dosecstats(ystr):
     secsheet[cell].value = apps_num_str #stores the updated number in the same cell it came from e.g. [B2]
     secwordsrecorded()
 
-def savetheword(word):
+def savetheword(word, topic):
     #saves the unknown words into the secondary database
     tot_words_insec_cell = "B3" #where the total num of words in the secondary database is stored
     num_of_tot_words_insec = int(total[tot_words_insec_cell].value) #gets the number of total words in sec. database
@@ -91,6 +92,13 @@ def savetheword(word):
     no_of_apps_int = int(secsheet[no_apps_cell].value) #gets the value and transforms it into an integer
     no_of_apps_str = str(no_of_apps_int + 1) #add one apparition to the number
     secsheet[no_apps_cell].value =  no_of_apps_str #saves it back to the cell as a string
+    #saves the topic_cell
+    empty_topic_cell = letters[5] + row_number_str #creates the cell where the first topic should be at
+    secsheet[empty_topic_cell].value = topic #stores the topic in the empty cell
+    number_of_topics = 1 #sets the number of topics to one
+    number_of_topics_str = str(number_of_topics) #stores it as a string
+    topic_no_cell = letters[4] + row_number_str
+    secsheet[topic_no_cell].value = number_of_topics_str #stores the value at the respective cell
     secwordsrecorded()
 
 def joinandsplitspace(word_list):
@@ -198,7 +206,7 @@ def wordcheck():
         if failed_attempts == 9999: #if every word in the main file failed then...
             #print("not same")
             word = words_list[x] #saves the word to pass it into the function
-            savetheword(word) #calls the savetheword function
+            savetheword(word, topic) #calls the savetheword function
         #endx = time.time()
         #print(endx-timex)
 
