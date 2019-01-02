@@ -21,6 +21,27 @@ def mainalgorithm(no_of_apps, ystr):
     relevance_str = str(relevance)
     sheet[relevance_cell].value = relevance_str
 
+def mainalgorithmsec(no_of_apps, ystr):
+    percentage_cell = letters[2] + ystr
+    topics_cell = letters[4] + ystr
+    apps_percentage = float(secsheet[percentage_cell].value)
+    no_of_topics = int(secsheet[topics_cell].value)
+    relevance = 1000 * ((1 - (no_of_topics/10)) ** apps_percentage)
+    relevance = relevance - (no_of_apps * 0.5)
+    relevance_cell = letters[3] + ystr
+    relevance_str = str(relevance)
+    secsheet[relevance_cell].value = relevance_str
+
+def secondaryrelevance():
+    total_cell = "B3"
+    words_in_database = int(total[total_cell].value)
+    words_in_database = words_in_database + 2
+    for y in range(2,words_in_database):
+        ystr = str(y) #transforms the value into a string in order to create the cell
+        cell = letters[1] + ystr #creates the cell for the new word
+        no_of_apps = int(secsheet[cell].value) #saves the value from the cell inside a local variable
+        mainalgorithmsec(no_of_apps, ystr)
+
 def primaryrelevance():
     nothing = 0
     for y in range(2,10001):
@@ -32,8 +53,9 @@ def primaryrelevance():
         else:
             mainalgorithm(no_of_apps, ystr)
 
-print('Welcome to thee relevance calculator')
+print('Welcome to the relevance calculator')
 primaryrelevance()
+secondaryrelevance()
 wb.save("wordsdatabase.xlsx")
 
 end = time.time()
