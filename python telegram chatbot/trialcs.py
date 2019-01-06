@@ -1,5 +1,6 @@
 import telebot
 import time
+import messagehandler
 
 API_TOKEN = '757772038:AAHYymvd3ofpGoK6M_RGZkhJFaf58GTyjlk'
 
@@ -39,7 +40,11 @@ def at_converter(message):
 # Handle all other messages with content_type 'text' (content_types defaults to ['text'])
 @bot.message_handler(func=lambda message: True)
 def echo_message(message):
-    bot.reply_to(message, message.text)
+    text_message = open("newmessage.txt", "w")
+    write(message)
+    text_message.close()
+    new_message = messagehandler.start()
+    bot.reply_to(message, new_message.text)
 
 while True:
     try:
