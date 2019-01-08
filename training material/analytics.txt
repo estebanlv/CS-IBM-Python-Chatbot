@@ -1,0 +1,143 @@
+Develop and deploy analytics applications using open source Apache Spark and Apache Hadoop. Customize the cluster using your own analytics libraries and open source packages. Integrate with IBM Watson Studio or third-party applications to submit jobs to the cluster.
+
+Spin up and scale clusters on demand
+Define clusters based on your application's requirements by choosing the appropriate software package, version, and size of the cluster. Use the cluster as long as required and delete it again when all the jobs have run.
+Customize the environment
+Customize clusters with third-party analytics libraries, packages and deploy workloads from IBM Watson like IBM Watson Studio and Machine Learning.
+Leverage the power of open source
+Build on ODPi compliant Apache Spark and Apache Hadoop stack to expand on open source investments. Integrate analytics tools using standard, open source APIs and libraries.
+With IBM Analytics Engine you can create Apache Spark and Apache Hadoop clusters in minutes and customize these clusters by using scripts. You can work with data in IBM Cloud Object Storage, as well as integrate other IBM Watson services like Watson™ Studio and Machine Learning.
+
+You can define clusters based on your application's requirements, choosing the appropriate software pack, version and size of the clusters.
+
+You can deploy IBM Analytics Engine service instances in the US South or United Kingdom regions. The IBM Analytics Engine service is deployed in a data centre which is physically located in the chosen region.
+
+Develop analytics applications by using open source Apache Hadoop and BigInsights™ APIs without having to manage the platform. The service is built on single tenant bare metal nodes and managed and scaled for you by the Big Data experts at IBM®.
+Power of open source innovation
+This service provides 100% open source Apache Hadoop through the IBM Open Platform. It is updated regularly to provide the best versions of the Apache Hadoop ecosystem components, including, among others, Ambari, YARN, Spark, Knox, HBase, Hive, and an encrypted HDFS.
+Focus on delivering insights
+Key components of the platform, including the infrastructure, are proactively monitored by a 24x7 cloud operations team. Critical security fixes, high severity patches, and defect resolutions are promptly applied on the cluster. Take advantage of high value Hadoop analytics features such as Big SQL, BigSheets, Text Analytics, Big R, and Machine Learning to gain insight faster.
+With the Decision Optimization service, you invoke optimization engines and develop applications to solve complex problems in planning, scheduling, resource management, and other operational areas. You describe a situation as an optimization model, using your data and criteria, and Decision Optimization identifies the best solution. The service is based on a sophisticated analytics technology, called Prescriptive Analytics. You can start with an application sample.
+IBM® BigInsights® for Apache Hadoop for Bluemix® is available under two different service plans: Enterprise and Basic. Use the Enterprise service plan to provision, access, and manage enterprise-scale, multinode big data clusters on the IBM SoftLayer cloud, using IBM's big data solution BigInsights. Use the Basic service plan to easily provision a multinode open source Hadoop cluster that runs on the IBM® Open Platform for Apache Hadoop v4.2. The Basic service plan offers a cost effective pricing model with an instance-hour charge metric.
+
+Benefit from the state-of-the-art optimization engines
+Decision Optimization uses the market-leading CPLEX Optimizers to solve real-world optimization problems quickly and efficiently.
+Simply connect with APIs
+Use a Decision Optimization API to submit an optimization problem, including mathematical model and data, to the optimization engines. The API returns results to your application. APIs are available in REST, Java, Node.js, and Python.
+The Decision Optimization service enables you to find solutions for optimization problems on the cloud without needing to install or configure a solution engine. The service is accessible using the DOcplexcloud APIs in REST, Java™, Python, or Node.js.
+This documentation assumes that you've already created an instance of the Decision Optimization service, using either the IBM Cloud interface
+Expand the boundaries of your application. Leverage real-time geospatial analytics to track when devices enter, leave or hang out in defined regions. Powered by IBM Streaming Analytics on IBM Cloud.
+Monitor device locations in real-time.
+Connect to data sources that support the MQTT protocol and monitor devices as they move into geographic regions of interest.
+Control region monitoring using the geospatial API.
+Define geographic regions and control monitoring of regions using the geospatial application programming interface.
+
+You use the Geospatial Analytics service to monitor when devices are entering or leaving locations that you specify. You can also detect whether a device has been within a region longer than a specified dwell time (Hangout Detection). After you start the service, the monitor is on and the service receives device information continuously from the MQTT message broker. When you stop the service, monitoring turns off.
+
+Billions of connected devices are in the Internet of Things, with forecasts that predict steep growth rates in coming years. That's many objects to track. Awareness of the location of devices on-the-move opens up a number of exciting new application opportunities.
+
+Offering real-time promotions to customers who are near specific retail locations.
+Alerting cars or other connected devices of regions to avoid, for example, where accidents or emergency situations occurred.
+You use the Geospatial Analytics service to monitor when devices are entering or leaving locations that you specify. Expand the boundaries of your application. Leverage real-time geospatial analytics to track when devices enter, leave or hang out in defined regions. Powered by IBM® Streaming Analytics for IBM Cloud. Use the Geospatial Analytics application programming interface (API) to configure and control the Geospatial Analytics service from your application.
+
+The IBM Cognos Dashboard Embedded lets you, the developer, painlessly add end-to-end data visualization capabilities to your application so your users can easily drag and drop to quickly find valuable insight and create visualizations on their own.
+Live connection to underlying data
+Interactive dashboards produce visualizations directly from your data in real-time.
+Smart creation of visualizations
+Smart data analysis and visualization capabilities help users discover underlying patterns and meanings in their data.
+Interactive exploration of data
+Data can be explored using filtering and navigation paths.
+Embedded in your application
+Because dashboards are fully embedded, dashboards are integrated into your application's context, keeping users engaged.
+
+IBM Master Data Management on Cloud provides IBM Master Data Management Advanced Edition on IBM Softlayer global cloud infrastructure. It offers the rich features of an on-premises MDM deployment without the cost, complexity, and risk of managing your own infrastructure.
+
+Flexible deployment
+IBM Master Data Management on Cloud lowers project risk and speeds time to delivery for master data management (MDM) projects by providing preinstalled MDM configurations for production and development MDM environments in an IBM SoftLayer cloud-hosted environment. It comes in Small, Medium, and Large configurations, is multi-domain, and can be deployed in physical or virtual style.
+Improved time to value
+Use of this offering reduces the time required for provisioning and deploying MDM so that more resources can be devoted to developing new solutions and innovation.
+Robust Backup Infrastructure
+Fully customizable built in hardware and software infrastructure based on the proven technology Spectrum Protect.
+High Availability
+Highly optimized out-of-the-box high availability option available.
+You can choose to order a HIPAA-ready system for Master Data Management on Cloud plans hosted on IBM SoftLayer®. For more information, contact your IBM Cloud Data Services sales representative.
+IBM® Master Data Management on Cloud offers the rich features of an on-premises InfoSphere® Master Data Management (InfoSphere MDM) deployment without the cost, complexity, and risk of managing your own infrastructure. IBM MDM on Cloud provides preinstalled InfoSphere MDM configurations for production and development environments in an IBM SoftLayer® cloud-hosted environment.
+
+SQL Query is a stateless service for using standard SQL to analyze data in Cloud Object Storage. With SQL Query you query the data where it is stored - there is no ETL, no databases, and no infrastructure to manage.
+Quick SQL access to data
+Query server logs, click-stream data, IoT messages or raw analytics events using SQL directly on the files where you store them in Object Storage.
+Easy data exploration
+Run ad-hoc SQL queries against fresh data before the data has moved through the pipeline and into the reporting stack.
+Querying of archived data
+Use SQL to query structured data archived from legacy systems, databases (for example, NoSQL) and/or data warehouses in Object Storage.
+Integrate with your applications
+Run SQLs from your application using the rich API ecosystem, comprising REST API, Python SDK, Node SDK, and IBM Cloud Function interface.
+IBM® Cloud SQL Query is a fully-managed service that lets you run SQL queries (that is, SELECT statements) to analyze, transform, or clean up rectangular data.
+
+Leverage IBM Streams to ingest, analyze, monitor, and correlate data as it arrives from real-time data sources. View information and events as they unfold.
+This service lets you integrate weather data from The Weather Company into your IBM Bluemix application. You can retrieve weather data for an area specified by a geolocation. The data allows you to create applications that solve real business problems where weather has a significant impact on the outcome.
+Hourly forecast
+An hourly weather forecast for the next 48 hours starting from the current time, for a specified geolocation.
+Daily forecast
+A daily forecast for each of the next 3, 5, 7, or 10 days starting from the current day, including forecasts for the daytime and nighttime segments.
+Intraday forecast
+A daily forecast for each of the next 3, 5, 7, or 10 days starting from the current day, which breaks each daily forecast into morning, afternoon, evening, and overnight segments.
+Current conditions
+Observed weather data (temperature, wind direction and speed, humidity, pressure, dew point, visibility, and UV Index) plus a weather phrase and a matching weather icon.
+Historical data
+Observed weather data from site-based observation stations for a specified geolocation that includes current observations and up to 24 hours of past observations.
+Weather alerts
+Government-issued weather alerts, including weather watches, warnings, statements, and advisories issued by the National Weather Service (US), Environment Canada, and MeteoAlarm (Europe).
+Location services
+The ability to look up a location name or geocode (latitude and longitude) to retrieve a set of locations that match the request.
+Almanac services
+Historical daily or monthly weather data sourced from National Weather Service observations stations from a time period spanning 10 to 30 years or more.
+AccountScore is a market leader in Open Banking & transaction data analytics services. Our easy to ingest APIs allow you to tap into the UK's Open Banking network or pull multi-region transaction data along with our custom built credit focused analytics.
+This third-party service does not have an IBM pricing plan. You can obtain it from the third party under the terms of use agreement. The third party might charge you for use of the service.
+
+AccountScore is an analytics business based in London but with people in the USA and in India, which provides actionable insights and analytics on bank transaction data for our clients - typically banks and financial services companies who want to learn more about their customers, prospects and applicants.
+
+Where our clients already have bank transaction data we simply import the data and provide analytics through our dashboards or by API. Accounts can be analysed individually, or we can process multiple accounts with millions of transaction rows in a single import.
+
+Where our clients are non-banks that want to analyse bank data for their customers, or banks that want to analyse their customers’ transactions from other banks, we work with our sister company, consents.online, which obtains and stores transactions for clients and manages customers’ permissions for the viewing of this data.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

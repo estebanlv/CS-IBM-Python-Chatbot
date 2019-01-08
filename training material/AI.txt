@@ -1,0 +1,243 @@
+Watson Assistant a platform that allows developers and non-technical users to collaborate on building conversational AI-powered assistants. Its powerful visual dialog editor, industry leading natural language processing capabilities, flexible API, and improvement and recommendation features allow for the rapid creation and management of anything from simple chatbots to complex enterprise grade solutions for customer service and more.
+IBM Watson™ Assistant is a cognitive bot that you can customize for your business needs, and deploy across multiple channels to bring help to your customers where and when they need it.
+IBM AI OpenScale is an enterprise-grade environment for AI infused applications providing enterprises visibility into how AI is being built, used, and delivers ROI – at the scale of their business.
+Open
+Build and develop trusted AI by using IDEs of your choice, and empower your business and support teams with data-driven insights into how AI affects business outcomes.
+Payload logging
+Capture payload data and deployment output to monitor ongoing health of AI in business applications through operations dashboards, alerts, and open data mart access for custom reporting.
+Bias detection and mitigation
+Automatically detect when AI systems are delivering unfair outcomes at runtime, based on fairness attributes determined by the business. Mitigate bias by through intelligent recommendations of new data for model retraining.
+Trust and Transparency in AI
+Build, run and manage your AI - with trust and transparency - to give your business the confidence to deploy AI into its most essential production workloads.
+Explainable AI recommendations
+Trace and audit AI predictions made in production applications. Confidence in model predictions and factors contributing to final outcomes, or different outcomes, are displayed in understandable business terms.
+AI health monitoring
+Ensure the ongoing health of AI in business applications - ensuring accuracy, fairness and performance - with operations dashboards, alerts, and open data mart access for custom reporting.
+NeuNetS - Neural Network Synthesis (Beta)
+NeuNetS takes training data (images or text) that you provide, and synthesizes a trained model that can then be downloaded and deployed in Watson Machine Learning, locally, or to a third-party host.
+
+IBM® AI OpenScale allows enterprises to automate and operationalize AI lifecycle in business applications, ensuring AI models are free from bias, can be easily explained and understood by business users, and are auditable in business transactions. AI OpenScale supports AI models built and run in the tools and model serve frameworks of your choice.
+
+Watson Compare & Comply enables understanding of governing business documents with pre-trained models  so enterprises can get started in minutes. The document conversion (scanned PDFs, TIFFs, JPEG, Word) capabilities enable both machine-to-machine and machine-to-human readable formats. The table understanding, element classification and compare capabilities of C&C enable automation of complex business processes such as contract review and negotiation, invoice reconciliation, software entitlement verification, and more. Such automation of processes will result in increased productivity, minimization of costs, and reduced exposure.
+
+Element Classification
+C&C analyzes contracts and classifies each sentence, or "element." It identifies parties and the obligations and rights assigned to each, and labels elements with contractual clauses, such as payment terms,  warranties, liabilities, and more. The output of element classification is available for direction consumption by the next step in the process.
+Table Processing
+C&C identifies and extracts complex tables and provides structured output. The advanced table understanding capabilities associates each cell with row and column header information and provides an output that is easily consumable by spreadsheets or relational tables.
+Compare
+C&C's Compare API analyzes two contracts, side-by-side, and highlights similarities and differences at the level of individual clauses. Even with differing verbiage, C&C's semantic capabilities enable alignment of matching clauses across the two contracts. This enables detection of non-standard language and risky clauses.
+Document Visualizer/Feedback Collection
+Learning from feedback is a critical component of AI. Document visualizer and the Feedback API enable SMEs without machine learning expertise to provide suggestions to improve the model.  Occasionally, C&C users might encounter errors or unexpected results. The Document Visualizer and the Feedback API enable SMEs without machine learning expertise to send suggestions to our data science teams. We use the feedback from our community to continuously improve our models.
+Document Conversion
+C&C ingests documents in multiple formats such as scanned PDF, TIFF, JPG, and Word and converts them to HTML to be rendered in a browser for visual consumption or as an intermediate step for advanced natural language processing.
+Invoice Understanding
+C&C finds and extracts important information in invoices such as buyer, supplier, invoice date and amount owed.
+Add a cognitive search and content analytics engine to applications to identify patterns, trends and actionable insights that drive better decision-making. Securely unify structured and unstructured data with pre-enriched content, and use a simplified query language to eliminate the need for manual filtering of results.
+
+Rapid results
+Spend less time struggling with your data. Automated ingestion and integrated natural language processing in a fully managed cloud service removes the complexity from dealing with natural language content.
+Domain intelligence
+Adapt Discovery’s understanding of your corpus with integrated machine learning to find the most relevant answers. Teach Discovery to apply knowledge of unique entities and relations in your industry or organization with Watson Knowledge Studio.
+AI ready for business
+Uncover deep connections throughout your data by using advanced AI functions out of the box, such as natural language queries, passage retrieval, relevancy training, relationship graphs and anomaly detection.
+Cloud Native, Enterprise Grade and Secure
+Take advantage of enterprise-grade security and support, such as data isolation, end to end encryption, GDPR compliance and support for non-regulated PII data, built to scale on the cloud
+
+Simplify data science and data compliance with IBM Watson Knowledge Catalog. Make your data easy to find and share while controlling access to ensure appropriate use.
+Catalog
+Create a 360-degree view of your data, no matter where (or in what format) it is stored.
+Find
+With the right tools, discover the data you need, and collaborate to discover fresh insights.
+Govern
+Control data access by defining policies and monitoring enforcement.
+Teach Watson the language of your domain with custom machine learning models that identify entities and relationships unique to your industry in unstructured text. Build your models in a collaborative environment designed for both developers and domain experts, without needing to write code. Use the models in Watson Discovery, Watson Natural Language Understanding and Watson Explorer.
+
+Teach by Example
+Empower domain subject matter experts to teach Watson the language of your industry or organization without requiring deep technical skills or coding.
+Engage your Experts
+You won't need a single line of code. With a multi-user collaborative environment and a powerful user interface, SMEs can easily build custom models without any coding expertise, unlike competitive offerings.
+WKS is End-to-end
+It’s the only offering in the market that combines the powerful capabilities of annotation, training, and evaluation in a single collaboration-focused service.
+Use Everywhere
+Apply what you’ve taught Watson in multiple applications by using models from Watson Knowledge Studio in Watson Discovery, Watson Natural Language Understanding and Watson Explorer.
+
+
+Use IBM Watson™ Knowledge Studio to create a machine learning model that understands the linguistic nuances, meaning, and relationships specific to your industry or to create a rule-based model that finds entities in documents based on rules that you define.
+
+To become a subject matter expert in a given industry or domain, Watson must be trained. You can facilitate the task of training Watson with Knowledge Studio.
+Knowledge Studio provides easy-to-use tools for annotating unstructured domain literature, and uses those annotations to create a custom machine learning model that understands the language of the domain. The accuracy of the model improves through iterative testing, ultimately resulting in an algorithm that can learn from the patterns that it sees and recognize those patterns in large collections of new documents. You can deploy the finished machine learning model to other Watson cloud-based offerings and cognitive solutions to find and extract mentions of relations and entities, including entity coreferences.
+Neural Machine Translation comes standard for each language pair. Corpus customization allows you to create your own translation models which account for regional or industry-specific terms. Instantly translate your content into multiple languages. From translating documents, apps, and websites to creating multilingual chatbots, what will you build?
+Neural Machine Translation
+By default, all language pairs utilize neural machine translation. This new technology leverages deep learning to provide improved accuracy at faster speeds.
+Language Identification
+Identify up to 62 languages for free using our Language Identification API endpoint.
+Corpus Customization (Advanced Plan)
+Build domain specific custom models. Create a parallel corpus or a forced glossary via a .tmx file allowing for nuanced translations.
+Document Translator (Beta)
+Translate documents from one language to another while preserving file formatting and type. Supported file types include: MS Office, Open Office, PDF, HTML, JSON, TXT & and XML
+IBM Watson™ Language Translator allows you to translate text programmatically from one language into another language.
+
+This tutorial walks you through the commands to translate text from English to Spanish, and to identify the language of a text sample.
+
+Machine Learning features
+Take advantage of machine learning models management (continuous learning system) and deployment (online, batch, streaming). Select any of widely supported machine learning frameworks: TensorFlow, Keras, Caffe, PyTorch, Spark MLlib, scikit learn, xgboost and SPSS.
+Wide choice of interfaces
+Use the command line interface and Python client to manage you artifacts. Extend your application with artificial intelligence through the Watson Machine Learning REST API.
+Integration with Watson Studio
+Create and train machine learning models with the best tools and the latest expertise in a social environment built by and for data scientists.
+
+IBM Watson Machine Learning is a full-service IBM Cloud offering that makes it easy for developers and data scientists to work together to integrate predictive capabilities with their applications. The Machine Learning service is a set of REST APIs that you can call from any programming language to develop applications that make smarter decisions, solve tough problems, and improve user outcomes.
+
+IBM Watson™ Machine Learning enables users to perform two fundamental operations of machine learning: training and scoring.
+
+Training is the process of refining an algorithm so that it can learn from a data set. The output of this operation is called a model. A model encompasses the learned coefficients of mathematical expressions.
+Scoring is the operation of predicting an outcome by using a trained model. The output of the scoring operation is another data set containing predicted values.
+IBM Watson™ Machine Learning is designed to address the needs of two primary personas:
+
+Data Scientists: Create machine learning pipelines that leverage data transformations and machine learning algorithms. They typically use notebooks or external tools to train and evaluate their models. Data scientists often collaborate with Data engineers to explore and understand the data.
+Developers: Build intelligent applications that use the predictions output by machine learning models.
+Although training is a critical step in the machine learning process, IBM Watson™ Machine Learning enables you to streamline the functioning of your models by deploying them and getting actual business value from them over time and through all of their iterations.
+
+The Natural Language Classifier service uses advanced natural language processing and machine learning techniques to assign custom categories to inputted text. For example, you submit a question and the service returns keys to the best matching answers or next actions for your application. You create a classifier instance by providing a set of representative strings and a set of one or more correct classes for each training. After training, the new classifier can accept new questions or phrases and return the top matches with a probability value for each match.
+
+Train and classify in multiple languages
+English, Arabic, French, German, Italian, Japanese, Korean, Portuguese (Brazilian), and Spanish.
+Classify natural language text
+Train classifiers with text phrases, each with a maximum of 1024 characters
+Leverage IBM Deep Learning as a Service during training
+Each .csv file used in training can contain up to 20,000 records.
+Create up to 8 classifiers with each Natural Language Classifier service instance
+Multi-Category classification
+Extract multiple categories from text phrases
+Multi-Phrase classification
+Classify up to 30 separate text phrases in a single request with the classify collection endpoint.
+
+IBM Watson™ Natural Language Classifier can help your application understand the language of short texts and make predictions about how to handle them. A classifier learns from your example data and then can return information for texts that it is not trained on.
+IBM Watson™ Natural Language Classifier uses machine learning algorithms to return the top matching predefined classes for short text inputs.
+
+Natural Language Classifier can help your application understand the language of short texts and make predictions about how to handle them. A classifier learns from your example data and then can return information for texts that it is not trained on.
+
+Use advanced NLP to analyze text and extract meta-data from content such as concepts, entities, keywords, categories, sentiment, emotion, relations, and semantic roles. Apply custom annotation models developed using Watson Knowledge Studio to identify industry/domain specific entities and relations in unstructured text with Watson NLU.
+Powerful Insights
+Analyze semantic features of text input, including categories, concepts, emotion, entities, keywords, metadata, relations, semantic roles, and sentiment.
+Domain Customization
+Extend Natural Language Understanding with custom models built on Watson Knowledge Studio that can identify custom entities and relations unique to your domain.
+Broad Language Support
+Support a variety of languages depending on which features are being analyzed, including English, Arabic, Chinese (simplified), Dutch, French, German, Italian, Japanese, Korean, Portuguese, Russian, Spanish, and Swedish - with more to come.
+Numerous Applications
+Apply to various use cases, including content recommendation, advertising optimization, audience segmentation, voice-of-customer analysis, data mining, and more.
+
+With IBM Watson™ Natural Language Understanding, developers can analyze semantic features of text input, including categories, concepts, emotion, entities, keywords, metadata, relations, semantic roles, and sentiment.
+
+Watson Personality Insights derives analyzes transactional and social media data to identify psychological traits which determine purchase decisions, intent and behavioral traits; utilized to improve conversion rates.
+
+Personality Characteristics
+52 personality traits, needs and values that help to better understand and engage people.
+Consumer Preferences
+8 categories and more than 40 consumption preferences for products, services, and activities (e.g. movies or music).
+Multi-language Support
+English, Spanish, Japanese, Korean, and Arabic.
+The IBM Watson™ Personality Insights service provides an application programming interface (API) for deriving insights from social media, enterprise data, or other digital communications. The service uses linguistic analytics to infer individuals' intrinsic personality characteristics from digital communications such as email, text messages, tweets, and forum posts.
+
+The service infers, from potentially noisy social media, portraits of individuals that reflect their personality characteristics. It can also determine individuals' consumption preferences, which indicate their likelihood to prefer various products, services, and activities.
+
+Personality characteristics
+The Personality Insights service infers personality characteristics based on three primary models:
+
+Big Five personality characteristics represent the most widely used model for generally describing how a person engages with the world. The model includes five primary dimensions: Agreeableness, Conscientiousness, Extraversion, Emotional range, and Openness. Each dimension has six facets that further characterize an individual according to the dimension.
+Needs describe which aspects of a product are likely to resonate with a person. The model includes twelve characteristic needs: Excitement, Harmony, Curiosity, Ideal, Closeness, Self-expression, Liberty, Love, Practicality, Stability, Challenge, and Structure.
+Values describe motivating factors that influence a person's decision making. The model includes five values: Self-transcendence / Helping others, Conservation / Tradition, Hedonism / Taking pleasure in life, Self-enhancement / Achieving success, and Open to change / Excitement.
+
+The Speech to Text service converts the human voice into the written word. It can be used anywhere there is a need to bridge the gap between the spoken word and their written form, including voice control of embedded systems, transcription of meetings and conference calls, and dictation of email and notes. This easy-to-use service uses machine intelligence to combine information about grammar and language structure with knowledge of the composition of the audio signal to generate an accurate transcription. The following languages and features are currently available:
+Available Languages
+English (US), English (UK), Japanese, Arabic (MSA, Broadband model only), Mandarin, Portuguese (Brazil), Spanish, French (Broadband model only), Korean
+Metadata
+Receive a metadata object in the JSON response that includes confidence score (per word), start/end time (per word), and alternate hypotheses / N-Best (per phrase). A new option for returning word alternatives per (sequential) time intervals is now available.
+Mobile SDKs (BETA)
+Mobile SDKs are now available to enable native interaction on iOS and Android devices.
+Keyword Spotting (BETA)
+Optional ability to search for one or more keywords in the audio stream. The returned metadata includes the beginning time, end time and confidence score for each instance of the keyword found. Keyword Spotting is currently available at no additional charge.
+
+The IBM® Speech to Text service provides speech transcription capabilities for your applications. The service leverages machine learning to combine knowledge of grammar, language structure, and the composition of audio and voice signals to accurately transcribe the human voice. It continuously updates and refines its transcription as it receives more speech.
+
+The service provides various interfaces that make it suitable for any application where speech is the input and a textual transcript is the output. Example applications include
+
+Voice control of applications, embedded devices, and vehicle accessories
+Transcribing meetings and conference calls
+Dictating email messages and notes
+
+The Text to Speech service processes text and natural language to generate synthesized audio output complete with appropriate cadence and intonation. It is available in several voices:
+
+Allows customers to create custom dictionaries containing their own word pronunciations for up to 20K words. Customization is currently available at no additional charge.
+
+The Text to Speech service offers the following features and capabilities:
+
+Audio formats - Produces audio in Ogg or WebM with the Opus or Vorbis codec, WAV, FLAC, MP3 (MPEG), l16 (PCM), mulaw, or basic format. See Specifying an audio format.
+Voices - Synthesizes text to audio in various languages, voices, and dialects. See Specifying a voice.
+SSML - Accepts plain text or text that is marked up with the XML-based Speech Synthesis Markup Language (SSML). See Using SSML.
+Expressiveness - Extends SSML with an expressive element that you can use to indicate a speaking style of GoodNews, Apology, or Uncertainty. Available only for the US English Allison voice. See Expressive SSML.
+Voice transformation - Extends SSML by adding a voice transformation element. You can use the element to expand the range of possible voices by controlling aspects such as pitch, rate, and timbre. Also offers two built-in virtual voices, Young and Soft. Available only for US English voices. See Voice transformation SSML.
+Word timings - With the WebSocket interface, supports the SSML <mark> element and optional word timing information for all strings of the input text. Timing information synchronizes the input text and the resulting audio. See Obtaining word timings.
+Customization - Provides a customization interface that you can use to specify how the service pronounces unusual words that occur in your input. You can define pronunciations with the International Phonetic Alphabet (IPA) or IBM Symbolic Phonetic Representation (SPR). 
+
+People show various tones, such as joy, sadness, anger, and agreeableness, in daily communications. Such tones can impact the effectiveness of communication in different contexts. Tone Analyzer leverages cognitive linguistic analysis to identify a variety of tones at both the sentence and document level. This insight can then used to refine and improve communications. It detects three types of tones, including emotion (anger, disgust, fear, joy and sadness), social propensities (openness, conscientiousness, extroversion, agreeableness, and emotional range), and language styles (analytical, confident and tentative) from text.
+
+General Tone Assessment
+Analyze shorter web data, such as email messages or tweets, or longer documents, such as articles or blog posts. Monitor social media to understand what customers are saying about a brand and to determine whom to target with specific messaging.
+Customer Engagement Tone
+Monitor customer service and support conversations. Escalate customer conversations when they turn sour or find opportunities to improve customer service scripts, dialog strategies, and customer journeys.
+Multi-Language Support
+Input text in either English or French and receive a response in either Arabic, German, English, Spanish, French, Italian, Japanese, Korean, Brazilian Portuguese, Simplified Chinese, or Traditional Chinese.
+
+The IBM Watson™ Tone Analyzer service uses linguistic analysis to detect emotional and language tones in written text. The service can analyze tone at both the document and sentence levels. You can use the service to understand how your written communications are perceived and then to improve the tone of your communications. Businesses can use the service to learn the tone of their customers' communications and to respond appropriately to each customer, or to understand and improve their customer conversations in general.
+
+You submit JSON, plain text, or HTML input that contains your written content to the service. The service accepts up to 128 KB of text, which is about 1000 sentences. The service returns JSON results that report the tone of your input. You can use these results to improve the perception and effectiveness of your communications, ensuring that your writing conveys the tone and style that you want for your intended audience. The following diagram shows the basic flow of calls to the service.
+
+Find meaning in visual content! Analyze images for scenes, objects, faces, and other content. Choose a default model off the shelf, or create your own custom classifier. Develop smart applications that analyze the visual content of images or video frames to understand what is happening in a scene.
+
+General Model
+Generate class keywords that describe the image. Use your own images, or extract relevant image URLs from publicly accessible webpages for analysis.
+Food Model
+Utilize a specialized vocabulary of over 2,000 foods to identify meals, food items, and dishes with enhanced accuracy.
+Custom Model
+Create custom, unique visual classifiers. Use the service to recognize custom visual concepts that are not available with general model.
+Explicit Model
+Assess whether an image contains objectionable or adult content that may be unsuitable for general audiences.
+Face Model
+Detect human faces in the image. This service also provides a general indication of age range and gender of faces.
+Text Model (Private Beta*)
+Automatically detect and extract recognized words within natural scene images. *Private Beta is an invite only program. Customers must have a Standard Plan to be eligible to use Private Beta features. 
+
+The Visual Recognition service can be used for diverse applications and industries, such as:
+
+Manufacturing: Use images from a manufacturing setting to make sure products are being positioned correctly on an assembly line
+Visual auditing: Look for visual compliance or deterioration in a fleet of trucks, planes, or windmills out in the field, train custom models to understand what defects look like
+Insurance: Rapidly process claims by using images to classify claims into different categories
+Social listening: Use images from your product line or your logo to track buzz about your company on social media
+Social commerce: Use an image of a plated dish to find out which restaurant serves it and find reviews, use a travel photo to find vacation suggestions based on similar experiences
+Retail: Take a photo of a favorite outfit to find stores with those clothes in stock or on sale, use a travel image to find retail suggestions in that area
+Education: Create image-based applications to educate about taxonomies
+
+Watson Studio democratizes machine learning and deep learning to accelerate infusion of AI in your business to drive innovation. Watson Studio provides a suite of tools and a collaborative environment for data scientists, developers and domain experts.
+
+Use what you know, learn what you don't
+Start from a tutorial, start from a sample, or start from scratch. Tap into the power of the best of open source (RStudio, Jupyter Notebooks) and Watson services for flexible model creation. Use Python, R, or Scala. Stop downloading and configuring analysis environments and start getting insights.
+Power on demand
+Enterprise-scale features on demand. From data exploration and preparation, to enterprise-scale performance. Manage your data, your analytical assets, and your projects in a secured cloud environment.
+Be a founding member
+Take advantage of shared data sets, notebooks, models, and tutorials. Share your work with your team and your peers across job roles. Join a vibrant community of data scientists, developers, and domain experts across industries, functions, and organization types.
+Collaborate for better outcomes
+Work with your peers on projects to find better solutions together. Share your knowledge and your work easily with visualizations and code - and help fuel the advancement of data science and AI for all.
+
+PowerAI makes deep learning, machine learning, and AI more accessible and more performant. By combining this software platform for deep learning with IBM® Power Systems™ and NVIDIA® GPUs, enterprises can rapidly deploy instances fully optimized and supported for MLDL with blazing performance. The PowerAI platform includes the most popular machine learning frameworks and their dependencies, and it is built for easy and rapid deployment. Users can also build out multi-node clusters for Distributed Deep Learning (DDL) with Infiniband interconnects. PowerAI is offered in partnership with Nimbix on IBM Power Systems infrastructure.
+
+
+
+
+
+
+
+
+
+
+

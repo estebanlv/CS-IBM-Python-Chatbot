@@ -1,0 +1,97 @@
+IBM Blockchain Platform is a flexible software-as-a-service offering that is delivered via the IBM Cloud. It enables network members to quickly get started developing and easily move to a collaborative environment. The platform simplifies your blockchain journey of developing, governing, and operating a network. Choose a membership plan based on your ecosystem needs.
+
+Use the IBM Blockchain Platform to simplify the developmental, governmental, and operational aspects of creating a blockchain solution. The following plans enable you to easily migrate from POC to pilot, all the way through to production on a secure, high performance, and fully scalable production network that you can't outgrow.
+Enterprise Plan offers a secure production environment and advanced service levels for production grade deployment, application development, and production testing.
+IBM Blockchain Platform (IBP) is the only integrated business-ready platform that addresses the full lifecycle of a multi-organization blockchain network. It is designed to accelerate, through collaboration in each phase, the creation of "built for business" global blockchain networks with the performance and security for even the most demanding use cases and regulated industries. IBM-managed network offerings on IBM Cloud are suitable for customers who are new to blockchain. Customers with experiences in using Hyperledger Fabric can deploy network components or a network on their own infrastructure through IBM Cloud Private (ICP) or Amazon Web Services (AWS).
+
+IBM Blockchain Platform provides different offerings to help all types of users get started on their blockchain journey and move their applications into production.
+IBM Cloudant is a fully managed JSON document database. Cloudant is compatible with Apache CouchDB and accessible through a simple to use HTTPS API for web, mobile, and IoT applications. Cloudant is SOC2 and ISO 27001 compliant with HIPAA readiness optional for Dedicated Hardware environments. Cloudant Standard plan instances come with a 99.95% SLA. All data is encrypted at rest and over the wire. Cloudant JSON documents are stored in triplicate across three separate availability zones for in-region HA/DR in regions that support AZ's. Any Cloudant instance deployed from the Frankfurt region/location will be in an EU-managed environment. See https://ibm.com/cloud/cloudant or the documentation link below for more details.
+
+IBM Compose Enterprise pairs the governance needs of the enterprise with the agility of a cloud database platform. This service provides a private isolated cluster of dedicated physical machines for IBM Cloud users to optionally provision their Compose databases into. This provides the security and isolation required by enterprise compliance and uses dedicated networking to ensure the performance of the deployed databases. After the cluster is online, any space within this organization may deploy a 'Compose for IBM Cloud' database into it.
+IBM® Compose Enterprise for IBM® Cloud pairs the needs of enterprises with the agility of a cloud database service, offering database-as-a-service on dedicated physical machines.
+
+Compose Enterprise provides the security and isolation that is required by enterprise-level applications, and allows you to deploy into almost any IBM Cloud Data Center.
+
+Compose Enterprise creates a single-tenant cluster with encryption at rest. It offers you dedicated networking and performance for your database deployments, and geographic data center flexibility. After the cluster is created, any database that is created through one of the other Compose database services that are offered by IBM Cloud can be provisioned into it.
+*If you are deploying into Dallas, Frankfurt, Japan, or Oslo, consider using our new offering, Databases for Elasticsearch.* Elasticsearch combines the power of a full text search engine with the indexing strengths of a JSON document database to create a powerful tool for rich data analysis on large volumes of data. Pricing is based on underlying disk usage. CPU & I/O resources scale with the underlying disk usage. IBM Compose for Elasticsearch makes Elasticsearch even better by managing it for you. Features include auto-scaling deployments, high availability, and automated no-stop backups.
+IBM® Compose for Elasticsearch for IBM Cloud combines the power of a full text search engine with the indexing strengths of a JSON document database. Together they create a powerful tool for rich data analysis on large volumes of data. Elasticsearch can score your searches for exactness, so you can dig through your data set for those close matches and near misses that you might be missing.
+
+
+
+etcd is a key-value store that holds the always-correct data that you need to coordinate and manage your server cluster for distributed server configuration management. etcd uses the RAFT consensus algorithm to assure data consistency in your cluster. It enforces the order in which operations take place on the data so that every node in the cluster arrives at the same result in the same way. IBM® Compose for etcd for IBM Cloud adds automatic backups of your configuration data that is stored in etcd. An intuitive, administrative interface lets you monitor, scale, and administer your deployment with ease.
+JanusGraph is scalable graph database optimized for storing and querying highly-interconnected data modeled as millions or billions of vertices and edges. Simple and efficient retrieval of data from these complex structures is enabled by JanusGraph’s Apache TinkerPop(TM) compatibility allowing users to perform efficient queries that would be difficult or impossible with a traditional RDBMS. Pricing is based on underlying disk or RAM usage. CPU & I/O resources scale with JanusGraph Engine and JanusGraph Storage usage. IBM Compose for JanusGraph makes JanusGraph even better by managing it for you. Features include auto-scaling deployments, high availability, and automated no-stop backups.
+
+IBM® Compose for JanusGraph for IBM Cloud is a scalable graph database that is optimized for storing and querying highly interconnected data that is modeled as millions or billions of vertices and edges. Simple and efficient retrieval of data from these complex structures is enabled by JanusGraph’s Apache Tinkerpop(TM) compatibility, which allows you to perform efficient queries that would be difficult or impossible with a traditional relational database. Compose for JanusGraph makes JanusGraph even better by managing it for you, offering an easy, scalable deployment system that delivers high availability and redundancy, automated no-stop backups and much more.
+
+MongoDB with its powerful indexing and querying, aggregation and wide driver support, has become the go-to JSON data store for many startups and enterprises. Pricing is based on underlying disk usage. CPU & I/O resources scale with the underlying disk usage. IBM Compose for MongoDB makes MongoDB even better by managing it for you. Features include auto-scaling deployments, high availability, and automated no-stop backups.
+IBM® Compose for MongoDB for IBM Cloud uses the powerful indexing and querying, aggregation, and wide driver support of MongoDB that makes it the go-to JSON data store for many startups and enterprises. Compose for MongoDB offers an easy, auto-scaling deployment system. It delivers high availability and redundancy, automated and on-demand no-stop backups, monitoring tools, integration into alert systems, performance analysis views, and more, in a clean, simple user interface.
+MySQL is a fast, easy-to-use, and flexible RDBMS. As the central component of the LAMP (Linux, Apache, MySQL and PHP) web service model, it sports a number of connectors, including Python, PHP and C++ for development needs. Pricing is based on underlying disk usage. CPU & I/O resources scale with the underlying disk usage. IBM Compose for MySQL makes MySQL even better by managing it for you. Features include auto-scaling deployments, high availability, and automated no-stop backups. Beta products are for evaluation purposes only and come with no warranties, express or implied. Support is limited to collecting feedback of the Beta product only. Learn more (http://www-03.ibm.com/software/sla/sladb.nsf/pdf/6605-14/$file/i126-6605-14_08-2018_en_US.pdf)
+With a broad subset of ANSI SQL 99 and a wide set of its own extensions, including JSON document, full text search and updatable views, MySQL offers a rich palette for developers to draw on in their applications. Administrators can also find a wide selection of database management tools that can work with MySQL. IBM® Compose for MySQL for IBM Cloud extends the capabilities of MySQL by managing it for you, offering an easy, auto-scaling deployment system that delivers high availability and redundancy, and automated backups.
+
+IBM® Compose for PostgreSQL for IBM Cloud provides a powerful, open source object-relational database that is highly customizable. With Postgres, development is fast and easily scalable. You can develop in a language that you're comfortable with, such as C/C++, Perl, Python, TCL/TK, Delphi/Kylix, VB, PHP, ASP, and Java. You get a feature-rich enterprise database with JSON support, giving you the best of both the SQL and NoSQL worlds.
+
+RabbitMQ asynchronously handles the messages between your applications and databases, enabling the separation of the data and application layers. RabbitMQ enables developers to route, track, and queue messages with customizable persistence levels, delivery settings, and confirmed publication. By using IBM® Compose for RabbitMQ for IBM Cloud, you get access to the easy-to-use administrative interface with a host of management features such as deployment monitoring, click-of-a-button scaling, user setup, and log file access.
+Redis is an open source, in-memory, key-value store. Values in Redis can be simple strings, hashes, lists, and sets or powerful bitmaps, hyperloglogs, and geospatial indexes. Redis is ideal as an application cache or quick response data store. IBM® Compose for Redis for IBM Cloud gives you a configuration that is pre-tuned for high availability and on-disk persistence, all locked down with extra security features.
+
+RethinkDB is a JSON document based, distributed database. It uses the ReQL query language which is built around function chaining and is available in client libraries for JavaScript, Python and Ruby. With ReQL it is possible to utilize RethinkDB server side features such as distributed joins and subqueries across the cluster’s nodes. Pricing is based on underlying disk usage. CPU & I/O resources scale with the underlying disk usage. IBM Compose for RethinkDB makes RethinkDB even better by managing it for you. Features include auto-scaling deployments, high availability, and automated no-stop backups.
+
+ScyllaDB is a highly performant, in-place replacement for the Cassandra wide-column distributed database. ScyllaDB is written in C++, rather than Cassandra's Java, for better resource usage that can result in ten times better performance in benchmarks. Pricing is based on underlying disk usage. CPU & I/O resources scale with the underlying disk usage. IBM Compose for ScyllaDB makes ScyllaDB even better by managing it for you. Features include auto-scaling deployments, high availability, and automated no-stop backups.
+ScyllaDB is an in-place replacement for the Cassandra wide-column distributed database. ScyllaDB is written in C++, rather than Cassandra's Java, for better resource usage that can result in 10 times better performance in benchmarks. In addition to retaining compatibility with Cassandra tool and data files, ScyllaDB adds self-tuning capabilities. IBM® Compose for ScyllaDB for IBM Cloud extends the capabilities of ScyllaDB by managing it for you, offering an easy, auto-scaling deployment system that delivers high availability and redundancy, plus automated backups.
+Elasticsearch combines the power of a full text search engine with the indexing strengths of a JSON document database to create a powerful tool for rich data analysis on large volumes of data. Databases for Elasticsearch makes Elasticsearch even better by managing it for you. Features include high availability, automated backup orchestration, and de-coupled scaling of storage and RAM. Databases for Elasticsearch pricing is based on underlying disk and RAM allocation, as well as backup storage usage.
+IBM® Cloud Databases for Elasticsearch is a managed Elasticsearch service that is hosted in the IBM Cloud and integrated with other IBM Cloud services.
+Etcd is a key value store developers can use to coordinate and manage server clusters or provide lightning fast metadata storage. Databases for etcd makes etcd even better by managing it for you. Features include high availability, automated backup orchestration, and de-coupled scaling of storage and RAM. Databases for etcd pricing is based on underlying disk (IOPS) and RAM allocation, as well as backup storage usage.
+Postgres is a powerful, open source object-relational database that is highly customizable. It’s a feature-rich enterprise database with JSON support, giving you the best of both the SQL and NoSQL worlds. Databases for PostgreSQL makes PostgreSQL even better by managing it for you. Features include high availability, automated backup orchestration, and de-coupled scaling of storage and RAM. Databases for PostgreSQL pricing is based on underlying disk and RAM allocation, as well as backup storage usage. The service is HIPAA-Ready and compliant with SOC 1 Type 1 and SOC 2 Type 1.
+IBM® Cloud Databases for PostgreSQL is a managed PostgreSQL service that is hosted in the IBM Cloud and integrated with other IBM Cloud services. PostgreSQL provides a powerful, open source object-relational database that is highly customizable. With PostgreSQL, development is fast and easily scalable. You can develop in a language that you're comfortable with, such as C/C++, Perl, Python, TCL/TK, Delphi/Kylix, VB, PHP, ASP, and Java. You get a feature-rich enterprise database with JSON support, giving you the best of both the SQL and NoSQL worlds.
+A fully-managed cloud SQL database. Powered by a turbo-charged Db2 engine.
+Fast, Reliable & Robust
+Uses Db2 technology for enterprise-level OLTP performance. 99.99% uptime SLA with high availability plans and now with options for full geo-isolated disaster recovery. Supports .NET, ODBC, JDBC and REST. Compatible with Netezza and Oracle.
+Fully managed, safe, and secure
+Includes daily backups for 14 days, at-rest database encryption, and SSL connections. High availability plans include two servers configured as an HA pair. HIPAA option, ISO2K1, SOC2/3 and more.
+IBM® Db2® on Cloud is an SQL database provisioned for you in the cloud. You can use Db2 on Cloud just as you would use any database software, but without the overhead and expense of hardware setup or software installation and maintenance.
+IBM Db2 Hosted lets you run Db2 with full administrative access on cloud infrastructure. It eliminates the cost, complexity and risk of managing your own infrastructure.
+
+New
+IBM Db2 on Cloud has been renamed to Db2 Hosted. Db2 on Cloud now refers to IBM's fully-managed Db2 cloud offering.
+Fast and Flexible
+You get a blazing-fast Db2 database, optimized for OLTP, with secure SSL connections set up out-of-the-box. Full administrative access lets you reconfigure your system for analytics or mixed workloads.
+Ultimate Server Control
+Install custom software directly on the server to reduce application latency and integrate with your enterprise. Configure your server exactly the way you need it.
+Securely Move Data to the Cloud
+Mirror your on-premise Db2 database to the cloud using Db2 Hosted's high availability, which supports SSL connections.
+Connectivity
+Comes with Db2 version 11.1 by default. Supports all native Db2 drivers, SQL, .NET, ODBC and JDBC. Compatible with Netezza and Oracle. Supports backups to S3 and Swift object storage.
+
+Db2® Hosted is a hosted Db2 database service. Provisioned on-demand when you purchase the service, Db2 database is installed on a host machine in the cloud. After the server is set up, you take over management of the server.
+IBM Db2 Warehouse on Cloud is a fully-managed, enterprise-class, cloud data warehouse service. Powered by IBM BLU Acceleration, Db2 Warehouse on Cloud provides you with unmatched query performance. The service is offered in multiple form factors: SMP for cost-effective cloud data warehousing, and MPP for high-performance parallel query processing and high availability. Db2 Warehouse on Cloud also comes packed with a suite of Netezza-like in-database analytics tools and functions so you can run your analytics jobs wherever your data resides. Get the most out of your cloud data warehouse by combining it with IBM or third-party data visualization and ETL tools.
+Fully managed, safe, and secure
+Your Db2 Warehouse on Cloud instance is managed, monitored, encrypted and backed-up by IBM, so you can focus on gaining insights from your data instead of administering it.
+Highly Available (HA) with MPP
+Your data workloads, queries and dashboards will all continue to run, even during unexpected failure.
+Compatible with Netezza and Oracle
+Most of your Netezza and Oracle workloads will migrate seamlessly to Db2 Warehouse on Cloud. For the select few edge cases, we offer free tooling to help you make a smooth transition.
+Related Db2 cloud products
+Check out Db2 on Cloud, the enterprise-class, high-performance transactional data store.
+Built for the hybrid cloud
+Our unified architecture enables a range of hybrid use cases. Easily move data between your on-premises data stores and Db2 Warehouse on Cloud. Access data & run SQL queries across multiple heterogeneous data sources with IBM Fluid Query.
+Security Compliances
+The security compliances for Db2 managed offerings are different from that of IBM Cloud platform. Please refer to the docs for the list of security complianaces for Db2 Warehouse.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
