@@ -76,10 +76,63 @@ Our unified architecture enables a range of hybrid use cases. Easily move data b
 Security Compliances
 The security compliances for Db2 managed offerings are different from that of IBM Cloud platform. Please refer to the docs for the list of security complianaces for Db2 Warehouse.
 
+Hyper Protect DBaaS is the next evolution level on how data is stored in a highly secured enterprise cloud service ideally suited for workloads with sensitive data. It allows you to retain your data in a fully encrypted client database without need for specialized skills. This service provides capabilities to provision, manage, maintain and monitor multiple database types like MongoDB or PostgreSQL through standardized APIs. Hyper Protect DBaaS protects against threats of data breach and data manipulation leveraging the strengths of LinuxONE pervasive encryption, scalability, performance and IBM Secure Service Container technology.
 
+Higher Scale
+Higher scale -up and -out capability.
+Higher Security
+Tamper protection during installation and run time. Confidentiality maintained by shielding customer data from administrators. Strong isolation among container instances.
+IBM® Cloud Hyper Protect DBaaS is an IBM Cloud service that provides databases on demand. It offers a flexible and scalable platform that allows you to quickly and easily provision and manage your database of choice.
 
+This IBM Cloud offering provides MongoDB and PostgreSQL database clusters. Each database cluster comprises one primary/master database instance and two database instance replicas/slaves that back up the primary/master one.
 
+With IBM Cloud Hyper Protect DBaaS, you can create database clusters in the IBM Cloud, manage database instances, administer database users, and create and monitor databases.
+IBM® hosts your databases in a highly available and secure environment:
 
+The underlying technologies prevent IBM or a third party from being able to access your data.
+The IBM Secure Service Container technology protects the system via a tamper-proof environment. Access to the system is restricted and is only enabled through well-defined RESTful APIs.
+
+Data is encrypted at rest and in flight.
+The system hardware, the system configuration, and the database setup ensure high availability.
+The IBM Informix on Cloud offering provides an Informix database on IBM SoftLayer global cloud infrastructure. It offers customers the rich features of an on-premises Informix deployment without the cost, complexity, and risk of managing their own infrastructure. Informix on Cloud brings you the high-performance engine that integrates TimeSeries, Spatial, NoSQL, and SQL data together with easy access via MQTT, REST and MongoDB APIs.
+Fast and Flexible
+IBM Informix on Cloud server comes with a preconfigured instance optimized for online transaction processing applications. Full administrative access lets you reconfigure your system for analytics or mixed workloads.
+Ultimate Server Control
+Install custom software directly on the server to reduce application latency. Configure your server exactly the way you need it.
+Reduces Time to Value
+Use of this offering reduces the time required for provisioning and deploying Informix so more resources can be devoted to developing new solutions and innovation.
+IBM® Informix® on Cloud for IBM Cloud provides you with a hosted server environment, which you can control and configure to your benefit. You can use Informix on Cloud to extend the reach of your business by easily expanding your database capacity in the IBM SoftLayer® data center of your choice. IBM provides you with an initially configured Informix server that is exclusively yours to tailor to the needs of your business. Informix on Cloud provides several different plans so that any size business can access the IBM enterprise class database server.
+
+As a hosted offering, IBM® Informix® on Cloud for IBM Cloud provides you Informix pre-configured on a machine in a SoftLayer data center of your choice. After the machine is made available to you, you have complete control over it in the same way you would an Informix system in your data center or office. You have the power and responsibility to administer the system according to your business needs, which includes,
+
+Providing user access to the machine by sharing the internet address, user name, and password and creating new connection credentials.
+Maintaining software firewalls.
+Maintaining the software platform - including IBM Informix and the operating system - to meet your security standards.
+Creating and maintaining all backups.
+Developing programs or applications that interact with the Informix database. You are responsible for the quality and performance of programs and applications that you develop.
+Configuring programs or applications to connect with Informix.
+Creating and maintaining any high availability configurations.
+Monitoring and reporting any issues that you encounter with Informix to IBM.
+
+SQL Query is a stateless service for using standard SQL to analyze data in Cloud Object Storage. With SQL Query you query the data where it is stored - there is no ETL, no databases, and no infrastructure to manage.
+Quick SQL access to data
+Query server logs, click-stream data, IoT messages or raw analytics events using SQL directly on the files where you store them in Object Storage.
+Easy data exploration
+Run ad-hoc SQL queries against fresh data before the data has moved through the pipeline and into the reporting stack.
+Querying of archived data
+Use SQL to query structured data archived from legacy systems, databases (for example, NoSQL) and/or data warehouses in Object Storage.
+Integrate with your applications
+Run SQLs from your application using the rich API ecosystem, comprising REST API, Python SDK, Node SDK, and IBM Cloud Function interface.
+
+IBM® Cloud SQL Query is a fully-managed service that lets you run SQL queries (that is, SELECT statements) to analyze, transform, or clean up rectangular data.
+
+Kitewalk GEO Web Services add geo-intelligence to your apps ("around me" functionalities). Apps can set contents of any nature both timely and spatially and retrieve lists of contents within distance, time and category constraints around any GPS position.
+This third-party service does not have an IBM pricing plan. You can obtain it from the third party under the terms of use agreement. The third party might charge you for use of the service.
+
+Kitewalk GEO Web Services for Bluemix add geo-intelligence features to your apps ("around me" functionalities). Using Kitewalk, your apps can set and get contents of any nature both timely and spatially. Ultimately, Kitewalk will allow to retrieve lists of dynamic geo-contents within distance, time and category of interest constraints around any GPS position.
+InfluxData is rooted in open source and purpose built for handling time-series data. Customers use our products for DevOps infrastructure monitoring (cloud infrastructure, containers & applications), IoT connected devices & real-time analytics.
+
+This third-party service does not have an IBM pricing plan. You can obtain it from the third party under the terms of use agreement. The third party might charge you for use of the service.
 
 
 
