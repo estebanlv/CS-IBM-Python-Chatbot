@@ -1,0 +1,229 @@
+Empower your Cloud Administrators, Security and Developers to search and analyze how their users and applications with IBM Cloud services. Upgrade to the premium plan to expand your collection, retention, and analysis abilities.
+Gain insights into your environment to monitor and investigate security breaches
+Capture user and application interactions with your provisioned IBM Cloud resources. Investigate possible security breaches or unauthorized access.
+Cloud transparency for your DevOps teams to debug and perform capacity planning
+Cloud activity events provide transparency into your IT operations on the IBM Cloud. Identify when and how your Cloud services are used to isolate and debug your applications. Query collected data over time to anticipate your cloud growth and seasonal needs.
+Achieve your regulatory, compliance and record retention needs
+Store captured events as long as you require, safe guarded on cloud class economical storage solutions. Query your collected event data via API or export your cloud activity data.
+Simplify collection and improve your cloud security
+Activity Tracker automatically captures your IBM Cloud events.
+Use the IBM® Cloud Activity Tracker service to track how applications interact with the IBM® Cloud services. Use Activity Tracker to monitor for abnormal activity, and comply with regulatory audit requirements. The events that are collected comply with the Cloud Auditing Data Federation (CADF) standard.
+
+Activity Tracker offers high-level security governance for your IT resources in the cloud.
+Activity Tracker provides a solution for administrators to capture, store, view, search, and monitor API activity in a single place.
+Activity Tracker provides capabilities to download events that you can then use to generate an audit trail report. You might require these reports so that your organization complies with internal regulations and external industry and country regulations.
+Compliance with internal policies and industry regulations is a key requirement in any organization's strategy, regardless of where applications run: on-premises, in a hybrid cloud, or in a public cloud. The Activity Tracker service provides the framework and functionality to monitor API calls and produce the evidence to comply with corporate policies and market industry-specific regulations.
+
+When you work in a cloud environment, such as the IBM Cloud, you must plan the cloud strategy for auditing and monitoring workloads and data in accordance with your internal policies and with industry and country-based compliance requirements. You can use the information that is registered through the Activity Tracker service to identify security incidents, detect unauthorized access, and comply with regulatory and internal auditing requirements.
+
+For example, you can use the Activity Tracker activity logs to identify the following information:
+
+The users who made API calls to cloud services.
+The source IP address from where the API calls were made.
+The time-stamp when the API calls were made.
+The status of the API call.
+
+Use Alert Notification to get early notification of application or service issues before they affect your users. Spend more time innovating, confident you are not ignoring critical issues.
+Never miss your critical alerts
+Spend time innovating, you'll receive alerts when action is needed
+Route alerts to the right people
+Filter events to domain experts or support teams
+Faster response times
+Escalation policies can alert additional experts or management
+On-call and on-duty scheduling
+Route alerts to the on-call specialists based on their availability
+Mobile app
+The mobile app offers a subset of Alert Notification functions on iOS and Android devices
+Use the Alert Notification service to create filter conditions for processing alerts, so that you receive only the alerts that you are interested in.
+
+You can create notification policies that contain filter conditions that, when met, trigger notifications. Notification policies define which alerts you are interested in by filtering for the alerts that, for example, are of critical severity, and whether to send a notification. The recipients can be individual users or groups. If a recipient clicks a link that is in the notification email, the alert is acknowledged, which indicates to the other recipients that someone is working on that alert. Users can log in to Alert Notification and respond to the alert in the Alert Viewer. Notifications can be sent by email, SMS, voice, Slack, and push notifications.
+You can refine the filters as much as you need and also specify frequencies of occurrence to match patterns in your IT environment. It is good practice to define your notification policies so that alerts do not trigger more than one notification. To achieve this, you can define multiple conditions in a filter. Use the Alert Viewer within Alert Notification to view alerts and take actions to resolve them.
+
+The Auto-Scaling for IBM Cloud service enables you to automatically increase or decrease the compute capacity of your application. The number of application instances are adjusted dynamically based on the Auto-Scaling policy you define.
+
+Dynamic scaling
+Automatically add or remove resources to match the current workload.
+Custom scaling policy
+Define policy on metrics of interest.
+Metric statistics
+Visualize the current and historical values of performance metrics.
+Scaling history
+Query the scaling activities based on status, time and type.
+
+A series bug fix in Restful API and CLI plugin.
+Optimize the backend to ensure zero-down-time when Auto-Scaling service is in maintainance window.
+Optimize the metric pulling mechanism from Cloud Foundry.
+For IBM Liberty Runtime, add support for OpenJDK as well as IBM JDK.
+Add support for "throughput, response time, memory" based on dynamic scaling for IBM Swift Runtime.
+
+IBM Cloud Availability Monitoring helps DevOps teams ensure their applications are always available and meeting user expectations for response time as they roll out continuous updates. The service, which is tightly integrated into the DevOps toolchain, runs synthetic tests from locations around the world, around the clock to proactively detect and fix performance issues before they impact users.
+Get started in less than 5 minutes
+Monitoring capabilities available out-of-the-box for any application running anywhere with automatically configured availability test
+See how deployments impact performance
+Correlated analysis of response time, availability, alerts and team activities such as code deployment to isolate problems to changes
+Maximize uptime and user satisfaction
+Monitor uptime and response time of your applications, as frequent as every minute, from several geographical locations around the world. Run synthetics tests to measure performance of webpage loads, API calls and simulated user flows through scripted browser interaction using Selenium
+Get to the bottom of the failure accurately in minutes
+Waterfall analysis helps pinpoint exact step of failure coming from broken links, large images, slow lookups or external requests, etc. Automatic screenshots of browser failures and historical performance statistics aid diagnosis
+Be proactive
+Be alerted on issues-via email, Slack, SMS or Push notification-BEFORE they impact users. Create alert policies to reduce alert noise via seamless integration with Alert Notification service
+Use IBM® Cloud Availability Monitoring to run simulated performance tests from locations around the world, around the clock. Proactively detect, isolate, and diagnose performance issues before they impact your users. Ensure that your applications are available and meet response time targets when you roll out continuous updates. Configure data collectors for your applications to collect user transaction data. Use this data in Availability Monitoring to monitor the responsiveness and throughput of your application.
+With IBM® Cloud Availability Monitoring, you can create, edit, and view synthetic tests that mimic end-user behavior at your web applications. The Availability Monitoring dashboard displays availability and response time information for monitored URLs and APIs grouped by IBM Cloud region. Use the dashboard to monitor alerts and activities that are associated with your application in different locations by using graphs, breakdown tables, and map views.
+
+Use Continuous Delivery to automate builds, unit tests, deployments, and more. Edit and push code through the rich web based IDE. Create toolchains to enable tool integrations that support your development, deployment, and operation tasks.
+
+Create an integrated devops toolchain.
+Toolchains provide an integrated set of tools to build, deploy and manage your apps. You can create toolchains that include Bluemix services, open source tools, and third party tools that make development and operations repeatable and easier to manage.
+Deliver continuously using an automated pipeline.
+Build, test, and deploy in a repeatable way with minimal human intervention. By ready to release into production at any time.
+Edit your code from anywhere.
+You can choose to use the integrated web-based environment built on Eclipse Orion. Create, edit, run, debug, and complete source control tasks, and seamlessly move from editing your code to deploying it to production.
+Improve quality through Insights.
+Understand build status, security scan results, code coverage, and test coverage to evaluate whether to promote your app to the next environment. Use policy gates to automatically ensure quality before promotion.
+Git Repos and Issue Tracking.
+Manage your source code and track work with Git repositories and issue tracking hosted by IBM and built on GitLab Community Edition.
+Adopt a DevOps approach by using IBM® Cloud Continuous Delivery, which includes open toolchains that automate the building and deployment of applications. You can get started by creating a simple deployment toolchain that supports development, deployment, and operations tasks.
+With Continuous Delivery, you can build, test, and deliver applications by using DevOps practices and industry-leading tools.
+
+IBM Db2 Warehouse on Cloud is a fully-managed, enterprise-class, cloud data warehouse service. Powered by IBM BLU Acceleration, Db2 Warehouse on Cloud provides you with unmatched query performance. The service is offered in multiple form factors: SMP for cost-effective cloud data warehousing, and MPP for high-performance parallel query processing and high availability. Db2 Warehouse on Cloud also comes packed with a suite of Netezza-like in-database analytics tools and functions so you can run your analytics jobs wherever your data resides. Get the most out of your cloud data warehouse by combining it with IBM or third-party data visualization and ETL tools.
+Fully managed, safe, and secure
+Your Db2 Warehouse on Cloud instance is managed, monitored, encrypted and backed-up by IBM, so you can focus on gaining insights from your data instead of administering it.
+Highly Available (HA) with MPP
+Your data workloads, queries and dashboards will all continue to run, even during unexpected failure.
+Compatible with Netezza and Oracle
+Most of your Netezza and Oracle workloads will migrate seamlessly to Db2 Warehouse on Cloud. For the select few edge cases, we offer free tooling to help you make a smooth transition.
+Related Db2 cloud products
+Check out Db2 on Cloud, the enterprise-class, high-performance transactional data store.
+Built for the hybrid cloud
+Our unified architecture enables a range of hybrid use cases. Easily move data between your on-premises data stores and Db2 Warehouse on Cloud. Access data & run SQL queries across multiple heterogeneous data sources with IBM Fluid Query.
+Security Compliances
+The security compliances for Db2 managed offerings are different from that of IBM Cloud platform. Please refer to the docs for the list of security complianaces for Db2 Warehouse.
+DevOps Insights is a Cloud-based solution that provides comprehensive insights from popular continuous integration and continuous delivery tools to increase the speed, quality, and control of your applications. View test results and trend information about your builds, deployments, and tests to understand changes over time. Ensure that quality code is delivered to production through the enforcement of policies. Explore Code Analysis and Team Dynamics, by using machine learning, to better understand how your team interacts and improve the quality of code that they produce. Code Analysis is currently in Beta.
+
+Deployment Risk Assessment
+Create policies to ensure that risky code is not deployed to production.
+Quality Dashboard
+View your test results for all applications and evaluate the quality of your team’s code from a single dashboard.
+Quality Trends
+View trends for your tests, builds, and deployments to understand change over time.
+Team Dynamics
+Enhance collaboration by better understanding how your team interacts.
+Code Analysis (Beta)
+Improve the quality of code by identifying error-prone files. This feature is available only in the US South region.
+IBM® Cloud DevOps Insights is a Cloud-based solution that provides comprehensive insights from multiple continuous integration and continuous delivery tools to increase the speed, quality, and control of your applications.
+
+Test Results - View your test results for all applications and evaluate the quality of your team's code.
+
+Deployment Risk Analysis - Create policies to ensure that risky code is not deployed to production.
+
+Trends - View trends for your tests, builds, and deployments to understand change over time.
+
+Pull Requests and Team Dynamics - Better understand how your team interacts and improve the quality of code that is produced by identifying error-prone files and pull requests.
+
+Restore service and resolve operational incidents fast! Empower your DevOps teams to correlate different sources of events into actionable incidents, synchronize teams, and automate incident resolution. The service sets you on course to achieve efficient and reliable operational health, service quality and continuous improvement.
+
+Expedite problem determination
+Automatically ingest thousands of events from disparate sources and consolidate them into prioritized incidents that tell you what's really causing faults in your environment.
+Restore service quickly
+Resolve simple outages automatically, freeing up first responders to concentrate on faults that need their intervention.
+Bridge the gap between Dev and Ops
+Relieve pressure on teams by automatically routing incidents to the right people and bringing together Development and Operations teams to resolve complex faults fast.
+Analyze and improve operational health
+Empower Operations leaders to improve efficiency. Observe behavior and capture knowledge, and turn these insights into operator guidance and automation, so incidents are resolved without intervention.
+
+Cloud Event Management can receive events from various monitoring sources, either on premise or in the cloud. Events indicate that something has happened on an application, service, or another monitored object.
+
+Related events are correlated into an incident based on attribute values that match. This means that events such as alerts or notifications from monitoring tools are considered to be part of the same incident if they have the same information set in a specific attribute.
+
+Events are deduplicated, meaning that if the same event occurs multiple times, not all are listed in the incident they are correlated into. Instead, the count for the same event is updated to show how many times it has occurred. By default, the event severity, summary, state, and type fields are updated on deduplication to always have the latest values.
+
+IBM Globalization Pipeline is a DevOps integrated application translation management service that you can use to rapidly translate and release cloud and mobile applications to your global customers. Access IBM Globalization Pipeline capabilities through its dashboard, RESTful API, or integrate it seamlessly into your application's Delivery Pipeline.
+IBM® Globalization Pipeline is an IBM® Cloud service that enables app developers to rapidly release translated applications to global customers. Globalization Pipeline serves as a translation repository providing machine translation, human review and editing, and APIs and SDKs to seamlessly integrate translation into your DevOps and Continuous Development infrastructure, eliminating manual and siloed operations associated with traditional translation process.
+
+You can use the Globalization Pipeline service to translate any app deployed and hosted on IBM Cloud, or unbound to translate apps hosted on other cloud platforms.
+Empower your DevOps team with IBM Cloud Log Analysis. Aggregate your application and environment logs for consolidated application or environment insights. Retain log data as long as you require. Quickly detect and troubleshoot issues. Upgrade to the premium plan to expand your collection, retention, and search abilities.
+
+Flexible logging for native cloud applications
+IBM Cloud Log Analysis supports Container, Cloud Foundry and traditional compute workloads. Isolate workloads into user defined Bluemix spaces. Log Analysis supports popular logging packages. Integrate log data into your applications and operations through the service's APIs and CLIs.
+Gain insights into your environment to quickly detect, diagnose, and identify issues
+Visualize, analyze and interact with your data through customizable dashboards. Built on the Elastic stack platform, log search features offer you the flexibility and familiarity of Kibana to quickly build your dashboard to your application needs.
+Spend less time instrumenting your application and more time enhancing its value
+IBM Cloud Log Analysis automatically collects data from selected IBM Cloud services, no instrumentation is necessary.
+Keep your log data near your application workloads and safe guarded on cloud class economical storage solutions
+Collect and store log data from traditional and micro-service driven applications running in the IBM Cloud in a centralized log. Retain log data for as long as you need.
+Data encryption notice
+Log data that is collected for long-term storage is encrypted. Log data that is stored for log search is not encrypted. Review the IBM Cloud Log Analysis Data Sheet that is included with the service's terms for specific details on how this IBM Cloud service handles sensitive personal data.
+
+Use the IBM® Cloud Log Analysis service to expand your log collection, log retention, and log search abilities in the IBM® Cloud. Empower your DevOps team with features such as aggregation of application and environment logs for consolidated application or environment insights, encryption of logs, retention of log data for as long as it is required, and quick detection and troubleshooting of issues. Use Kibana for advanced analysis tasks.
+
+The IBM Cloud logging capabilities are integrated in the platform:
+
+Collection of data is automatically enabled for cloud resources. IBM Cloud, by default, collects and displays logs for your apps, apps runtimes, and compute runtimes where those apps run.
+You can search up to 500 MB of logs per day.
+Logs for the last 3 days are stored in Log Search, a component of the Log Analysis service.
+You can use the logging capabilities in the IBM Cloud to understand the behavior of the cloud platform and the resources that are running in it. No special instrumentation is required to collect the standard out and the standard err logs. For example, you can use logs to provide an audit trail for an application, detect problems in your service, identify vulnerabilities, troubleshoot your app deployments and runtime behavior, detect problems in the infrastructure where your app is running, trace your app across components in the cloud platform, and detect patterns that you can use to preempt actions that could affect your service SLA.
+
+The IBM® Cloud Log Analysis service provides log collection and log search services for the IBM Cloud platform, automatically collecting application and IBM Cloud services’ data from select IBM Cloud services.
+
+Empower your DevOps team with IBM Cloud Monitoring for insight into how your apps are performing and consuming resources. Quickly identify trends, detect and diagnose problems; all with immediate time to value and low total cost of ownership. Upgrade to the premium plan to expand your collection and retention abilities.
+Spend less time instrumenting your application and more time enhancing its value
+IBM Cloud Monitoring automatically collects metric data from IBM Cloud applications and services, eliminating the need for agents. APIs make it easy to add custom metrics and to query your monitoring data.
+Gain insights into your environment to quickly detect, diagnose, and identify issues
+Visualize the pulse of your application and infrastructure with flexible and user customizable dashboards. IBM Cloud Monitoring offers you the power, flexibility, and familiarity of Grafana to quickly build and adapt your dashboard to your application needs.
+Easily extend monitoring into your application with APIs
+Integrate your monitoring data into your applications and operations through the service?s APIs.
+Alert into action
+Define rules to notify you of conditions requiring attention. Trigger alerts on individual or wildcard metrics. Notify via e-mail or webhook.
+Use the IBM® Cloud Monitoring service to expand your collection and retention capabilities when working with metrics, and to be able to define rules and alerts that notify you of conditions that require attention. Empower your DevOps team with features that give you insight into how your apps are performing and consuming resources. Quickly identify trends, detect and diagnose problems; all with immediate time to value and low total cost of ownership.
+
+The IBM® Cloud, by default, collects and displays metrics for CPU usage, memory utilization, and network I/O for the Kubernetes Service. You can use the Monitoring service in the IBM Cloud to automatically collect and measure key metrics from your environment and applications. No special instrumentation is required to collect metrics. For example, you can use information provided by performance metrics to monitor how a service is running in the cloud, detect resource bottlenecks, and keep an eye on the service level agreement (SLA). When you analyze performance data for a service, you can detect situations that can lead to a resource bottleneck and consequently affect your service SLA to your clients. By taking early action, you can prevent situations that can impact your business negatively.
+
+Use the Workload Scheduler service to integrate your application with the capability to schedule workflows. Far beyond Cron, exploit job scheduling within and outside Bluemix. Easily create workflows in your application to run on a regular basis, at a specific time, on event basis (for example, when a file is created), according to your needs.
+
+Automate with out-of-the-box adaptors
+Easily automate REST calls, database actions, file transfers, and much more with out-of-the-box adaptors.
+Automate hybrid workflows
+Automate applications in a hybrid environment, on cloud or on-premises environment, or a mixture of both.
+Easily integrate legacy applications
+Create your application by integrating processes on different operating systems: Windows, AIX, Linux (Intel and System Z), HP-UX, and IBM i.
+Quickly compose micro-services
+Create your application by composing micro-services with REST calls, without needing any programming skills.
+Simple APIs available
+Create, monitor, and trigger scheduled actions in your application by using the simple IBM Workload Scheduler APIs.
+User Interface available
+Quickly manage your processes by using the IBM Workload Scheduler User Interface, instead of APIs, for development and testing purposes.
+
+The Mendix Platform Service allows you to license your Mendix app on the IBM Cloud Portal. This means that your app will receive the service level (availability and users) described in the Mendix Platform Service plan you have selected.
+Build Apps 10x faster
+Build Apps 10x faster with 70% less resources compared to traditional development approaches. Visual development and an App Store with hundreds of building blocks boost developer productivity.
+Business IT collaboration
+Build simply and quickly with visual development tools. Empower real-time collaboration between your business and IT teams. Re-use app components to speed development.
+Build beautiful apps for any device
+Design stunning user interfaces and experiences with native mobile features and offline functionality. Build once, for use across all devices.
+Make your business smarter
+Create proactive, context-aware apps with pre-built connectors for Internet of Things, Machine Learning, Cognitive Services, Predictive Analytics, and more.
+
+Mendix is a high productivity app platform that enables you to build and continuously improve mobile and web applications at scale. 
+PagerDuty is the leading incident management platform that provides DevOps insight to respond to critical disruptions for exceptional customer experience. With real-time alerts and visibility into critical systems and applications, operations teams can quickly detect, triage, resolve and conduct post-mortems on incidents from development through production.
+
+This third-party service does not have an IBM pricing plan. You can obtain it from the third party under the terms of use agreement. The third party might charge you for use of the service.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

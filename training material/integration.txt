@@ -1,0 +1,105 @@
+IBM API Connect is a comprehensive end-to-end API lifecycle solution that enables the automated creation of APIs, simple discovery of systems of records, self-service access for internal and third party developers and built-in security and governance. Using automated, model-driven tools, create new APIs and microservices based on Node.js and Java runtimes—all managed from a single unified console. Ensure secure & controlled access to the APIs using a rich set of enforced policies. Drive innovation and engage with the developer community through the self-service developer portal. IBM API Connect provides streamlined control across the API lifecycle and also enables businesses to gain deep insights around API consumption from its built-in analytics.
+
+Securely unlock existing IT assets
+Rapidly generate Swagger compliant APIs from backend datasources. Iteratively design and test APIs thereby shortening development cycles.
+Graphical API assembly
+Graphically assemble the API invocation flow and apply policies that need to be enforced for secure controlled access.
+Community & Subscription management
+Create developer communities to publish and share APIs and engage with them through a self-service portal. Also manage the subscriptions of the API to ensure easy consumption.
+Gain insights about API consumption
+Built-in analytics and customized dashboards empower businesses to make informed decisions.
+
+Use the IBM® API Connect for IBM Cloud service to quickly create APIs and microservices based on Node.js and Java runtimes. You can also manage your APIs by setting varying levels of security, visibility, billing information, and rate limits while sharing APIs with application developers. The API Connect service also lets you transform and grow your business with insights through detailed analytics with structured filtered searches.
+
+Use the IBM® API Connect for IBM Cloud service to quickly create APIs and microservices based on Node.js and Java runtimes. After they are created, you can manage your APIs with business-level controls by setting varying levels of security, visibility, and rate limits while sharing APIs with application developers. The API Connect service also provides you with the tools to transform and grow your business with insights through detailed analytics with structured filtered searches.
+
+With API Connect, you can import APIs from swagger definitions, or create APIs by using a proxy URL or by assembling data from HTTP data sources. In addition, API Connect supports creating and testing APIs offline. Embedded with the developer toolkit is a micro gateway that enables you to connect to back-end data sources, such as an SQL database, and perform create-, read-, update-, and delete-based operations.
+
+APIs are created within the developer toolkit. The developer toolkit includes a CLI and API Designer graphical user interface. To access the developer toolkit, you need to download and install it from npm. When you install the toolkit, you begin by creating a LoopBack project. The following diagram illustrates what is contained within a LoopBack project
+
+Use App Connect to connect your different applications and make your business more efficient. Set up flows that define how data is moved from one application to one or more other applications. App Connect supports a range of skill levels and interfaces, giving you the flexibility to create integrations without writing a single line of code. You can use a web user interface or drop resources into a toolkit that gives a broader range of configuration options. Your entire organization can make smarter business decisions by providing rapid access, visibility, and control over data as it flows through your business applications and systems from a single place - App Connect.
+
+Automate your workflow
+Replace tedious, manual tasks and boost your productivity with App Connect. Use event-based triggers to keep you and your applications informed about the events you care about. Spend less time getting your apps to work together, and more time deriving insight from data and delivering value to your customers.
+Integrate data and apps
+Connect your applications in minutes. Select from preconfigured events and actions to match your workflow. Visually map and transform one application’s data to another. Keep customer and other vital data in sync between multiple apps.
+Create flows for APIs without code
+Enable developers to build engaging mobile and web applications quickly by exposing flows as RESTful APIs. Starting with the model you want to use, implement operations in minutes without writing a single line of code.
+Infuse adaptive business logic
+Build intelligent flows for events and APIs that process data in a predictable and reliable way. Using conditional logic, define multiple execution paths and error handling to match your business use cases.
+Market-leading integration for Enterprises
+The Enterprise-enabled plans offer a powerful, standardized, flexible integration foundation that helps IT teams support business needs and scale with growth. App Connect Enterprise is the successor to IBM Integration Bus on Cloud and enables you to deploy and manage integrations across an enterprise from a single dashboard.
+Multiple plans to suit different business requirements
+Take advantage of different plans to suit your integration needs and skill levels. App Connect ensures a controlled but friction-free experience between different users, securely encouraging collaboration to facilitate better business outcomes.
+
+IBM Event Streams is a high-throughput message bus built with Apache Kafka. It is optimized for event ingestion into IBM Cloud and event stream distribution between your services and applications.
+
+Apache Kafka
+Event Streams is built with the open source Apache Kafka project. As a result, it directly benefits from all the innovation occurring in the community. Our fully managed service supports the Kafka client APIs, Kafka Streams, Kafka Connect, and also KSQL.
+IBM Cloud Functions
+Event Streams is available as an event producer and consumer for IBM Cloud Functions. This support allows you to use Event Streams as an event provider to trigger an action, and as a consumer of any output.
+IBM Watson IoT Platform
+Event Streams has managed connectivity to IBM Watson IoT Platform. This support allows you to use Event Streams as an event pipeline to consume your device events from the Watson IoT Platform and make them available in real time to the rest of the platform.
+IBM Cloud Object Storage
+This support means you can use events within Event Streams for your event driven applications, while continuously sending them to be stored by the Cloud Object Storage service. This is a common pattern for supporting real time and batch analytics of events.
+
+To get started with Event Streams and start sending and receiving messages, you can use the Java™ sample. The sample shows how a producer sends messages to a consumer using a topic. The same sample program is used to consume messages and produce messages.
+
+IBM® Event Streams for IBM Cloud is a high-throughput message bus built with Apache Kafka. It is a fully managed Apache Kafka as a service that is optimized for event ingestion into IBM Cloud and event stream distribution between your services and applications. Event Streams was previously known as Message Hub.
+
+You can use Event Streams to complete the following tasks:
+
+Offload work to back-end worker applications.
+Connect event streams to streaming analytics to realize powerful insights.
+Publish event data to multiple applications to react in real time.
+Transfer data into another service. For example, to Cloud Object Storage.
+By being built with Apache Kafka, it directly benefits from all the innovation occurring in the community and supports Kafka client APIs, Kafka Streams, Kafka Connect, and also KSQL.
+
+Apache Kafka tools usually work directly with Event Streams, although you do need to provide additional configuration because connections to Event Streams always authenticate using credentials.
+
+In Event Streams, applications send data by creating a message and sending it to a topic. To receive messages, applications subscribe to a topic and choose to either receive all the topic's messages or to share the messages between them. Event Streams hosts and maintains the messages in an ordered sequence.
+IBM Lift CLI makes it easy to quickly, securely and reliably migrate large data sets from your on-premises database or data source to an IBM cloud data property. Lift enables ultra-high-speed data movement to the cloud with embedded IBM Aspera, a highly-efficient data transport technology with speeds over 10x faster than traditional migration tools. Lift is a free offering that provides a simple yet extremely flexible bulk data loader, driven through a CLI, using a push-data model. It automatically recovers from common problems during the migration process, such as connection timeouts. All data moved over the wire to the IBM Cloud is completely secure via a 256-bit encrypted connection. Lift also behaves just like any cloud service. You’ll install the product once, and updates will stream to your install automatically.
+
+IBM MQ provides proven, enterprise-grade messaging capabilities, such as point-to-point and publish/subscribe models, to facilitate the flow of information between applications. This service enables you to use IBM MQ as a managed offering. The IBM Cloud handles upgrades, patches, and many of the operational management tasks on your behalf, so you can focus on integrating MQ with your applications.
+
+Extend your enterprise messaging to the cloud
+Connect new cloud-based apps to your core business systems by integrating with your existing on-prem MQ network.
+Managed messaging service
+IBM MQ automatically provisions and manages the infrastructure and software deployment, taking on the day-to-day administrative and maintenance tasks and make updating, migrating, and patching effortless.
+Quickly provision messaging capability in the cloud
+Create and use IBM MQ queue managers in minutes, enabling you to quickly connect new cloud applications using enterprise-grade messaging.
+Manage MQ your way
+Manage your cloud-based queue managers with the tools you know and love - including MQ Explorer, the MQ Console, or via MQ Script Commands (MQSC).
+
+The Secure Gateway Service provides a quick, easy, and secure solution for connecting resources in a protected environment to cloud resources. By deploying the light-weight and natively installed Secure Gateway Client, you can establish a secure, persistent connection between your environment and the cloud through an outbound call. Once the client is connected, you can safely connect your applications and resources by specifying their host and port to create corresponding destinations on the cloud. Rather than bridging your environments at the network level like a traditional VPN that begins with full access and must be limited from the top down, Secure Gateway provides granular access only to the resources that you have defined.
+
+Fast and Simple
+Quickly set up Gateways to connect your environments, manage the mapping between your local and remote destinations, and monitor all of your traffic.
+Access Control List
+Simple access management controls are available from the Secure Gateway Client to allow or deny access on a per resource basis to prevent any unauthorized access. This list will automatically synchronize to any Client connected to the same Gateway.
+Encryption and Authentication
+All communication with Secure Gateway is easily configurable to provide TLS encryption and mutual authentication.
+Load Balancing and High Availability
+On Professional and Enterprise plans, you can connect multiple instances of the Secure Gateway Client to your gateway to automatically leverage built-in connection load balancing and connection fail-over should one Client instance go down.
+Resource Monitoring
+Monitor all your gateways from the Secure Gateway Dashboard or monitor individual gateways from the Secure Gateway Client.
+IBM® Secure Gateway for IBM Cloud service provides a quick, easy, and secure solution for connecting anything to anything. By deploying the light-weight and natively installed Secure Gateway Client, a secure, persistent connection can be established between your environment and the cloud. With this, you can safely connect all of your applications and resources regardless of their location. Rather than bridging your environments at the network level like a traditional VPN, Secure Gateway provides granular resource control operating with the principle of least privilege as its core tenet.
+IBM® Secure Gateway for IBM Cloud maintains a single persistent encrypted (TLS v1.2) connection between the Secure Gateway Client (in the on-prem network) and the Secure Gateway Servers. With this bidirectional connection, we're able to securely transmit data between your cloud resources and your on-prem resources. For the connections on either end (between cloud resource and SG Servers and between on-prem resources and SG Client), the user defines the protocol (TCP, TLS, HTTP, HTTPS, UDP) and security measures (mutual authentication, iptables) placed on them.
+Rocket Mainframe Data Service on IBM Cloud provides an easy way to leverage your mainframe data for new cloud services and mobile apps. Built on our proven data virtualization technology, this new mainframe data provides access to a breadth of data sources--without worrying about the underlying data format. Developers have the flexibility to use either MongoDB or SQL (JDBC) to access data on z Systems. With Rocket Mainframe Data Service on IBM Cloud, developers working in IBM Cloud now have an agile method for incorporating system of record data on z Systems into cloud or mobile applications.
+This third-party service does not have an IBM pricing plan. You can obtain it from the third party under the terms of use agreement. The third party might charge you for use of the service.
+Pre-CAT Notifications allow you to give policyholders in high-risk areas an early warning of an anticipated catastrophe and an expectation for how losses will be handled following the CAT event, leading to increased claims satisfaction.
+SPLICE Pre-CAT Notification Dialogs allow you to effectively communicate to your customers to best prepare them for impending catastrophic events. By providing a custom personalized response to your clients, you can ensure that the exact message you wish to purvey will be received and using SPLICE's industry leading voice will empower your customer relation experience.
+
+By taking advantage of this API solution, you will be able to quickly and easily integrate this solution into any of your associated workflows.
+
+
+
+
+
+
+
+
+
+
+
+

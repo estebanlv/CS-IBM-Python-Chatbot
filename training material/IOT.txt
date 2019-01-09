@@ -1,0 +1,69 @@
+This service is the hub for IBM Watson IoT and lets you communicate with and consume data from connected devices and gateways. Use the built-in web console dashboards to monitor your IoT data and analyze it in real time. Then, enhance and customize your IBM Watson IoT Platform experience by building and connecting your own apps by using messaging and REST APIs.
+Connect
+Quickly and securely register and connect your devices and gateways. You can find simple step-by-step instructions for connecting popular devices, sensors, and gateways in our recipes site.
+Information Management
+Control what happens to the data that is received from your connected devices. Manage data storage, configure data transformation actions, and integrate with other data services and device platforms.
+Analyze in real time
+Monitor your real-time device data through rules, analytics, and dashboards. Define rules to monitor conditions and trigger automatic actions that include alerts, email, IFTTT, Node-RED flows, and external services to react quickly to critical changes.
+Risk and Security management
+Our secure-by-design control capabilities protect the integrity of your IoT solution through secure connectivity and access control for users and applications. Extend the base security with threat intelligence for IoT to visualize critical risks and automate operational responses with policy-driven mitigation actions.
+
+IBM Watson™ IoT Platform is a fully managed, cloud-hosted service that makes it simple to derive value from Internet of Things (IoT) devices.
+
+Simply register and connect your device, be it a sensor, a gateway or something else to Watson IoT Platform and start sending data securely up to the cloud using the open, lightweight MQTT messaging protocol. You can setup and manage your devices using your online dashboard or our secure APIs, so that your apps can access and use your live and historical data.
+
+This service lets you integrate weather data from The Weather Company into your IBM Bluemix application. You can retrieve weather data for an area specified by a geolocation. The data allows you to create applications that solve real business problems where weather has a significant impact on the outcome. WARNING: Currently, the Weather Company Data for IBM Bluemix service MAY NOT be purchased or used in the following countries or regions: Afghanistan, Armenia, Azerbaijan, Bahrain, Bangladesh, Bhutan, Brunei, Cambodia, China, Cyprus, Georgia, Indonesia, Iran, Iraq, Japan,Jordan, Kazakhstan, Kuwait, Kyrgyzstan, Laos, Lebanon, Malaysia, Maldives, Mongolia, Myanmar, Nepal, Oman, Pakistan, Qatar, Russia,Saudi Arabi, Singapore, South Korea, Sri Lanka, Syria, Taiwan, Tajikistan, Timor-Leste, Turkmenistan, United Arab Emirates, Uzbekistan, Vietnam, Yemen. We encourage you to check back often to review the list. We will update it when additional information becomes available.
+
+Hourly forecast
+An hourly weather forecast for the next 48 hours starting from the current time, for a specified geolocation.
+Daily forecast
+A daily forecast for each of the next 3, 5, 7, or 10 days starting from the current day, including forecasts for the daytime and nighttime segments.
+Intraday forecast
+A daily forecast for each of the next 3, 5, 7, or 10 days starting from the current day, which breaks each daily forecast into morning, afternoon, evening, and overnight segments.
+Current conditions
+Observed weather data (temperature, wind direction and speed, humidity, pressure, dew point, visibility, and UV Index) plus a weather phrase and a matching weather icon.
+Historical data
+Observed weather data from site-based observation stations for a specified geolocation that includes current observations and up to 24 hours of past observations.
+Weather alerts
+Government-issued weather alerts, including weather watches, warnings, statements, and advisories issued by the National Weather Service (US), Environment Canada, and MeteoAlarm (Europe).
+Location services
+The ability to look up a location name or geocode (latitude and longitude) to retrieve a set of locations that match the request.
+Almanac services
+Historical daily or monthly weather data sourced from National Weather Service observations stations from a time period spanning 10 to 30 years or more.
+Unlock the power of the Internet of Things by prototyping, building and hosting IoT applications with AT&T Flow Designer. AT&T Flow Designer is a robust web-based development environment where data driven applications can be designed and deployed with ease. Flow makes it easy to prototype IoT solutions. Flow nodes are Open Source and available via GitHub. The Flow infrastructure is built to AT&T’s exacting security standards.
+Unlock the power of the Internet of Things by prototyping, building and hosting IoT applications with AT&T Flow Designer on Bluemix. AT&T Flow Designer is a robust web-based development environment where data driven applications can be designed and deployed with ease. Flow makes it easy to prototype IoT and M2M solutions. Flow nodes are Open Source and available via GitHub.
+Fast and flexible LTE-enabled cellular connectivity for your commercial IoT projects. Manage your IoT SIMs and data usage over a consolidated network of connected devices over a small-to-medium scale project. IoT Data Plans is the solution for a-la-carte self-service, easy-to-use SIM card and data management over dashboards, and real-time diagnostics and provisioning with AT&T Control Center, powered by Cisco Jasper. Enterprise-grade IoT LTE-enabled SIM Cards are available for purchase. Manage SIMs and data plans over their full lifecycle.
+Bosch IoT Rollouts is a cloud service in the Bosch IoT Suite that enables users to manage the rollout of software updates to edge devices, controllers, and gateways.
+
+Bosch IoT Rollouts is a domain independent back-end solution for rolling out software updates to constrained edge devices as well as more powerful controllers and gateways connected to IP based networking infrastructure. Devices can connect to the Rollouts server either directly through an optimised interface or indirectly through federated device management servers
+This API can help you to assess the health status of a vehicle, by translating OBD error codes in a human readable form. We support all error codes that can be read with the widely used ELM327 OBD dongles. In addition to that, we also support error codes that are specific to car manufacturers. Our database includes more than 17.000 error codes that are professionally maintained.
+Locate mobile devices using our cloud-based hybrid location solution. Skyhook’s Precision Location delivers accurate positioning using Wi-Fi, A-GPS, Cell or Hybrid location methods for any connected device anywhere on the globe.
+The world’s first true intelligent IoT messaging platform, UIB’s patented device- and platform-agnostic UnificationEngine™ (UE) technology uses Artificial Intelligence (AI) and Natural Language Processing (NLP) to enable human to machine (H2M) communications on over 20 of the world’s most popular global communications channels, including: email, SMS, Facebook, WhatsApp, Viber, Skype, and many others, with new channels being added monthly. Dedicated to the Internet of Things (IoT), UE’s AI-powered unified messaging and intelligent chatbot technology platform provides users, developers, and manufacturers with increased security, interoperability, and convenience for smart home, smart enterprise, and smart city use cases and solutions. Learn more about how UE can enable you to simply communicate at unificationengine.com and unifiedinbox.com.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
