@@ -1,0 +1,136 @@
+Use a load balancer service to distribute traffic among your application servers residing locally within data center. 
+The IBM© Cloud Load Balancer service helps customers improve availability of their business-critical applications by distributing traffic among multiple application server instances, and by forwarding traffic to healthy instances only.
+The IBM Cloud Load Balancer Service offers the following features:
+Public (internet-facing) load balancer
+Publicly-accessible service through its fully qualified domain name (FQDN)
+Backend server instances on private subnets
+Internal load balancer
+Privately-accessible service through its fully qualified domain name (FQDN)
+Client requests are routed over the private network
+Backend server instances on private subnets
+Basic load balancing
+Traffic distribution based on Layer-4 application port information
+Support for HTTP, HTTPS and TCP-based applications
+Variety of load balancing methods such as round-robin (RR), weighted round-robin, and least connections
+Load balancing among virtual server and bare metal compute instances residing locally within a data center
+Server health checks
+Periodic monitoring of server health to ensure that traffic is forwarded to healthy servers only
+Layer-4 health checks for TCP ports and Layer-7 health checks for HTTP port
+SSL offload
+Termination of incoming SSL (HTTPS) traffic using plain-text HTTP communication with backend servers
+Advanced traffic management
+Client stickiness (session persistence)
+Maximum connections per virtual port
+Easy management using intuitive graphical interface and API
+Built-in reliability
+Usage-based pricing
+Monitoring
+
+The Content Delivery Network service distributes content where it is needed. The first time content is requested, it’s pulled from the host server to the network and stays there for other users to access it.
+Distribute your content in geographically diverse nodes and shorten the distance it has to travel to get to your end user. Avoid network traffic jams, decrease latency, and optimize the performance of your overall cloud solution. We’ve partnered with Akamai, a best-of-breed CDN provider, to create one of the world’s fastest and most reliable content delivery networks. Take advantage of superior web/mobile performance and video delivery solutions – all underpinned by exceptional customer service and 24/7 monitoring. You can count on our partnership to support and maximize your business outcomes, each step of the way.
+A Content Delivery Network (CDN) is a collection of edge servers that are distributed through various parts of the country or the world. Web content is served from an edge server, which is located in the geographic area closest to the customer who requests the content. This technique lets your end-users receive the content with less delay, and it delivers a better overall experience for your customers.
+IBM Cloud Direct Link Connect offers private access to your IBM Cloud infrastructure and to any other clouds linked to your Network Service Provider, through your local IBM Cloud datacenter.
+This option is perfect for creating multi-cloud connectivity in a single environment. We connect customers to the IBM Cloud private network, using a shared bandwidth topology. As with all Direct Link products, you can add global routing that enables private network traffic to all IBM Cloud locations.
+Fully Integrated Hybrid Environment
+Whether your resources are in your datacenter or on the IBM Cloud, you can operate with the speed and security that your business requires.
+Secure Dedicated Connectivity
+Deploy your resources where you need them on IBM Cloud's secure network. You need not sacrifice performance quality for security and compliance.
+Connect directly to IBM Cloud through a single-tenant connection, using a dedicated circuit or cross-connect, for unparalleled network performance to and from your IBM Cloud platform resources.
+IBM Cloud Direct Link Dedicated is a single-tenant product. It offers a dedicated port that is perfect for banks, insurance companies or anyone with strict compliance policies. Create a fiber cross-connection through a network service provider (NSP) in an IBM Cloud network point of presence (PoP). Our engineers facilitate end-to-end connectivity with your selected NSP, and you have access to your cloud infrastructure in the local IBM Cloud data center. The NSP runs last-mile links directly between a router on your network and an IBM Cloud router. As with all of the Direct Link products, you can add global routing that enables private network traffic to all IBM Cloud locations.
+Establish unparalleled network performance to and from your IBM Cloud platform resources, with customized support for your secure, dedicated workloads that require predictable latency.
+IBM Cloud can arrange the acquisition of colocation space that fits your needs. Or if your gear already is installed in a colocation provider's facility near an IBM Cloud data center, our network engineers can work with you to facilitate end-to-end connectivity between your existing hardware and your IBM Cloud infrastructure. As with all Direct Link products, you can add global routing that enables private network traffic to all IBM Cloud locations.
+IBM Cloud Direct Link Exchange offers multi-tenant connections to your IBM Cloud infrastructure, through your local IBM Cloud datacenter, perfect for creating multi-cloud connectivity in a single environment.
+This option is perfect for creating multi-cloud connectivity in a single environment. We connect customers to the IBM Cloud private network, using a shared bandwidth topology. You can aggregate your MPLS, VPLS, or EVPN into the IBM Cloud network over VLANs, using one of our global network and exchange providers. As with all Direct Link products, you can add global routing that enables private network traffic to all IBM Cloud locations.
+IBM Cloud offers domain registration services complete with dedicated support staff, knowledgeable customer service, and reasonable prices, all delivered over a secure network.
+We provide you the option of registering for a selection of top-level domains, including: .COM, .NET, .ORG, .US, .INFO, and .BIZ with our comprehensive and easy-to-use interface. IBM Cloud Domain Name Service(DNS) provides customers a central location to view and manage their domains through our basic DNS management interface and also gives users the option to manage reverse and secondary DNS in the same location free of charge.
+Generally, the time to live is specified in the Start of Authority (SOA) record. SOA parameters are:
+
+Serial
+The revision number of this zone file. Increment this number each time the zone file is changed so that the changes will be distributed to any secondary DNS servers.
+
+Refresh
+The amount of time in seconds that a secondary name server should wait to check for a new copy of a DNS zone from the domain's primary name server. If a zone file has changed then the secondary DNS server will update its copy of the zone to match the primary DNS server's zone.
+
+Retry
+The amount of time in seconds that a domain's primary name server (or servers) should wait if an attempt to refresh by a secondary name server failed before attempting to refresh a domain's zone with that secondary name server again.
+
+Expire
+The amount of time in seconds that a secondary name server (or servers) will hold a zone before it is no longer considered authoritative.
+
+Minimum
+The amount of time in seconds that a domain's resource records are valid. This is also known as a minimum TTL, and can be overridden by an individual resource record's TTL.
+
+TTL (time to live)
+The number of seconds a domain name is cached locally before expiration and return to authoritative nameservers for updated information.
+
+Cloud Internet Services provides reliability, performance, and security for Internet facing applications, websites, and services using Cloudflare's 150+ Global Points of Presence (PoPs). It includes Domain Name Service (DNS), Global Load Balancer (GLB), Distributed Denial of Service (DDoS) protection, Web Application Firewall (WAF), Transport Layer Security (TLS), Rate Limiting, Smart Routing, and Caching.
+DDoS Protection
+Scalable, easy-to-use, and high-performant DDoS protection to address availability challenges.
+Web Application Firewall (WAF)
+Layered defense to protect data against sophisticated attackers and malicious bots using Web Application Firewall (WAF).
+Transport Layer Security (TLS)
+Secure data transfer with the latest encryption standards.
+Domain Name Server (DNS)
+Fast resolution of hostnames to their corresponding IP addresses or aliases.
+Global Load Balancer (GLB)
+Reduce latency and increase availability by routing traffic across servers based on their availability and service health.
+Caching
+Provide visitors with location-based access, removing latency, improving performance and fine tuning website behavior with page rules.
+Free Trial
+Try Cloud Internet Services free for 30 days. Only one free instance per account allowed.
+Smart Routing (Enterprise Plans Only)
+Ensure content is delivered on the fastest path from end user to application, website or API.
+Rate Limiting (Enterprise Plans Only)
+Protect applications and websites against volumetric application and brute force attacks.
+IBM Cloud Internet Services (CIS), powered by Cloudflare, provides a fast, highly performant, reliable, and secure internet service for customers running their business on IBM Cloud.
+
+IBM CIS gets you going quickly by establishing defaults for you, which you can change easily using the API or UI. Here are some commonly changed parameters:
+
+DNS settings: you can use IBM CIS to host your DNS or you can create CNAME records.
+Crypto settings (TLS): the default is flexible mode, which encrypts the connection between your host and the IBM CIS edge server, but does not encrypt the communication between the IBM CIS edge server and origin server.
+VPN access is designed to allow users to remotely manage all servers and services associated with their account over our private network.
+VPN facilitates connectivity from your secure network to IBM IaaS platform’s private network. A VPN connection from your location to the private network allows for out-of-band management and server rescue through an encrypted VPN tunnel. Communicating using the private network is inherently more secure and gives users the flexibility to limit public access while still being able to access their servers. Any user on your account can be given VPN access, which is available as both SSL and PPTP. In addition IBM Bluemix also allows to establish a connection using IPSec.
+VPN access enables you to manage all servers and services associated with your account, remotely, over the IBM Cloud private network. A VPN connection from your location to the private network allows out-of-band management and server rescue through an encrypted VPN tunnel.
+
+Communicating using the private network is inherently more secure. It gives you the flexibility to limit public access while still being able to manage your servers. Any user on your account can be given VPN access, which is available as SSL. VPN interactions through the Customer Portal External link icon allow for VPN access customization at the user level.
+his out-of-band secure gateway gives you access to your server over the private network. Common uses are:
+
+Connect to your server's private IP address for SSH or RDC.
+Connect to your IPMI card for remote console/access/monitoring.
+Mount drives in Windows or Red Hat from home or work PC for convenience.
+Shut down public interface on database servers and manage over the private network.
+Shut down public interface while setting up the server for the first time.
+Shut down public interface during critical security updates.
+Shut down public interface during security breach and resolve the issue over the private network.
+
+Primary Subnets
+Primary Subnets are assigned automatically by IBM Cloud, and are what provide IP addresses to resources as needed. We assign and remove Primary Subnets as required to fulfill other products. All servers will be provisioned with at least one IP address from a Primary Subnet, commonly referred to as a primary IP address. Some products and options result in more primary IP addresses being assigned.
+
+It is important to understand that IP addresses within Primary Subnets, which are not yet assigned to resources, are not available for your use. If you attempt to use unassigned IP addresses from Primary Subnets we will inevitably assign them to another resource at some point. This leads to IP conflicts on the network and general service disruption. We reserve the right to block or otherwise make unusable any IP address on a Primary Subnet which is not specifically assigned during fulfillment of other products.
+
+We highly recommend using Secondary Subnets as your external facing service/application IP addresses; especially when designing multi-server applications. Using the primary IP addresses assigned to your servers is perfectly fine. However, doing so lacks the flexibility of maintaining known addresses to your services which are agnostic of server cancellation and ordering. There are no guarantees made with regard to the order primary IP addresses are assigned in, such as ascending, descending, skipping gaps, etc.
+
+Note: Under no circumstances are we able to reserve IP addresses in Primary Subnets for your use.
+
+Secondary Subnets
+Secondary Subnets provide you with additional IP addresses for many needs. Unlike Primary Subnets, these subnets are owned by you for the duration of your use, and will not be removed unless you cancel them. Secondary subnets should be used when you need a stable IP address that should not be dependent of any specific compute device. Example uses include:
+
+IP addresses you can assign to your own, local, virtual machines.
+Multiple, distinct service IP addresses hosted by a single server allowing you to easily identify traffic. Commonly used with web servers and TLS.
+A service IP address tied to DNS. Avoid DNS caching delays when shifting workloads to new servers (ie. the service IP won't change simply because a server's primary IP address does!).
+High availability configurations which utilize "floating" IP address protocols.
+To achieve such uses, and many more, we offer different routing options for Secondary Subnets. In order to help illustrate the differences between the Secondary Subnets we offer, we'll refer to the below example subnet in further explanations.
+
+VLANs isolate broadcast traffic on all IBM Cloud public and private networks. If you need a more complex network topology, additional VLANs can be purchased to isolate traffic between additional groups of devices.
+A Virtual Local Area Network (VLAN) is a network construct that makes it possible to create broadcast domains at the OSI Model layer-2 level. IBM Cloud uses VLANs to isolate broadcast traffic, to provide packet identification, and to let multiple workloads coexist on the same physical equipment. Depending on your situation, you may never need to interact with VLANs directly, because they are managed automatically. Optionally, you can order additional VLANs based on your unique network isolation requirements.
+Virtual Local Area Networks (VLANs) are used by IBM® Cloud to isolate broadcast traffic on the public and private networks. VLANs are assigned as needed to fulfill other offerings. For instance, if you place a compute order for a datacenter in which you don't yet have a presence, you automatically receive a VLAN. Additional compute orders for the same datacenter, which do not specify network requirements, usually are placed in the previously assigned VLAN. All VLANs that are assigned automatically are also removed automatically when your resources no longer require them.
+
+VLANs are specific to the routers used in IBM Cloud datacenters, and a datacenter contains multiple routers for both the public and private networks. Thus, it is possible that multiple VLANs can be assigned within a single datacenter. It also is possible to order additional VLANs to construct more complex network topologies
+VLANs are central in directing traffic to your resources. You may never need to interact directly with any VLANs, because they are managed automatically: they are assigned as needed and removed when not.
+
+
+
+
+
+
+
