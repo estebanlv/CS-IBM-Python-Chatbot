@@ -1,0 +1,110 @@
+Engage with IBM Experts to build a more meaningful application for your users. Get the most out of your IBM Cloud account by working with either of our consulting practices: Cloud Garage, or Watson Expert Services.
+IBM Cloud Garage
+IBM Cloud Garages stimulate creativity, learning, and transformation with the IBM Cloud Garage Method. See for yourself how the bold energy, agile techniques, and sharp focus of startups can impact your business with true innovation at one of our worldwide Garage locations.
+IBM Watson Expert Services
+Creating cognitive solutions to solve business problems requires a specialized skill set that is rare within the market. A differentiated approach is needed to apply these skills. IBM Watson Expert Services modules are designed to transfer cognitive solution design and development approaches directly to you.
+
+IBM Information Server on Cloud provides IBM InfoSphere Information Server on IBM SoftLayer global cloud infrastructure. It offers the rich features of the on-premises Information Server deployment without the cost, complexity, and risk of managing your own infrastructure.
+
+Robust Backup Infrastructure
+Fully customizable built in hardware and software infrastructure based on the proven technology Spectrum Protect.
+High Availability
+Highly optimized out-of-the-box high availability option available for DataStage and Information Server Enterprise Edition.
+Comprehensive Data Integration Solution
+Information Server on Cloud Enterprise Edition provides comprehensive data integration to support trusted and governed information: It provides end-to-end information integration capabilities to help you understand, govern, create, maintain, transform and deliver quality data. In this service, the following capabilities are packaged together: Information Governance Catalog on Cloud, DataStage on Cloud, Information Server on Cloud Data Quality.
+Integrate and Tranform Data On Demand
+DataStage on Cloud integrates all types of data across multiple systems: It uses a high performance parallel framework and supports extended metadata management and enterprise connectivity. This service provides powerful and scalable ETL platform, supports near real time data integration, helps you optimize hardware utilization and prioritize mission critical tasks through workload and business rules management.
+Control Data Quality and Govern Information - Contact sales to order
+Information Server on Cloud Data Quality and Information Governance Catalog on Cloud are available directly through sales. To order, contact your Americas Call Centers, local IBM representative, or your IBM Business Partner. To identify your representative or partner call 800-426-4968. For more information, contact the Americas Call Centers. Phone: 800-IBM-CALL (426-2255) Fax: 800-2IBM-FAX (242-6329).
+Security Compliance
+You can choose to order a HIPAA-ready system for Information Server on Cloud plans hosted on IBM SoftLayer®. For more information, contact your IBM Cloud Data Services sales representative.
+
+
+IBM® Information Server on Cloud offerings provide data integration and governance products as a service on the global cloud infrastructure of IBM SoftLayer. It offers the rich features of an on-premises data integration product deployment without the cost and complexity of deploying the infrastructure. Optionally managed add-on services can also be added to maintain and manage the infrastructure.
+
+Voice Agent with Watson enhances your call center operations by orchestrating Watson services and integrating them with the telephone network. Your voice agent can listen and respond to customers using natural language.
+
+Connect Watson to the telephone
+Connect Watson services to your telephone or call center network.
+Train your voice agent
+Train Watson to understand intents that a caller might have, respond to those intents, and reply to callers in a conversation. This training enables the Watson services to handle queries and answer questions from callers in real time.
+Program your voice agent within Watson Assistant
+By setting the action commands within your Watson Assistant dialog, you can do everything from changing barge-in behavior to hanging up the call during the conversation flow.
+Customize with third-party APIs
+Expand Voice Agent with Watson capabilities by incorporating a service orchestration engine (SOE) so that you can integrate third-party APIs. The SOE can listen for triggers from Watson to look up information in existing systems, either on-premises or in the cloud. You can also use the SOE to provide Watson with parameters that control what Watson tells a caller.
+
+IBM® Voice Agent with Watson™ enables direct, automated voice interactions over the telephone between a cognitive voice agent and your customers. With Watson artificial intelligence at its backbone, your voice agent can communicate in a more conversational manner, and it can handle complex interactions that are difficult for traditional interactive voice response (IVR) systems.
+
+Use our low-latency news sentiment API feed to build custom trading strategies or integrate it with your existing strategies. With over 300 million news websites, blogs, and social media websites, such as Twitter, monitored in real-time, we extract article meta data, company and events information, and derived trading analytics per article for our institutional customers.
+
+Accern alerts you on actionable stories about U.S. public companies. By monitoring over 300 million public news, blog, social media websites, and financial documents, it identifies low-exposed stories and uses advanced data science to determine whether the stories are reliable and impactful.
+
+By using this systematic approach, Accern is able to provide users with quick delivery of actionable stories before they are exposed to the mass media. This helps our users make quicker and more informed decisions in their investment strategies.
+
+Existing users include, but are not limited to hedge funds, asset managers, equity researchers, news media, and Fortune 500 companies.
+
+Helps tackle information overload in confusing Fed speak by reading and distilling tens of thousands of articles looking for every nuance related to inflation and employment in real time. Helps forecasts interest rate movements more accurately
+Rational Exuberance, our contextually adaptive and learning Fedspeak parser, is designed to help buy and sell side analysts refine forecasting assumptions based on hawkish/dovish sentiment divergences between the FOMC and general market chatter. Rational Exuberance can also help traders make tactical changes in position sizing and better hedge rate-sensitive positions.
+
+Rumor Hound scrapes thousands of unstructured data sources in real-time, identifies rumors buried in the data, and provides a filtered list of rumored acquisition targets scored by recency and credibility
+
+Analysts, portfolio managers and traders struggle to keep ahead of market moving merger and acquisition rumors because actionable m&a rumors can emanate from any one of countless digital data sources. Rumor Hound solves this problem by continuously scouring tens of thousands of public, digital data sources in real time to find actionable m&a rumors that haven't yet been priced into the stock. Rumor Hound understands what an actionable m&a rumor looks like in all its linguistic nuance. When Rumor Hound finds a rumor, the rumor is pushed to users via API, dashboard, customizable filters and notifications along with a score that measures the credibility of the source based on site demographics, social media influence, Alexa rankings, etc. Transcending the black box, Rumor Hound provides users with not just the credibility score but also the source URL where the rumor was found as well as the rumor snippet itself so that users can validate for themselves the action-ability of the rumor. We are observing that m&a rumors that emanate from low credibility sources that gain momentum and are picked up by higher credibility sources tend to move prices.
+
+Through our Rumor Hound API, customers can access historical Rumor Hound data on hundreds of stocks. The Rumor Hound API covers m&a rumors for several thousand stocks. We continue to model Rumor Hound insights and as we identify predictive patterns, we will be happy to share reproducible research and data with API customers.
+
+Topic Deltas listens to earnings calls in real-time, quantifying nuance and measuring sentiment deltas across calls and against market expectations. Tackles information overload in earnings calls by transforming messy data into quantifiable numbers
+
+The primary value proposition of Accrete's Topic Deltas product is to improve the efficiency of investment processes by monitoring subtle shifts in topical sentiment across a vast number of earnings calls that would be physcially impossible for even an army of human analysts to achieve with any accuracy. Accrete's Topic Delta product ingests earnings transcripts and maps linguistic nuances to key topics, scores the sentiment of the language associated with these key topics and measures the delta between topics spoken about accross quarterly earnings calls. For example, if a public company executive mentioned in the previous quarterly earnings call that "Customer pipeline looks great" but in the current quarterly earnings call mentions that "Customer pipeline looks good", the subtle shift in language from very positive to moderately positive may not be accounted for in the actual reported numbers but could have material impact on the psychology influencing the company's stock price.
+
+Through our Topic Deltas API, users can access 5 years of historical Topic Deltas on quarterly earnings call transcripts for each stock in the S&P 500. Additionally, via the API the user also gets access to upcoming topical sentiment scores, deltas and language snippets for easy self-validation for each stock in the S&P 500 within 8 hours post transcript release. Finally, as we continue to extract and model insights buried in the nuances of earnings call language, our preliminary research has been showing that significant shifts in aggregate topic deltas forecast >=25% price movements in the direction of the delta with ~71% accuracy, both in and out of sample. We believe that we are just scratching the surface with these cognitive insights and that there are many hidden features in the data that have yet to be discovered. API customers get access to our full historical data set, research results and methodology.
+
+Apache Spark is an open source cluster computing framework optimized for extremely fast and large scale data processing, which you can access via the newly integrated notebook interface IBM Analytics for Apache Spark. You can connect to your existing data sources or take advantage of the on-demand big data optimization of Object Storage. Spark plans are based on the maximum number of executors available to process your analytic jobs. Executors exist only as long as they're needed for processing, so you're charged only for processing done.
+Incredibly Fast
+Apache Spark delivers 100x the performance of Apache Hadoop for certain workloads because of its advanced in-memory computing engine.
+Easy to Use and Powerful
+Apache Spark's Streaming and SQL programming models backed by MLlib and GraphX make it incredibly easy for developers and data scientists to build apps that exploit machine learning and graph analytics. Because the service is 100% compatible with Apache Spark, developers can build their apps and run them against the IBM managed service to benefit from operational, maintenance, and hardware excellence.
+Convenient Data Storage
+Object Storage enables a convenient way to upload your data from a file for immediate use by your Spark instance. You can set up Object Storage directly from the Spark service interface.
+Apache Spark is a distributed data processing analytics engine that makes available new capabilities to data scientists, business analysts, and application developers. Analytics for Apache Spark provides fast in-memory analytics processing of large data sets.
+Alloy's API and dashboard helps financial institutions integrate multiple sources of data and custom CIP rules to both increase the number of customers that can be successfully onboarded and improve transparency and efficiency into the process.
+Alloy is a platform to know your customers. We make KYC/AML/CDD effective and simple by providing one API to many data sources, a customizable rules engine, modeling capabilities, as well as advanced analytics and auditing.
+
+Use our Daily Bond Price and Historical Bond Prices API data to build custom bond investment strategies or integrate it with your existing investment strategies. With a number of real time data sources moulded in our advanced algorithm we bring to you real time bond data like prices, yields, credit risk, liquidity etc. right from the heart of the global bond markets.
+BondEvalue provides you access to live and historical bond prices and yields data for bonds. Unlike equities which have already been digitally disrupted, bonds have remained unchanged for decades, with private bank clients unable to access live prices. With the help of our advanced algorithm we monitor the bond specific data points from a large variety of sources and enable individual investors to get the latest and accurate bond prices, yields, liquidity, riskiness, news and many other data points which help them to make more informed decisions at the time of bond trading.
+
+Fully Managed RabbitMQ clusters - CloudAMQP automates every part of setup, running and scaling of RabbitMQ clusters.
+Message Queues in the Cloud
+CloudAMQP installs and manages RabbitMQ clusters for you. RabbitMQ supports multiple protocols such as AMQP, MQTT, HTTPS, STOMP, and WebSockets (Web-Stomp).
+Event Stream
+The event stream allows you to see the latest 1000 events from your RabbitMQ cluster. New events will be added in real time. This is great for debugging and performance investigations.
+Plug-ins at your assistance
+From CloudAMQP’s control panel you can easily enable common RabbitMQ plug-ins for your server. You will also find top community plug-ins that are installed with a click.
+Exceptional Support
+We provide 24/7 support to thousands of customers. We've been providing the service for years and have unmatched operation experience from a huge range of customers. There's no scaling or implementation problem we can't solve.
+Risk and Compliance professionals need a variety of tools to understand the risks inherent in their investments. Coalesce uses IBM Watson® to allow analysts and business users to search all forms of external and internal data for risk analysis signals.
+Investment managers and risk and compliance professionals use a wide variety of tools to understand the risks inherent in their investments. Coalesce is a unique Artificial Intelligence product that uses IBM Watson® to allow analysts and business users to search the internet and all forms of internal data for “Signals” that may be relevant to risk analysis.
+Perfectly configured and optimized PostgreSQL databases ready in 2 minutes
+Your DBA in the Cloud
+ElephantSQL is hosted by PostgreSQL experts, with several years of DBA PostgreSQL experience. We provide 24/7 support to thousands of customers.
+Automated backups
+Automated backups are performed every day, which is stored in a cloud file storage so that they are always accessible to you. You can also use point-in-time-recovery to restore your database.
+Monitoring
+Our control panel offers various tools for monitoring; you can view server metrics to measure performance and view slow queries. You also have the choice to ship your PostgreSQL logs to Papertrail, Splunk, Loggly, and Logentries.
+
+ElephantSQL automates every part of setup and running of PostgreSQL clusters. Let your team focus on what they do best - building your product. Leave server management and monitoring to the experts.
+The Dwolla Platform helps businesses easily connect to the ACH network to send, receive or facilitate the transfer of funds to their users. Developer friendly, the ACH-optimized API scales reliably for businesses, exceeding 99.9% uptime.
+Dwolla now facilitates the movement of millions of dollars every day with low transaction costs, easy automation and near-perfect reliability. The goal is to make an incredibly complex process feel simple, easy and seamless to the people who use it—our customers and their end users.
+
+Applications should be built and tested in the Dwolla Sandbox environment before being used in production.
+Powerful cloud-based, API-first platform for online finance applications. Customers can access end to end financial services functions through a single API and use them together with our Intelligent Connectivity Layer to create smart automated workflows.
+Difitek is a powerful cloud-based, API-first platform for online finance applications. Customers can access end to end financial services functions through a single API and use them together with our Intelligent Connectivity Layer to create smart automated workflows.
+
+The core benefits of the platform are OPEX and CAPEX cost transformation and support for cutting edge, green field finance applications.
+Create Alexa Skills, Google Home Actions, Facebook Messenger Bots & Chatbots without Coding.
+
+Conversation.one is a build-once-deploy-anywhere platform, where your app can be deployed as an Alexa skill, Google Home action, Facebook Messenger bot, or a chatbot on your website
+
+In this example, you’ll build a basic “what happened today” conversational application that provides a dynamic and personalized response. A conversational app contains intents, entities, and responses that you want to deliver to your user. Intents are the mechanisms that pick up what your user is requesting (using entities) and that direct the app to respond accordingly.
+
+For simple replies that don’t include information gathered outside of the conversation, you can define textual hard-coded responses. More advanced responses can be made using your own logic and integrations. In later sections, you’ll add responses gathered from an external API call. For now, let's cover the basics.
+
