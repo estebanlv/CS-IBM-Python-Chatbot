@@ -1,0 +1,108 @@
+Use App ID to add authentication to your mobile and web apps and protect your APIs and back-ends running on IBM Cloud. Add email/password based sign-up and sign-in, and MFA with App ID's scalable user registry - Cloud Directory, or social log-in with Google or Facebook. For employee apps, use SAML 2.0 federation to let users sign-in with their enterprise credentials.
+For all app users, enrich their profiles with additional info so you can build engaging experiences.
+
+Authentication
+Add user sign-in and sign-up functionality to your mobile and web apps, and secure access to back-end resources and APIs from unauthorized users. Includes enterprise, social, email/password sign-in, and multi-factor authentication (MFA). In your app to app or service to service scenarios, add identity to your apps. OAuth2 and OIDC compliant.
+Profiles
+Build custom app experiences for your users. Use profiles to store and access user data that you need to build engaging experiences, such as user app preferences.
+User Management
+Leverage a scalable user registry for your apps so users can sign-up and sign-in with an email and password. Users can manage their own accounts through self-service flows like reset password and forgot password.
+
+Application security can be incredibly complicated. For most developers, it's one of the hardest parts of creating an app. How can you be sure that you are protecting your users information? By integrating IBM® Cloud App ID into your apps, you can secure resources and add authentication; even when you don't have a lot of security experience.
+
+By requiring users to sign in to your app, you can store user data such as app preferences or information from the public social profiles, and then use that data to customize each experience of your app. App ID provides a log in framework for you, but you can also bring your own branded sign in screens when working with cloud directory.
+
+Application security can be incredibly complicated. For most developers, it's one of the hardest parts of creating an app. How can you be sure that you are protecting your user's information? By integrating IBM® Cloud App ID into your apps, you can secure resources and add authentication, even when you don't have much security experience.
+
+App ID helps developers to easily add authentication to their web and mobile apps with few lines of code, and secure their Cloud-native applications and services on IBM Cloud. By requiring users to sign in to your app, you can store user data such as app preferences, or information from public social profiles, and then leverage that data to customize each user's experience within the app. App ID provides a log-in framework for you, but you can also bring your own branded sign in screens to use with cloud directory.
+
+App Owners can now accelerate the delivery of innovations to mobile apps by avoiding release cycle complexities. App Launch Service enables App Owners to launch features to mobile apps at speed and measure impact by controlling the targeted audience. The App owner can work with app developer to define key performance indicators for the features, measure the impact and make feature roll out/roll back decisions based on real time feedback. The service also provides the ability to test multiple variants of application features/user interface/messages and make decisions based on the feedback.
+
+Accelerate feature deployment
+Accelerate delivery of features to your app through controlled release by mitigating risks. Release features to subset of audience segments and make larger rollout or roll back decisions based on real time feedback. Separate feature rollouts from regular release cycles.
+Segment Audience
+User segments can be defined based on demographic, contextual and behavioral attributes. Alternatively features can be rolled out to certain percentage of the entire user base. Key Performance indicators can be defined for each feature and client side code instrumented to measure the results.
+Adapt application based on context
+Application behavior, user interface, messages (push notifications, in-app messages) can be customized for specific audience segments. For example, app background can be changed based on user location. This user personalization results in higher engagement of users with the application.
+A / B test features
+Gain confidence by experimentation. Two variants of application features can be compared against each other by rolling out both at the same time. Decisions can be made based on hard data.
+
+The App Launch service lets developers build engaging apps by controlling reach and roll out of App features while measuring the defined metrics. The service helps developers to remove the coupling that exists today between App feature rollout and App updates to production. You can now publish features without exposing it to Production. This enables the developers to gradually release new versions of an app in a controlled manner. With the App Launch service, app owners have full control over feature rollout for a targeted segment.
+
+The App Launch service lets you define a feature, create audiences based on device platforms, create custom audience attributes, and finally define an engagement that choreographs the timing and placement of the feature. Once you have used the SDKs along with the feature and metrics attributes that are incorporated in the application, the service starts measuring audience experiences. You can now leverage your app based on this information to create customized customer engagements across various categories of your app users.
+Mobile Foundation provides a rich set of back end capabilities for building, managing and updating your next gen cognitive, engaging, secure and personalized mobile and web applications. Build your applications with front end tools and frameworks of your choice and easily add push notifications, analytics, authentication, offline sync and business logic to your applications. Focus on front end of the application development while leveraging the rich back end capabilities of Mobile Foundation. Mobile Foundation offers a rich set of SDK’s for Cordova, IOS, Android, Xamarin, Windows 10, React Native and Mobile Web to facilitate development of Mobile, Mobile Web or PWA applications. Mobile Foundation provides out of the box samples and templates that can be easily extended to suit your need.
+
+App Security
+Secure your apps and protect the APIs accessing the app's back end resources. Protect from man in the middle attacks and tampered apps from accessing the server.
+App Updates
+Adopt a CI/CD pipeline approach to build and test incremental updates to your app.
+Offline Sync
+Use offline sync feature to develop apps that are functional even when your app users are offline.
+Autoscale
+Leverage intelligent auto scaling feature of IBM Cloud to scale your app resources with an increase in the number of app users.
+Integrate Cognitive and Cloud APIs
+Integrate with powerful IBM Cloud services. Use Watson APIs in your apps to easily leverage cognitive capabilities such as Language Translator, Discovery, Conversation, Natural Language Understanding or Tone Analyzer.
+Insights
+Obtain usage, performance and business insights for your app. Enable your end users to provide direct feedback with in-app feedback capability.
+IBM® Mobile Foundation for IBM Cloud expedites the setting up of an IBM® MobileFirst™ Platform Foundation environment using which you can develop, test, and run enterprise mobile apps. Mobile Foundation offers the following different service plans: Developer, Professional Per Device, and Professional 1 Application.
+Mobile Foundation provides an integrated set of backend capabilities for Mobile, Web and Progressive Web Apps (PWA). Developers can choose to use front-end tools or frameworks of their choice and leverage the rich set of backend capabilities provided by Mobile Foundation service. Mobile Foundation SDKs are available for Cordova, iOS, Android, Xamarin, Windows 10, React Native and Mobile Web.
+
+The Push Notifications service provides a unified push service to send real-time notifications to mobile and web applications. The service provides the ability to personalize and send notifications to a segment of users, single user or broadcast to all users.
+
+Scalable and reliable Push Notifications service for mobile and web applications
+You can use simple and uniform REST APIs to configure, subscribe, send, and monitor push notifications to mobile devices and web applications. Also provides Client SDKs (Android, iOS, Cordova and Web) and Server SDKs for sending notifications (Java, Node JS and Swift)
+Send notifications by various criteria and also analyze effects
+You can send messages as push notifications to either all application users, or to a specific set of users or devices. Both interactive notifications and silent notifications are supported. Customers can also choose to subscribe to specific tags or topics for notification. The Push Notification service also enables you to analyze the number of devices that are registered to receive notifications and the number of notifications sent.
+
+IBM Push Notifications is a service with which you can use to send notifications to mobile devices and browsers. Notifications can be targeted to all application users or to a specific set of users and devices using tags. For every message that you submit to the service, the intended audience receives a notification.
+
+This service lets you integrate weather data from The Weather Company into your IBM Bluemix application. You can retrieve weather data for an area specified by a geolocation. The data allows you to create applications that solve real business problems where weather has a significant impact on the outcome. 
+Hourly forecast
+An hourly weather forecast for the next 48 hours starting from the current time, for a specified geolocation.
+Daily forecast
+A daily forecast for each of the next 3, 5, 7, or 10 days starting from the current day, including forecasts for the daytime and nighttime segments.
+Intraday forecast
+A daily forecast for each of the next 3, 5, 7, or 10 days starting from the current day, which breaks each daily forecast into morning, afternoon, evening, and overnight segments.
+Current conditions
+Observed weather data (temperature, wind direction and speed, humidity, pressure, dew point, visibility, and UV Index) plus a weather phrase and a matching weather icon.
+Historical data
+Observed weather data from site-based observation stations for a specified geolocation that includes current observations and up to 24 hours of past observations.
+Weather alerts
+Government-issued weather alerts, including weather watches, warnings, statements, and advisories issued by the National Weather Service (US), Environment Canada, and MeteoAlarm (Europe).
+Location services
+The ability to look up a location name or geocode (latitude and longitude) to retrieve a set of locations that match the request.
+Almanac services
+Historical daily or monthly weather data sourced from National Weather Service observations stations from a time period spanning 10 to 30 years or more.
+
+ZUMATA enables Artificial Intelligence for personalized hotel search experience. Our R&D in Natural Language understanding, tone analysis and image recognition read and understand complex search requirements and match users with the perfect hotel. Behind the scenes we're compiling billions of data points from reviews, blogs, articles, social media, and even imagery to truly understand which properties offer the amenities, sentiments, or location you need.
+
+Bring the power of location to your apps with ArcGIS – a complete geospatial platform for developers. Regardless of your developer experience, you can create and manage apps that include mapping, visualization, analysis, and more. Build web, mobile, and desktop apps for any industry and any device.
+ZUMATA’s Artificial Intelligence provides a personalized hotel search experience.
+Analyze and visualize spatial data on a map in your mobile or web application. Easily integrate custom maps styles and spatial data with our SDK's.
+
+Phunware offers a comprehensive set of tools for iOS and Android devices to provide powerful facility-wide navigation. This flexible solution can support multiple campuses, buildings and floors. Add Blue Dot SDK for rich maps with real-time positioning.
+
+With Phunware's Location Based Services SDK you can bring your venue to life and change how users experience your brand with navigation within your physical locations. Phunware offers a comprehensive solution for iOS and Android devices that delights mobile app users with powerful facility-wide navigation. Phunware's Location Based Services (LBS) module is driven by the Mapping and Location SDKs, providing application developers with a set of tools to enable the display of indoor venue maps, points of interest, and wayfinding throughout these venues.
+
+With Phunware's Mapping SDK you can host maps of your campuses and buildings and populate the maps with points of interest to power static wayfinding. In addition Phunware supports hardware agnostic Location Provider integrations using hyperlocation (wifi), BLE, or vBLE signals to offer dynamic (blue dot) wayfinding in your apps.
+
+As a Phunware SDK user, you will be provided with access to the MaaS portal, Phunware's web-based configuration portal where you will configure Attributes-Profiles, Geofences, and Beacons for Location Based Services and manage the campaigns that keep users engaged in your app. For wayfinding you will use the MaaS portal to configure maps, including POIs and routes and to integrate location providers for dynamic blue dot wayfinding experiences in your app
+
+Engage consumers globally or as they enter, dwell in and exit your physical places of business. Conduct hyper-personalized targeting and proximity marketing while using analytics that provides insights about app user behavior and venue operations.
+
+With Phunware's Marketing Automation SDK you can send marketing campaigns that are displayed as notifications to your app users' mobile devices. Users tap on the notification to open the app or deep link to a promotion or other app page. Phunware's SDK powers global and targeted broadcast campaigns, as well as entry and exit campaigns triggered by location geofences or beacons (BLE or vBLE).
+
+As a Phunware SDK user, you will be provided with access to the MaaS portal, Phunware's web-based configuration portal where you will configure Attributes-Profiles, Geofences, and Beacons for Marketing Automation and manage the campaigns that keep users engaged in your app.
+Pre-CAT Notifications allow you to give policyholders in high-risk areas an early warning of an anticipated catastrophe and an expectation for how losses will be handled following the CAT event, leading to increased claims satisfaction.
+
+SPLICE Pre-CAT Notification Dialogs allow you to effectively communicate to your customers to best prepare them for impending catastrophic events. By providing a custom personalized response to your clients, you can ensure that the exact message you wish to purvey will be received and using SPLICE's industry leading voice will empower your customer relation experience.
+Send and receive SMS and MMS messages globally using Telstra's enterprise grade Messaging API. Get your dedicated Australian number, and start sending and receiving messages today. Receive 1,000 free messages by registering for Telstra Messaging API.
+A lot has to go right so that every single one of your messages reaches its destination. It’s not just about access to carrier connections - it’s how your message is managed across those connections. Twilio’s intelligent cloud software handles it all.
+Twilio offers the easiest way to build and scale video calling capabilities for your web and mobile apps. Twilio Programmable Video includes APIs for 1:1 or multi-party rooms, screen sharing, session recording, and much more.
+Build faster and scale with confidence using one API for mobile, web, and app calling. The Twilio Voice API lets you build amazing call experiences with masked phone numbers, global conference calls, phone menus, multi-channel contact centers, and more.
+Twilio’s Programmable Voice makes it incredibly easy to add Voice capabilities to your mobile or web application. Add easy ingoing and outgoing calling with monitoring and logging capabilities in no time flat with the power of Twilio’s Cloud Voice capabilities. It’s only a few steps from our communications APIs to a contact center, unique support capabilities, browser dialing, or any other application you can dream.
+Automatic front-end development platform to rapidly develop a premium omni-channel presence. Leverage Zuznow to create secure mobile web and mobile apps.
+Zuznow provides an automatic mobile adaptation platform that adapts even the most complex web applications to mobile apps Using Zuznow platform, once can fully preserve the original application’s user experience, content, functionality, and business logic. Zuznow platform is composed of an automatic responsive engine, which runs CSS and style changes - on the fly and in real-time on the entire application, creating a mobile app in an instant; and of an adaptive engine - which offers a full featured customization dashboard (the Editor) that web developers can use to customize the automatic result, using simple CSS, HTML and jQuery commands.
+
+Build contextual communications into mobile apps, websites, and business systems, enabling enterprises to easily communicate relevant information to their customers in real time, anywhere in the world, through text messaging, chat, social media and voice.
+exmo, The Vonage API Platform, provides tools for voice, messaging and phone verification, enabling you to embed programmable communications into mobile apps, websites and business systems. Nexmo APIs include SMS text messaging, two-factor authentication, voice, chat, and social media connect.

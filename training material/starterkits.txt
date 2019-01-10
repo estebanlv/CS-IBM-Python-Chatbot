@@ -1,0 +1,137 @@
+This Mendix starter app gives you a head start developing a fully-featured web application using the Mendix low-code platform. The app is ready for you to add data structures, pages, and application logic using the visual development environment in Mendix. The app comes with a default theme that you can customize to deliver beautiful, and innovative apps that run on any device.
+
+To use this Mendix starter app you will need a Mendix account. You can sign up here if you do not already have one.
+
+Quickly design pages to display your data
+Use the Mendix visual tools to implement program logic
+Create data structures to store your information
+Design different page layouts depending on the target device
+Simply deploy your app on the IBM Cloud
+This starter kit comes pre-configured to use Watson Visual Recognition for Core ML. Quickly get started using the power of Watson locally, so the model can run offline and at faster speeds. Create this starter kit, train the visual recognition model, and add additional services like authentication or analytics.
+
+build a mobile application that uses Watson Visual Recognition for Core ML
+train your model in the Cloud
+provision and integrate additional IBM Cloud services
+Get started with IBM Watson IoT platform using the Node-RED Node.js sample application. With the Starter, you can quickly simulate an Internet of Things device, create cards, generate data, and begin analyzing and displaying data in the Watson IoT Platform dashboard.
+
+Develop, deploy, and scale server-side JavaScript® apps with ease. The IBM SDK for Node.js™ provides enhanced performance, security, and serviceability.
+
+Discover how to modernize and extend existing monolithic java applications. This starter kit comes pre-configured as a Java microservice application with the tools you need to set up your development environment and deploy to Kubernetes through a DevOps Toolchain.
+
+Build out the Microservice architecture pattern
+Generate a Java MicroProfile or Java EE microservice
+Generate an application with files for deploying to Kubernetes, Cloud Foundry or a DevOps Pipeline
+Generate an application with facilities for monitoring and distributed trace using Liberty Features
+Connect to provisioned services
+
+Extend your existing monolithic Java application with a starter kit pre-configured to integrate with IBM Cloud services like Watson, Cloudant, Object Storage, and Blockchain. Deploy the starter kit to Kubernetes through a DevOps Toolchain to take advantage of scalability and continuous delivery. A starter kit sets up your application, so you can get started creating a Cloud Native application quickly. Each starter kit is generated with configurations to connect to added services , files for deploying to Cloud Foundry, Kubernetes or a DevOps Pipeline, and facilities for using monitoring and distributed tracing. They're also generated to reflect the architecture pattern you chose. This starter kit falls under the Microservice architecture pattern shown above. To learn more about the Microservice architecture pattern, visit the IBM Cloud Garage Method Architecture Center. The role of the Java MicroProfile/Java EE Microservice within the Microservice architecture pattern is to provide a starting point for a 
+discrete, network-connected component that runs in its own process. The component can connect to other components of your application in a variety of ways including via a REST API. This starter kit includes the following frameworks: Java MicroProfile/Java EE: A widely used framework for building Java-based applications that provides a myriad of HTTP utility methods and middleware for creating APIs and the Liberty event-logging package for monitoring and distributed trace.
+
+This starter kit comes pre-configured as a Java microservice application. Choose this starter kit to quickly get started coding a microservice that uses Spring Boot. Use the IBM Cloud Developer Tools CLI to deploy to Kubernetes, Cloud Foundry, or a DevOps Pipeline.
+
+This starter kit will help you
+
+Build out the Microservice architecture pattern
+Generate a Spring Boot application
+Generate an application with files for deploying to Kubernetes, Cloud Foundry or a DevOps Pipeline
+Generate an application with health monitoring provided by Spring Boot Actuator
+Connect to provisioned services on the IBM Cloud
+
+A starter kit sets up your application, so you can get started creating a Cloud Native application quickly. Each starter kit is generated with configurations to connect to added services, files for deploying to Cloud Foundry, Kubernetes or a DevOps Pipeline, and facilities to allow you monitor the health of your application. They're also generated to reflect the architecture pattern you chose. This starter kit falls under the Microservice architecture pattern shown above. To learn more about the Microservice architecture pattern, visit the IBM Cloud Garage Method Architecture Center . The role of the Java Spring Microservice within the Microservice architecture pattern is to provide a starting point for a discrete, network-connected component that runs in its own process. The component can connect to other components of your application in a variety of ways including via a REST API. This starter kit includes the following frameworks: - Spring Boot: The framework for Java applications that provides a myriad of HTTP utility methods and middleware for creating APIs. - Spring Boot Actuator: Features that help monitor and manage the application in production To learn more about IBM's initiatives around Java Spring development, visit our developer center .
+
+This starter kit comes pre-configured as a web application using Spring Boot and Tomcat. Add services, generate and download the code, use the IBM Cloud Developer Tools CLI to run and debug locally, then deploy to Kubernetes, Cloud Foundry, or a DevOps Pipeline.
+
+Build out the Web App architecture pattern
+Generate a Spring-based Java application
+Generate application files for deploying to Kubernetes, Cloud Foundry or a DevOps Pipeline
+Generate an application with health monitoring provided by Spring Boot Actuator
+Connect to provisioned services on the IBM Cloud
+
+A starter kit sets up your application, so you can get started creating a Cloud Native application quickly. Each starter kit is generated with configurations to connect to added services , files for deploying to Cloud Foundry, Kubernetes or a DevOps Pipeline, and facilities to allow you monitor the health of your application. They're also generated to reflect the architecture pattern you chose. This starter kit falls under the Web App architecture pattern shown above. To learn more about the Web App architecture pattern, visit the IBM Cloud Garage Method Architecture Center . The role of the Java Spring Basic starter is to serve static content within the Web App architecture pattern. This starter kit includes the following frameworks: - Spring Boot: A widely used framework for building Java-based applications - Spring Boot Actuator: Features that help monitor and manage the application in production
+
+Start building your next mobile app with mobile services on IBM Cloud. This Mobile starter app pre-provisions Push services, in addition to giving you a code for the mobile app as a starting point.
+
+Add interactive push notifications
+Analyze your mobile app usage through Mobile Foundation
+Add in app feedback for testing purposes
+
+This starter kit comes pre-configured as a microservice with Express.js. Add services, generate and download the code, use the IBM Cloud Developer Tools CLI to run and debug locally, then deploy to Kubernetes, Cloud Foundry, or a DevOps Pipeline.
+
+Build out the Microservice architecture pattern
+Generate an application with Express.js
+Generate an application with files for deploying to Kubernetes, Cloud Foundry or a DevOps Pipeline
+Generate an application with files for monitoring and distributed trace using Node Application Metrics
+Connect to provisioned services
+A starter kit sets up your application, so you can get started creating a Cloud Native application quickly. Each starter kit is generated with configurations to connect to added services , files for deploying to Cloud Foundry, Kubernetes or a DevOps Pipeline, and files for using app metrics for monitoring and distributed tracing. They're also generated to reflect the architecture pattern you chose. This starter kit falls under the Microservice architecture pattern shown above. To learn more about the Microservice architecture pattern, visit the IBM Cloud Garage Method Architecture Center. The role of the Express.js Microservice within the Microservice architecture pattern is to provide a starting point for a discrete, network-connected component that runs in its own process. The component can connect to other components of your application via a REST API. This starter kit includes the following frameworks: 1) Express.js: The most popular web framework for Node.js applications that provides a myriad of HTTP utility methods and middleware for creating APIs. 2) App Metrics: The Node Application Metrics package for monitoring and distributed trace.
+
+
+This starter kit comes pre-configured as a Web App with Express.js , using the Node.js runtime. Add services, generate and download the code, use the IBM Cloud Developer Tools CLI to run and debug locally, then deploy to Kubernetes, Cloud Foundry, or a DevOps Pipeline.
+
+Build out the Web App architecture pattern
+Generate an application with Express.js
+Generate an application with files for deploying to Kubernetes, Cloud Foundry, or a DevOps Pipeline
+Generate an application with files for monitoring and distributed trace using Node Application Metrics
+Connect to provisioned services
+
+A starter kit sets up your application, so you can get started creating a Cloud Native application quickly. Each starter kit is generated with configurations to connect to added services , files for deploying to Cloud Foundry, Kubernetes or a DevOps Pipeline, and files for using app metrics for monitoring and distributed tracing. They're also generated to reflect the architecture pattern you chose. This starter kit falls under the Web App architecture pattern shown above. To learn more about the Web App architecture pattern, visit the IBM Cloud Garage Method Architecture Center. The role of the Express.js Basic Web App within the Web App architecture pattern is to provide dynamic content, which corresponds to the "application server" element in the architecture pattern This starter kit includes the following frameworks: 1) Express.js: The most popular web framework for Node.js applications 2) App Metrics: The Node Application Metrics package for monitoring and distributed trace. 
+
+This starter kit comes pre-configured as a microservice with Flask. Add services, generate and download the code, use the IBM Cloud Developer Tools CLI to run and debug locally, then deploy to Kubernetes, Cloud Foundry, or a DevOps Pipeline.
+
+Build out the Microservice architecture pattern
+Generate an application with Flask
+Generate an application with files for deploying to Kubernetes, Cloud Foundry or a DevOps Pipeline
+Connect to provisioned services
+
+A starter kit sets up your application, so you can get started creating a Cloud Native application quickly. Each starter kit is generated with configurations to connect to added services , files for deploying to Cloud Foundry, Kubernetes or a DevOps Pipeline, and files for using app metrics for monitoring and distributed tracing. They're also generated to reflect the architecture pattern you chose. This starter kit falls under the Microservice architecture pattern shown above. To learn more about the Microservice architecture pattern, visit the IBM Cloud Garage Method Architecture Center. The role of the Python Microservice within the Microservice architecture pattern is to provide a starting point for a discrete, network-connected component that runs in its own process. The component can connect to other components of your application via a REST API.
+This starter kit comes pre-configured as a Web App with Django. Add services, generate and download the code, use the IBM Cloud Developer Tools CLI to run and debug locally, then deploy to Kubernetes, Cloud Foundry, or a DevOps Pipeline.
+
+Build out the Web App architecture pattern
+Generate an application with Django
+Generate an application with files for deploying to Kubernetes, Cloud Foundry or a DevOps Pipeline
+Connect to provisioned services
+
+This starter kit comes pre-configured as a Web App with Flask. Add services, generate and download the code, use the IBM Cloud Developer Tools CLI to run and debug locally, then deploy to Kubernetes, Cloud Foundry, or a DevOps Pipeline.
+
+Build out the Web App architecture pattern
+Generate an application with Flask
+Generate an application with files for deploying to Kubernetes, Cloud Foundry or a DevOps Pipeline
+Connect to provisioned services
+A starter kit sets up your application, so you can get started creating a Cloud Native application quickly. Each starter kit is generated with configurations to connect to added services , files for deploying to Cloud Foundry, Kubernetes or a DevOps Pipeline, and files for using app metrics for monitoring and distributed tracing. They're also generated to reflect the architecture pattern you chose. This starter kit falls under the Web App architecture pattern shown above. To learn more about the Web App architecture pattern, visit the IBM Cloud Garage Method Architecture Center. The role of the Python Basic Web App within the Web App architecture pattern is to provide dynamic content, which corresponds to the "application server" element in the architecture pattern. This starter kit includes the following frameworks: 1) Flask: A microframework for Python
+
+This starter kit comes pre-configured as a Backend for Frontend (BFF) with Kitura, a high performance and simple to use web framework for building modern Swift applications. Add services, generate and download the code, use the IBM Cloud Developer Tools CLI to run and debug locally, then deploy to Kubernetes, Cloud Foundry, or a DevOps Pipeline.
+
+build out the Backend for Frontend (BFF) architecture pattern
+generate an application with Kitura web framework
+generate an application with files for deploying to Kubernetes, Cloud Foundry with a DevOps Pipeline
+generate an application with files for monitoring and distributed trace using Swift Metrics
+connect to provisioned services
+
+This starter kit is a simple application to demonstrate the Watson Assistant (formerly Conversation) service in a chat interface simulating a car dashboard. After creating the project, use the getting started material to launch the Tool and learn about how to use Watson Assistant (formerly Conversation). Included is a zip file you can download with everything you need to easily deploy the project locally and to the IBM Cloud.
+
+Available in Node.JS, Python and Java
+Deploy Locally and to the IBM Cloud
+Access to Watson Assistant (formerly Conversation)
+
+This starter kit is a simple application to demonstrate the Natural Language Understanding service. After creating the project, use the getting started material to learn about how to useservice. Included is a zip file you can download with everything you need to easily deploy the project locally and to the IBM Cloud.
+
+Available in Python and Node.JS
+Deploy Locally and to the IBM Cloud
+Access to Natural Language Understanding
+This starter kit is a simple application to demonstrate a use case with the Watson Visual Recognition service. After creating the project, use the getting started material to learn about how to use Visual Recognition. Included is a zip file you can download with everything you need to easily deploy the project locally and to the IBM Cloud.
+
+Available in Node.JS
+Deploy Locally and to the IBM Cloud
+Access to Visual Recognition
+Access to Watson Studio and Custom Modeling
+
+This application demonstrates how to run the Node-RED open-source project within IBM Cloud.
+
+Node-RED provides a browser-based flow editor that makes it easy to connect devices, APIs, and online services by using the wide range of nodes in the palette. You can deploy the flows to the Node.js runtime environment with a single click. This starter application provides a version of Node-RED that is customized to run in IBM® Cloud.
+
+
+
+
+
+
+
+
