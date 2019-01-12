@@ -1,108 +1,165 @@
-Use App ID to add authentication to your mobile and web apps and protect your APIs and back-ends running on IBM Cloud. Add email/password based sign-up and sign-in, and MFA with App ID's scalable user registry - Cloud Directory, or social log-in with Google or Facebook. For employee apps, use SAML 2.0 federation to let users sign-in with their enterprise credentials.
-For all app users, enrich their profiles with additional info so you can build engaging experiences.
+Engage with IBM Experts to build a more meaningful application for your users. Get the most out of your IBM Cloud account by working with either of our consulting practices: Cloud Garage, or Watson Expert Services.
+IBM Cloud Garage
+IBM Cloud Garages stimulate creativity, learning, and transformation with the IBM Cloud Garage Method. See for yourself how the bold energy, agile techniques, and sharp focus of startups can impact your business with true innovation at one of our worldwide Garage locations.
+IBM Watson Expert Services
+Creating cognitive solutions to solve business problems requires a specialized skill set that is rare within the market. A differentiated approach is needed to apply these skills. IBM Watson Expert Services modules are designed to transfer cognitive solution design and development approaches directly to you.
 
-Authentication
-Add user sign-in and sign-up functionality to your mobile and web apps, and secure access to back-end resources and APIs from unauthorized users. Includes enterprise, social, email/password sign-in, and multi-factor authentication (MFA). In your app to app or service to service scenarios, add identity to your apps. OAuth2 and OIDC compliant.
-Profiles
-Build custom app experiences for your users. Use profiles to store and access user data that you need to build engaging experiences, such as user app preferences.
-User Management
-Leverage a scalable user registry for your apps so users can sign-up and sign-in with an email and password. Users can manage their own accounts through self-service flows like reset password and forgot password.
+IBM Information Server on Cloud provides IBM InfoSphere Information Server on IBM SoftLayer global cloud infrastructure. It offers the rich features of the on-premises Information Server deployment without the cost, complexity, and risk of managing your own infrastructure.
 
-Application security can be incredibly complicated. For most developers, it's one of the hardest parts of creating an app. How can you be sure that you are protecting your users information? By integrating IBM® Cloud App ID into your apps, you can secure resources and add authentication; even when you don't have a lot of security experience.
+Robust Backup Infrastructure
+Fully customizable built in hardware and software infrastructure based on the proven technology Spectrum Protect.
+High Availability
+Highly optimized out-of-the-box high availability option available for DataStage and Information Server Enterprise Edition.
+Comprehensive Data Integration Solution
+Information Server on Cloud Enterprise Edition provides comprehensive data integration to support trusted and governed information: It provides end-to-end information integration capabilities to help you understand, govern, create, maintain, transform and deliver quality data. In this service, the following capabilities are packaged together: Information Governance Catalog on Cloud, DataStage on Cloud, Information Server on Cloud Data Quality.
+Integrate and Tranform Data On Demand
+DataStage on Cloud integrates all types of data across multiple systems: It uses a high performance parallel framework and supports extended metadata management and enterprise connectivity. This service provides powerful and scalable ETL platform, supports near real time data integration, helps you optimize hardware utilization and prioritize mission critical tasks through workload and business rules management.
+Control Data Quality and Govern Information - Contact sales to order
+Information Server on Cloud Data Quality and Information Governance Catalog on Cloud are available directly through sales. To order, contact your Americas Call Centers, local IBM representative, or your IBM Business Partner. To identify your representative or partner call 800-426-4968. For more information, contact the Americas Call Centers. Phone: 800-IBM-CALL (426-2255) Fax: 800-2IBM-FAX (242-6329).
+Security Compliance
+You can choose to order a HIPAA-ready system for Information Server on Cloud plans hosted on IBM SoftLayer®. For more information, contact your IBM Cloud Data Services sales representative.
 
-By requiring users to sign in to your app, you can store user data such as app preferences or information from the public social profiles, and then use that data to customize each experience of your app. App ID provides a log in framework for you, but you can also bring your own branded sign in screens when working with cloud directory.
 
-Application security can be incredibly complicated. For most developers, it's one of the hardest parts of creating an app. How can you be sure that you are protecting your user's information? By integrating IBM® Cloud App ID into your apps, you can secure resources and add authentication, even when you don't have much security experience.
+IBM® Information Server on Cloud offerings provide data integration and governance products as a service on the global cloud infrastructure of IBM SoftLayer. It offers the rich features of an on-premises data integration product deployment without the cost and complexity of deploying the infrastructure. Optionally managed add-on services can also be added to maintain and manage the infrastructure.
 
-App ID helps developers to easily add authentication to their web and mobile apps with few lines of code, and secure their Cloud-native applications and services on IBM Cloud. By requiring users to sign in to your app, you can store user data such as app preferences, or information from public social profiles, and then leverage that data to customize each user's experience within the app. App ID provides a log-in framework for you, but you can also bring your own branded sign in screens to use with cloud directory.
+Voice Agent with Watson enhances your call center operations by orchestrating Watson services and integrating them with the telephone network. Your voice agent can listen and respond to customers using natural language.
 
-App Owners can now accelerate the delivery of innovations to mobile apps by avoiding release cycle complexities. App Launch Service enables App Owners to launch features to mobile apps at speed and measure impact by controlling the targeted audience. The App owner can work with app developer to define key performance indicators for the features, measure the impact and make feature roll out/roll back decisions based on real time feedback. The service also provides the ability to test multiple variants of application features/user interface/messages and make decisions based on the feedback.
+Connect Watson to the telephone
+Connect Watson services to your telephone or call center network.
+Train your voice agent
+Train Watson to understand intents that a caller might have, respond to those intents, and reply to callers in a conversation. This training enables the Watson services to handle queries and answer questions from callers in real time.
+Program your voice agent within Watson Assistant
+By setting the action commands within your Watson Assistant dialog, you can do everything from changing barge-in behavior to hanging up the call during the conversation flow.
+Customize with third-party APIs
+Expand Voice Agent with Watson capabilities by incorporating a service orchestration engine (SOE) so that you can integrate third-party APIs. The SOE can listen for triggers from Watson to look up information in existing systems, either on-premises or in the cloud. You can also use the SOE to provide Watson with parameters that control what Watson tells a caller.
 
-Accelerate feature deployment
-Accelerate delivery of features to your app through controlled release by mitigating risks. Release features to subset of audience segments and make larger rollout or roll back decisions based on real time feedback. Separate feature rollouts from regular release cycles.
-Segment Audience
-User segments can be defined based on demographic, contextual and behavioral attributes. Alternatively features can be rolled out to certain percentage of the entire user base. Key Performance indicators can be defined for each feature and client side code instrumented to measure the results.
-Adapt application based on context
-Application behavior, user interface, messages (push notifications, in-app messages) can be customized for specific audience segments. For example, app background can be changed based on user location. This user personalization results in higher engagement of users with the application.
-A / B test features
-Gain confidence by experimentation. Two variants of application features can be compared against each other by rolling out both at the same time. Decisions can be made based on hard data.
+IBM® Voice Agent with Watson™ enables direct, automated voice interactions over the telephone between a cognitive voice agent and your customers. With Watson artificial intelligence at its backbone, your voice agent can communicate in a more conversational manner, and it can handle complex interactions that are difficult for traditional interactive voice response (IVR) systems.
 
-The App Launch service lets developers build engaging apps by controlling reach and roll out of App features while measuring the defined metrics. The service helps developers to remove the coupling that exists today between App feature rollout and App updates to production. You can now publish features without exposing it to Production. This enables the developers to gradually release new versions of an app in a controlled manner. With the App Launch service, app owners have full control over feature rollout for a targeted segment.
+Use our low-latency news sentiment API feed to build custom trading strategies or integrate it with your existing strategies. With over 300 million news websites, blogs, and social media websites, such as Twitter, monitored in real-time, we extract article meta data, company and events information, and derived trading analytics per article for our institutional customers.
 
-The App Launch service lets you define a feature, create audiences based on device platforms, create custom audience attributes, and finally define an engagement that choreographs the timing and placement of the feature. Once you have used the SDKs along with the feature and metrics attributes that are incorporated in the application, the service starts measuring audience experiences. You can now leverage your app based on this information to create customized customer engagements across various categories of your app users.
-Mobile Foundation provides a rich set of back end capabilities for building, managing and updating your next gen cognitive, engaging, secure and personalized mobile and web applications. Build your applications with front end tools and frameworks of your choice and easily add push notifications, analytics, authentication, offline sync and business logic to your applications. Focus on front end of the application development while leveraging the rich back end capabilities of Mobile Foundation. Mobile Foundation offers a rich set of SDK’s for Cordova, IOS, Android, Xamarin, Windows 10, React Native and Mobile Web to facilitate development of Mobile, Mobile Web or PWA applications. Mobile Foundation provides out of the box samples and templates that can be easily extended to suit your need.
+Accern alerts you on actionable stories about U.S. public companies. By monitoring over 300 million public news, blog, social media websites, and financial documents, it identifies low-exposed stories and uses advanced data science to determine whether the stories are reliable and impactful.
 
-App Security
-Secure your apps and protect the APIs accessing the app's back end resources. Protect from man in the middle attacks and tampered apps from accessing the server.
-App Updates
-Adopt a CI/CD pipeline approach to build and test incremental updates to your app.
-Offline Sync
-Use offline sync feature to develop apps that are functional even when your app users are offline.
-Autoscale
-Leverage intelligent auto scaling feature of IBM Cloud to scale your app resources with an increase in the number of app users.
-Integrate Cognitive and Cloud APIs
-Integrate with powerful IBM Cloud services. Use Watson APIs in your apps to easily leverage cognitive capabilities such as Language Translator, Discovery, Conversation, Natural Language Understanding or Tone Analyzer.
-Insights
-Obtain usage, performance and business insights for your app. Enable your end users to provide direct feedback with in-app feedback capability.
-IBM® Mobile Foundation for IBM Cloud expedites the setting up of an IBM® MobileFirst™ Platform Foundation environment using which you can develop, test, and run enterprise mobile apps. Mobile Foundation offers the following different service plans: Developer, Professional Per Device, and Professional 1 Application.
-Mobile Foundation provides an integrated set of backend capabilities for Mobile, Web and Progressive Web Apps (PWA). Developers can choose to use front-end tools or frameworks of their choice and leverage the rich set of backend capabilities provided by Mobile Foundation service. Mobile Foundation SDKs are available for Cordova, iOS, Android, Xamarin, Windows 10, React Native and Mobile Web.
+By using this systematic approach, Accern is able to provide users with quick delivery of actionable stories before they are exposed to the mass media. This helps our users make quicker and more informed decisions in their investment strategies.
 
-The Push Notifications service provides a unified push service to send real-time notifications to mobile and web applications. The service provides the ability to personalize and send notifications to a segment of users, single user or broadcast to all users.
+Existing users include, but are not limited to hedge funds, asset managers, equity researchers, news media, and Fortune 500 companies.
 
-Scalable and reliable Push Notifications service for mobile and web applications
-You can use simple and uniform REST APIs to configure, subscribe, send, and monitor push notifications to mobile devices and web applications. Also provides Client SDKs (Android, iOS, Cordova and Web) and Server SDKs for sending notifications (Java, Node JS and Swift)
-Send notifications by various criteria and also analyze effects
-You can send messages as push notifications to either all application users, or to a specific set of users or devices. Both interactive notifications and silent notifications are supported. Customers can also choose to subscribe to specific tags or topics for notification. The Push Notification service also enables you to analyze the number of devices that are registered to receive notifications and the number of notifications sent.
+Helps tackle information overload in confusing Fed speak by reading and distilling tens of thousands of articles looking for every nuance related to inflation and employment in real time. Helps forecasts interest rate movements more accurately
+Rational Exuberance, our contextually adaptive and learning Fedspeak parser, is designed to help buy and sell side analysts refine forecasting assumptions based on hawkish/dovish sentiment divergences between the FOMC and general market chatter. Rational Exuberance can also help traders make tactical changes in position sizing and better hedge rate-sensitive positions.
 
-IBM Push Notifications is a service with which you can use to send notifications to mobile devices and browsers. Notifications can be targeted to all application users or to a specific set of users and devices using tags. For every message that you submit to the service, the intended audience receives a notification.
+Rumor Hound scrapes thousands of unstructured data sources in real-time, identifies rumors buried in the data, and provides a filtered list of rumored acquisition targets scored by recency and credibility
 
-This service lets you integrate weather data from The Weather Company into your IBM Bluemix application. You can retrieve weather data for an area specified by a geolocation. The data allows you to create applications that solve real business problems where weather has a significant impact on the outcome. 
-Hourly forecast
-An hourly weather forecast for the next 48 hours starting from the current time, for a specified geolocation.
-Daily forecast
-A daily forecast for each of the next 3, 5, 7, or 10 days starting from the current day, including forecasts for the daytime and nighttime segments.
-Intraday forecast
-A daily forecast for each of the next 3, 5, 7, or 10 days starting from the current day, which breaks each daily forecast into morning, afternoon, evening, and overnight segments.
-Current conditions
-Observed weather data (temperature, wind direction and speed, humidity, pressure, dew point, visibility, and UV Index) plus a weather phrase and a matching weather icon.
-Historical data
-Observed weather data from site-based observation stations for a specified geolocation that includes current observations and up to 24 hours of past observations.
-Weather alerts
-Government-issued weather alerts, including weather watches, warnings, statements, and advisories issued by the National Weather Service (US), Environment Canada, and MeteoAlarm (Europe).
-Location services
-The ability to look up a location name or geocode (latitude and longitude) to retrieve a set of locations that match the request.
-Almanac services
-Historical daily or monthly weather data sourced from National Weather Service observations stations from a time period spanning 10 to 30 years or more.
+Analysts, portfolio managers and traders struggle to keep ahead of market moving merger and acquisition rumors because actionable m&a rumors can emanate from any one of countless digital data sources. Rumor Hound solves this problem by continuously scouring tens of thousands of public, digital data sources in real time to find actionable m&a rumors that haven't yet been priced into the stock. Rumor Hound understands what an actionable m&a rumor looks like in all its linguistic nuance. When Rumor Hound finds a rumor, the rumor is pushed to users via API, dashboard, customizable filters and notifications along with a score that measures the credibility of the source based on site demographics, social media influence, Alexa rankings, etc. Transcending the black box, Rumor Hound provides users with not just the credibility score but also the source URL where the rumor was found as well as the rumor snippet itself so that users can validate for themselves the action-ability of the rumor. We are observing that m&a rumors that emanate from low credibility sources that gain momentum and are picked up by higher credibility sources tend to move prices.
 
-ZUMATA enables Artificial Intelligence for personalized hotel search experience. Our R&D in Natural Language understanding, tone analysis and image recognition read and understand complex search requirements and match users with the perfect hotel. Behind the scenes we're compiling billions of data points from reviews, blogs, articles, social media, and even imagery to truly understand which properties offer the amenities, sentiments, or location you need.
+Through our Rumor Hound API, customers can access historical Rumor Hound data on hundreds of stocks. The Rumor Hound API covers m&a rumors for several thousand stocks. We continue to model Rumor Hound insights and as we identify predictive patterns, we will be happy to share reproducible research and data with API customers.
 
-Bring the power of location to your apps with ArcGIS – a complete geospatial platform for developers. Regardless of your developer experience, you can create and manage apps that include mapping, visualization, analysis, and more. Build web, mobile, and desktop apps for any industry and any device.
-ZUMATA’s Artificial Intelligence provides a personalized hotel search experience.
-Analyze and visualize spatial data on a map in your mobile or web application. Easily integrate custom maps styles and spatial data with our SDK's.
+Topic Deltas listens to earnings calls in real-time, quantifying nuance and measuring sentiment deltas across calls and against market expectations. Tackles information overload in earnings calls by transforming messy data into quantifiable numbers
 
-Phunware offers a comprehensive set of tools for iOS and Android devices to provide powerful facility-wide navigation. This flexible solution can support multiple campuses, buildings and floors. Add Blue Dot SDK for rich maps with real-time positioning.
+The primary value proposition of Accrete's Topic Deltas product is to improve the efficiency of investment processes by monitoring subtle shifts in topical sentiment across a vast number of earnings calls that would be physcially impossible for even an army of human analysts to achieve with any accuracy. Accrete's Topic Delta product ingests earnings transcripts and maps linguistic nuances to key topics, scores the sentiment of the language associated with these key topics and measures the delta between topics spoken about accross quarterly earnings calls. For example, if a public company executive mentioned in the previous quarterly earnings call that "Customer pipeline looks great" but in the current quarterly earnings call mentions that "Customer pipeline looks good", the subtle shift in language from very positive to moderately positive may not be accounted for in the actual reported numbers but could have material impact on the psychology influencing the company's stock price.
 
-With Phunware's Location Based Services SDK you can bring your venue to life and change how users experience your brand with navigation within your physical locations. Phunware offers a comprehensive solution for iOS and Android devices that delights mobile app users with powerful facility-wide navigation. Phunware's Location Based Services (LBS) module is driven by the Mapping and Location SDKs, providing application developers with a set of tools to enable the display of indoor venue maps, points of interest, and wayfinding throughout these venues.
+Through our Topic Deltas API, users can access 5 years of historical Topic Deltas on quarterly earnings call transcripts for each stock in the S&P 500. Additionally, via the API the user also gets access to upcoming topical sentiment scores, deltas and language snippets for easy self-validation for each stock in the S&P 500 within 8 hours post transcript release. Finally, as we continue to extract and model insights buried in the nuances of earnings call language, our preliminary research has been showing that significant shifts in aggregate topic deltas forecast >=25% price movements in the direction of the delta with ~71% accuracy, both in and out of sample. We believe that we are just scratching the surface with these cognitive insights and that there are many hidden features in the data that have yet to be discovered. API customers get access to our full historical data set, research results and methodology.
 
-With Phunware's Mapping SDK you can host maps of your campuses and buildings and populate the maps with points of interest to power static wayfinding. In addition Phunware supports hardware agnostic Location Provider integrations using hyperlocation (wifi), BLE, or vBLE signals to offer dynamic (blue dot) wayfinding in your apps.
+Apache Spark is an open source cluster computing framework optimized for extremely fast and large scale data processing, which you can access via the newly integrated notebook interface IBM Analytics for Apache Spark. You can connect to your existing data sources or take advantage of the on-demand big data optimization of Object Storage. Spark plans are based on the maximum number of executors available to process your analytic jobs. Executors exist only as long as they're needed for processing, so you're charged only for processing done.
+Incredibly Fast
+Apache Spark delivers 100x the performance of Apache Hadoop for certain workloads because of its advanced in-memory computing engine.
+Easy to Use and Powerful
+Apache Spark's Streaming and SQL programming models backed by MLlib and GraphX make it incredibly easy for developers and data scientists to build apps that exploit machine learning and graph analytics. Because the service is 100% compatible with Apache Spark, developers can build their apps and run them against the IBM managed service to benefit from operational, maintenance, and hardware excellence.
+Convenient Data Storage
+Object Storage enables a convenient way to upload your data from a file for immediate use by your Spark instance. You can set up Object Storage directly from the Spark service interface.
+Apache Spark is a distributed data processing analytics engine that makes available new capabilities to data scientists, business analysts, and application developers. Analytics for Apache Spark provides fast in-memory analytics processing of large data sets.
+Alloy's API and dashboard helps financial institutions integrate multiple sources of data and custom CIP rules to both increase the number of customers that can be successfully onboarded and improve transparency and efficiency into the process.
+Alloy is a platform to know your customers. We make KYC/AML/CDD effective and simple by providing one API to many data sources, a customizable rules engine, modeling capabilities, as well as advanced analytics and auditing.
 
-As a Phunware SDK user, you will be provided with access to the MaaS portal, Phunware's web-based configuration portal where you will configure Attributes-Profiles, Geofences, and Beacons for Location Based Services and manage the campaigns that keep users engaged in your app. For wayfinding you will use the MaaS portal to configure maps, including POIs and routes and to integrate location providers for dynamic blue dot wayfinding experiences in your app
+Use our Daily Bond Price and Historical Bond Prices API data to build custom bond investment strategies or integrate it with your existing investment strategies. With a number of real time data sources moulded in our advanced algorithm we bring to you real time bond data like prices, yields, credit risk, liquidity etc. right from the heart of the global bond markets.
+BondEvalue provides you access to live and historical bond prices and yields data for bonds. Unlike equities which have already been digitally disrupted, bonds have remained unchanged for decades, with private bank clients unable to access live prices. With the help of our advanced algorithm we monitor the bond specific data points from a large variety of sources and enable individual investors to get the latest and accurate bond prices, yields, liquidity, riskiness, news and many other data points which help them to make more informed decisions at the time of bond trading.
 
-Engage consumers globally or as they enter, dwell in and exit your physical places of business. Conduct hyper-personalized targeting and proximity marketing while using analytics that provides insights about app user behavior and venue operations.
+Fully Managed RabbitMQ clusters - CloudAMQP automates every part of setup, running and scaling of RabbitMQ clusters.
+Message Queues in the Cloud
+CloudAMQP installs and manages RabbitMQ clusters for you. RabbitMQ supports multiple protocols such as AMQP, MQTT, HTTPS, STOMP, and WebSockets (Web-Stomp).
+Event Stream
+The event stream allows you to see the latest 1000 events from your RabbitMQ cluster. New events will be added in real time. This is great for debugging and performance investigations.
+Plug-ins at your assistance
+From CloudAMQP’s control panel you can easily enable common RabbitMQ plug-ins for your server. You will also find top community plug-ins that are installed with a click.
+Exceptional Support
+We provide 24/7 support to thousands of customers. We've been providing the service for years and have unmatched operation experience from a huge range of customers. There's no scaling or implementation problem we can't solve.
+Risk and Compliance professionals need a variety of tools to understand the risks inherent in their investments. Coalesce uses IBM Watson® to allow analysts and business users to search all forms of external and internal data for risk analysis signals.
+Investment managers and risk and compliance professionals use a wide variety of tools to understand the risks inherent in their investments. Coalesce is a unique Artificial Intelligence product that uses IBM Watson® to allow analysts and business users to search the internet and all forms of internal data for “Signals” that may be relevant to risk analysis.
+Perfectly configured and optimized PostgreSQL databases ready in 2 minutes
+Your DBA in the Cloud
+ElephantSQL is hosted by PostgreSQL experts, with several years of DBA PostgreSQL experience. We provide 24/7 support to thousands of customers.
+Automated backups
+Automated backups are performed every day, which is stored in a cloud file storage so that they are always accessible to you. You can also use point-in-time-recovery to restore your database.
+Monitoring
+Our control panel offers various tools for monitoring; you can view server metrics to measure performance and view slow queries. You also have the choice to ship your PostgreSQL logs to Papertrail, Splunk, Loggly, and Logentries.
 
-With Phunware's Marketing Automation SDK you can send marketing campaigns that are displayed as notifications to your app users' mobile devices. Users tap on the notification to open the app or deep link to a promotion or other app page. Phunware's SDK powers global and targeted broadcast campaigns, as well as entry and exit campaigns triggered by location geofences or beacons (BLE or vBLE).
+ElephantSQL automates every part of setup and running of PostgreSQL clusters. Let your team focus on what they do best - building your product. Leave server management and monitoring to the experts.
+The Dwolla Platform helps businesses easily connect to the ACH network to send, receive or facilitate the transfer of funds to their users. Developer friendly, the ACH-optimized API scales reliably for businesses, exceeding 99.9% uptime.
+Dwolla now facilitates the movement of millions of dollars every day with low transaction costs, easy automation and near-perfect reliability. The goal is to make an incredibly complex process feel simple, easy and seamless to the people who use it—our customers and their end users.
 
-As a Phunware SDK user, you will be provided with access to the MaaS portal, Phunware's web-based configuration portal where you will configure Attributes-Profiles, Geofences, and Beacons for Marketing Automation and manage the campaigns that keep users engaged in your app.
-Pre-CAT Notifications allow you to give policyholders in high-risk areas an early warning of an anticipated catastrophe and an expectation for how losses will be handled following the CAT event, leading to increased claims satisfaction.
+Applications should be built and tested in the Dwolla Sandbox environment before being used in production.
+Powerful cloud-based, API-first platform for online finance applications. Customers can access end to end financial services functions through a single API and use them together with our Intelligent Connectivity Layer to create smart automated workflows.
+Difitek is a powerful cloud-based, API-first platform for online finance applications. Customers can access end to end financial services functions through a single API and use them together with our Intelligent Connectivity Layer to create smart automated workflows.
 
-SPLICE Pre-CAT Notification Dialogs allow you to effectively communicate to your customers to best prepare them for impending catastrophic events. By providing a custom personalized response to your clients, you can ensure that the exact message you wish to purvey will be received and using SPLICE's industry leading voice will empower your customer relation experience.
-Send and receive SMS and MMS messages globally using Telstra's enterprise grade Messaging API. Get your dedicated Australian number, and start sending and receiving messages today. Receive 1,000 free messages by registering for Telstra Messaging API.
-A lot has to go right so that every single one of your messages reaches its destination. It’s not just about access to carrier connections - it’s how your message is managed across those connections. Twilio’s intelligent cloud software handles it all.
-Twilio offers the easiest way to build and scale video calling capabilities for your web and mobile apps. Twilio Programmable Video includes APIs for 1:1 or multi-party rooms, screen sharing, session recording, and much more.
-Build faster and scale with confidence using one API for mobile, web, and app calling. The Twilio Voice API lets you build amazing call experiences with masked phone numbers, global conference calls, phone menus, multi-channel contact centers, and more.
-Twilio’s Programmable Voice makes it incredibly easy to add Voice capabilities to your mobile or web application. Add easy ingoing and outgoing calling with monitoring and logging capabilities in no time flat with the power of Twilio’s Cloud Voice capabilities. It’s only a few steps from our communications APIs to a contact center, unique support capabilities, browser dialing, or any other application you can dream.
-Automatic front-end development platform to rapidly develop a premium omni-channel presence. Leverage Zuznow to create secure mobile web and mobile apps.
-Zuznow provides an automatic mobile adaptation platform that adapts even the most complex web applications to mobile apps Using Zuznow platform, once can fully preserve the original application’s user experience, content, functionality, and business logic. Zuznow platform is composed of an automatic responsive engine, which runs CSS and style changes - on the fly and in real-time on the entire application, creating a mobile app in an instant; and of an adaptive engine - which offers a full featured customization dashboard (the Editor) that web developers can use to customize the automatic result, using simple CSS, HTML and jQuery commands.
+The core benefits of the platform are OPEX and CAPEX cost transformation and support for cutting edge, green field finance applications.
+Create Alexa Skills, Google Home Actions, Facebook Messenger Bots & Chatbots without Coding.
 
-Build contextual communications into mobile apps, websites, and business systems, enabling enterprises to easily communicate relevant information to their customers in real time, anywhere in the world, through text messaging, chat, social media and voice.
-exmo, The Vonage API Platform, provides tools for voice, messaging and phone verification, enabling you to embed programmable communications into mobile apps, websites and business systems. Nexmo APIs include SMS text messaging, two-factor authentication, voice, chat, and social media connect.
+Conversation.one is a build-once-deploy-anywhere platform, where your app can be deployed as an Alexa skill, Google Home action, Facebook Messenger bot, or a chatbot on your website
+
+In this example, you’ll build a basic “what happened today” conversational application that provides a dynamic and personalized response. A conversational app contains intents, entities, and responses that you want to deliver to your user. Intents are the mechanisms that pick up what your user is requesting (using entities) and that direct the app to respond accordingly.
+
+For simple replies that don’t include information gathered outside of the conversation, you can define textual hard-coded responses. More advanced responses can be made using your own logic and integrations. In later sections, you’ll add responses gathered from an external API call. For now, let's cover the basics.
+
+HazardHub provides the most comprehensive collection of hazard risk and property characteristic data ever assembled. Our risks include air, water, fire, earth and man-made risks, all in one easy to access API.
+
+The dacadoo Health Score is a number between 0 and 1,000 normalized by age and sex and represents the overall health of a person. It is based on numerous biometric, lifestyle and psychometric inputs, supporting a 360 degree view of human health.
+The Health Score is a number between 0 and 1,000 representing the overall health of a person. The score is based on numerous biometric, lifestyle and psychometric inputs supporting a 360° view of human health. The score is normalized by age and sex to support comparison and benchmarking.
+Build digitized investing, wellness, and savings solutions atop Hydrogen's API platform which features a full suite of financial engineering tools and has pre-built integrations to partners such as broker-dealers, CRMs, data-providers, etc.
+
+Hydrogen's APIs combine all of the core infrastructure and connectors needed to build leading fintech architecture, with all of the financial engineering needed to build products and tools to set your brand apart.
+Data on our wide ranging investment database can strengthen activities that range from conducting research and financial modeling, to developing new products, creating investor-friendly communication materials, and delivering industry-standard statistics. The Morningstar Data API's provide a flexible, easy to implement access mechanism to allow you to access the data to support your business objectives.
+The Arria NLG API service enhances data with insightful expertly written narratives in real-time. It replicates the way a human expert analyzes data to pick out the important information and then generates a natural language report.
+With Arria’s Natural Language Generation APIs, you can quickly and easily integrate NLG into your application to add context-aware, instantly updatable, domain-relevant narrative explanation of any data. Arria NLG’s patented AI technologies provide real-time advanced data analysis and commentary.
+
+Payeezy is the simplest way to accept payments. With just a few lines of code, developers can accept credit and debit cards, eChecks, Apple Pay, Android Pay, Samsung Pay, Paypal, loyalty cards and many other payment types in mobile apps, eCommerce sites and just about any device that communicates over HTTP.
+APIs for Financial Data Aggregation and account ownership verification
+Delivering financial data from more than 16,000 global financial sources, the single unified Envestnet® | Yodlee® Platform API enables personalized and powerful financial solutions. With permission-based access to financial accounts and transaction information plus bank-level security, our easy to use Platform API provides the bank, credit card, investment, loans, rewards, and other financial account data needed for a wide variety of use cases including financial wellness, planning, lending, wealth advisory, and other apps and services.
+Confirm a US based payee's bank account is owned by the intended recipient by leveraging our debit validation services which can confirm any controls, liens or other status related to a bank account in the United States.
+FundingShield is the market leading fintech firm offering plug’n play, scalable, cloud-based risk, compliance and fraud technology solutions to protect the Mortgage, Real Estate, Title, and Legal industries from wire fraud, social engineering attempts, injection attacks, and regulatory and compliance risk with third parties. Fundingshield’s cost and time effective solutions deliver the highest level of control and risk mitigation helping you improve your bottom line. Further we do not provide a data bank, we deliver actionable intelligence at the loan level so our clients make more informed decisions with full understanding of the risk.
+Innovate in financial services. With just a few lines of code, onboard users and interact with user bank accounts and financial data quickly and securely. Plaid delivers high-quality transaction data, validates account ownership, and helps mitigate risks.
+
+Plaid is a financial infrastructure provider that makes it easy to access high-quality transaction data, validate account ownership, and mitigate risks in a user-friendly way.
+Improve upon existing customer models, such as customer retention models, consumer default models, marketing response models, etc. Customers have seen an improvement in prediction power of up to 50% (50% increase in KS Score).
+The Powerlytics Behavior/Propensity Model Development API can be leveraged to develop new or improve upon existing customer behavior/propensity models, such as customer retention models, consumer default models, marketing response models, etc. When leveraging the Powerlytics data within these types of models, our customers have an improvement in prediction power of up to 50% (50% increase in KS Score). Our Behavior/Propensity Model Variables can be imported into your data science environment in order to run a variety of model selection and logit regression techniques to identify the combination of internal and Powerlytics variables that most significantly increase predictive power.
+Our Income variables provide a complete picture of household income (Maximum, Minimum, Median, Standard Deviation, etc.) and summaries of the components of household income (Wealth Income, Business Income, Retirement Income, Disposable Income, W2, etc.).
+The Powerlytics Consumer Income API can be leveraged to understand the complete income profile of consumers at the 9-digit Zip code level. Our Consumer Income variables provide a complete picture of household income (Maximum, Minimum, Median, Standard Deviation, etc.) as well as summaries of the components of household income (Wealth Income, Business Income, Retirement Income, Disposable Income, W2, etc.). These consumer income variables can be leveraged in a wide variety of applications, such as Income Verification & Estimation (Ability to pay), Direct Mail & Pre-screening, Know-Your-Customer, etc.
+Use our variables to understand the investable assets & weatlh income for consumers at the Zip+4 level. Target investment and financial advisory services to customers that best meet their asset & wealth income thresholds.
+
+The Powerlytics Investable Assets & Wealth API can be leveraged to understand the investable assets and wealth income at the 9-digit Zip code level (3-4 homes on average). Our investable assets are segmented by size class with the number of returns within each segment and the average investable assets per segment. In addition to leveraging our variables to understand the investable assets with a 9-digit Zip code, our customers can understand the wealth income (Interest Income + Dividend Income + Capital Gain or Loss) and Retirement Income for that same 9-digit Zip code in order to target investment and financial advisory services to customers that best meet their asset & wealth income thresholds.
+
+Quovo is a data platform providing insights and connectivity for millions of financial accounts across thousands of institutions - including bank accounts, brokerage accounts, 401(k)’s, student loans and more.
+
+Quovo is a data platform providing insights and connectivity for millions of consumer financial accounts across thousands of institutions. Our fintech API suite makes it easy to automatically create a 360° degree picture of your users' financial life, access deep transaction histories, authenticate account ownership, or verify income.
+RelSci offers deep profiles of over 8 million decision makers, revealing who they are, what they've been up to lately, and how they connect. Use our flexible API to integrate robust people and relationship data into any internal system or daily workflow.
+The dacadoo Risk Engine calculates mortality and disease risks such as all-cause mortality and Diabetes type II. The calculation is based on numerous biometric inputs. The engine returns both risks and missing input values that have been imputed.
+The dacadoo Risk Engine calculates health-related mortalilty and disease risks such as all-cause mortality and Diabetes type II. The calculation is based on numerous biometric inputs, such as height, weight, blood pressure, heart rate, blood values, and questionnaire responses. Only sex, age, height and weight are required. Other missing values can be imputed by the engine. In addition to the resulting risks, the engine returns the fully imputed input data set.
+RS Edge a loan analytics and predictive modeling platform. Our models are built using billions of rows of mortgage performance data. Users can analyze these large data sets and apply predictive models to their portfolios of loans.
+RS Edge is a data discovery and modeling tool which provides access to billions of rows of mortgage performance data. Our proprietary search and retrieval technology and scalable back-end data center allows for fast querying and ad-hoc analysis on-demand. Analysis is combined with RiskSpan's proprietary projection models to enable forecasting of credit and prepayment performance.
+SizeUp's API allows API users to access a rich source of data for small business benchmarking; geospatial analysis of potential customers, suppliers, and competitors; and also allows multi-variable analysis to optimize advertising.
+
+SizeUp (LBI) Location Business Intelligence allows you to explore/find market data to better understand site-specific market information enabling more optimal decision making.
+Business Financial Management empowers businesses to better forecast and manage their cash-flow. It allows SMEs to run their business more efficiently and helps the bank to provide more tailored solutions to their business customers needs.
+Strands Business Financial Management (BFM) is a service that helps SMEs to better manage their finances. With the service you will be able to manage transactions, invoicing, cash flow analysis, income & expenses, financial calendar, budgetting, provisioning and more.
+Totum Risk provides a unique multi-scoring risk tolerance tool for the wealth management industry that calculates risk capacity(life situtation), risk preference(where they want to be), and portfolio risk(current investment risk).
+
+Totum Risk provides a unique risk tolerance tool for financial advisers that calculates how much risk an investor can take given their current life situation (risk capacity) instead of the traditional model that only looks at how much risk an investor wants to take (risk preference).
+
+The API services allows developers to build a complete Risk tool that can create questionnaire, get risk score, risk capacity, score portfolios and get analytics data on the portfolios.
+
+The API also supports enterprise customers with admin access to manager advisers/users.
+The API infrastructure that links retail investors and app developers with any online financial broker. Product features include portfolio view, order management and account linking.
+TradeIt is a financial ecosystem that enables our partners – developers, publishers, social networks – to easily add portfolio tracking and trading of equities, ETFs, options, FX and digital currencies with most online US brokers in minutes. Let your users link their brokerage accounts easily and securely on a web or mobile platform.
+The Ylabs Marketplace is complete banking stack, with APIs for compliant account opening flows and enhanced KYC, provision to add payees, and money transfer via several channels, with real time risk monitoring capabilities.
+Named one of the ten coolest brands in banking, Xignite provides cloud-based real-time and reference market data to financial services and fintech companies for easy integration with websites, apps, and software. The Xignite Market Data Cloud platform allows companies to simplify infrastructure, scale quickly, and innovate faster.
+Xignite APIs provide access to real-time and reference market data making it easy for fintech developers to integrate stock quotes or other finacnial information with Internet of Things devices.
+The WealthEngine API lets you look up the net worth and financial capacity of almost anyone in the U.S. in real time giving insight into the wallet share of clients and prospects. Simple to use, it's a restful API that returns JSON.
+The dataset combines fundamental analysis, quantitative metrics, and alternative data using proprietary artificial intelligence and deep-learning algorithms which filter, rank, and sort vast amounts of data to adapt to changing market conditions.
+TrueRisk Labs is delivering the next evolution in the investment decision making processes. Our metrics are the culmination of human and artificial intelligence, combining industry best investment and trading practices with the ability to unearth insights from our advanced machine learning models that are constantly adapting to changing market conditions.

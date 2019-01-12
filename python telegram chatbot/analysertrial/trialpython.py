@@ -125,6 +125,8 @@ def dotopics(ystr, topic):
     elif number_of_topics != 0: #if the number of topics isnt 0 then...
         num_letter = number_of_topics + 4 #who the fuck knows what this line does
         for y in range(number_of_topics): #for every topic do...
+            if num_letter > 25:
+                num_letter = 25
             topic_cell = letters[num_letter] + ystr #create cell where the topic is stored
             topic_database = str(sheet[topic_cell].value) #extracts the string within the cell
             if topic == topic_database: #if the topic is the same do absolutely nothing
@@ -155,6 +157,8 @@ def dosectopics(ystr, topic):
     elif number_of_topics != 0: #if the number of topics isnt 0 then...
         num_letter = number_of_topics + 4 #who the fuck knows what this line does
         for y in range(number_of_topics): #for every topic do...
+            if num_letter > 25:
+                num_letter = 25
             topic_cell = letters[num_letter] + ystr #create cell where the topic is stored
             topic_database = str(secsheet[topic_cell].value) #extracts the string within the cell
             if topic == topic_database: #if the topic is the same do absolutely nothing
