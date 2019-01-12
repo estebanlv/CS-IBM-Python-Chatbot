@@ -230,14 +230,3 @@ Collaborate for better outcomes
 Work with your peers on projects to find better solutions together. Share your knowledge and your work easily with visualizations and code - and help fuel the advancement of data science and AI for all.
 
 PowerAI makes deep learning, machine learning, and AI more accessible and more performant. By combining this software platform for deep learning with IBM® Power Systems™ and NVIDIA® GPUs, enterprises can rapidly deploy instances fully optimized and supported for MLDL with blazing performance. The PowerAI platform includes the most popular machine learning frameworks and their dependencies, and it is built for easy and rapid deployment. Users can also build out multi-node clusters for Distributed Deep Learning (DDL) with Infiniband interconnects. PowerAI is offered in partnership with Nimbix on IBM Power Systems infrastructure.
-
-
-
-
-
-
-
-
-
-
-

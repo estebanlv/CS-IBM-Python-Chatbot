@@ -149,21 +149,3 @@ The FusionAuth APIs can be integrated into any platform. Our REST APIs are well 
 Twilio's Authy two-factor authentication API enables app developers and publishers to protect user log-ins and transactions by adding a second factor of authentication beyond the password. Increase trust while reducing fraud with our easy 2FA integration.
 
 Twilio’s Verify phone verification API enables web application developers and publishers to verify the validity of user phone numbers to reduce fraud, increase trust and unlock a new channel for interaction with customers.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

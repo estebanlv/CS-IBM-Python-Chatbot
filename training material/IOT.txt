@@ -39,31 +39,3 @@ Bosch IoT Rollouts is a domain independent back-end solution for rolling out sof
 This API can help you to assess the health status of a vehicle, by translating OBD error codes in a human readable form. We support all error codes that can be read with the widely used ELM327 OBD dongles. In addition to that, we also support error codes that are specific to car manufacturers. Our database includes more than 17.000 error codes that are professionally maintained.
 Locate mobile devices using our cloud-based hybrid location solution. Skyhook’s Precision Location delivers accurate positioning using Wi-Fi, A-GPS, Cell or Hybrid location methods for any connected device anywhere on the globe.
 The world’s first true intelligent IoT messaging platform, UIB’s patented device- and platform-agnostic UnificationEngine™ (UE) technology uses Artificial Intelligence (AI) and Natural Language Processing (NLP) to enable human to machine (H2M) communications on over 20 of the world’s most popular global communications channels, including: email, SMS, Facebook, WhatsApp, Viber, Skype, and many others, with new channels being added monthly. Dedicated to the Internet of Things (IoT), UE’s AI-powered unified messaging and intelligent chatbot technology platform provides users, developers, and manufacturers with increased security, interoperability, and convenience for smart home, smart enterprise, and smart city use cases and solutions. Learn more about how UE can enable you to simply communicate at unificationengine.com and unifiedinbox.com.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

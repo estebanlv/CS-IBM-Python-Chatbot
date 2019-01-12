@@ -91,15 +91,3 @@ Pre-CAT Notifications allow you to give policyholders in high-risk areas an earl
 SPLICE Pre-CAT Notification Dialogs allow you to effectively communicate to your customers to best prepare them for impending catastrophic events. By providing a custom personalized response to your clients, you can ensure that the exact message you wish to purvey will be received and using SPLICE's industry leading voice will empower your customer relation experience.
 
 By taking advantage of this API solution, you will be able to quickly and easily integrate this solution into any of your associated workflows.
-
-
-
-
-
-
-
-
-
-
-
-

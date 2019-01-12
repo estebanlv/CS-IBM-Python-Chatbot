@@ -127,11 +127,3 @@ Access to Watson Studio and Custom Modeling
 This application demonstrates how to run the Node-RED open-source project within IBM Cloud.
 
 Node-RED provides a browser-based flow editor that makes it easy to connect devices, APIs, and online services by using the wide range of nodes in the palette. You can deploy the flows to the Node.js runtime environment with a single click. This starter application provides a version of Node-RED that is customized to run in IBM® Cloud.
-
-
-
-
-
-
-
-

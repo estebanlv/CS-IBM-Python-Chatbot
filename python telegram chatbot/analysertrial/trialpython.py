@@ -7,7 +7,7 @@ wb = load_workbook(filename = 'wordsdatabase.xlsx') #Tell the program what file 
 sheet = wb['main'] #Tells the program which sheet in the document i'm using
 secsheet = wb['secondary']
 total = wb['total']
-letters = ["A","B","C","D","E","F","G","H","I","K","J","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
+letters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
 #These variable above is for cell values
 
 def removepunctuation():

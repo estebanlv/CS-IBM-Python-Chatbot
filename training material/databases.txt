@@ -133,18 +133,3 @@ Kitewalk GEO Web Services for Bluemix add geo-intelligence features to your apps
 InfluxData is rooted in open source and purpose built for handling time-series data. Customers use our products for DevOps infrastructure monitoring (cloud infrastructure, containers & applications), IoT connected devices & real-time analytics.
 
 This third-party service does not have an IBM pricing plan. You can obtain it from the third party under the terms of use agreement. The third party might charge you for use of the service.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

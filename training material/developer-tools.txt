@@ -207,23 +207,3 @@ Mendix is a high productivity app platform that enables you to build and continu
 PagerDuty is the leading incident management platform that provides DevOps insight to respond to critical disruptions for exceptional customer experience. With real-time alerts and visibility into critical systems and applications, operations teams can quickly detect, triage, resolve and conduct post-mortems on incidents from development through production.
 
 This third-party service does not have an IBM pricing plan. You can obtain it from the third party under the terms of use agreement. The third party might charge you for use of the service.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
