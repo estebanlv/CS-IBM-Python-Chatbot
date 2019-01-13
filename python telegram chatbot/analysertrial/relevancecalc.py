@@ -15,8 +15,9 @@ def mainalgorithm(no_of_apps, ystr):
     topics_cell = letters[4] + ystr
     apps_percentage = float(sheet[percentage_cell].value)
     no_of_topics = int(sheet[topics_cell].value)
-    relevance = 1000 * ((1 - (no_of_topics/10)) ** apps_percentage)
-    relevance = relevance - (no_of_apps * 0.5)
+    relevance = 1000 * ((1 - (no_of_topics/14)) ** apps_percentage)
+    relevance = round(relevance, 2)
+    #relevance = relevance - (no_of_apps * 0.5)
     relevance_cell = letters[3] + ystr
     relevance_str = str(relevance)
     sheet[relevance_cell].value = relevance_str
@@ -26,8 +27,9 @@ def mainalgorithmsec(no_of_apps, ystr):
     topics_cell = letters[4] + ystr
     apps_percentage = float(secsheet[percentage_cell].value)
     no_of_topics = int(secsheet[topics_cell].value)
-    relevance = 1000 * ((1 - (no_of_topics/10)) ** apps_percentage)
-    relevance = relevance - (no_of_apps * 0.5)
+    relevance = 1000 * ((1 - (no_of_topics/14)) ** apps_percentage)
+    #relevance = relevance - (no_of_apps * 0.5)
+    relevance = round(relevance, 2)
     relevance_cell = letters[3] + ystr
     relevance_str = str(relevance)
     secsheet[relevance_cell].value = relevance_str

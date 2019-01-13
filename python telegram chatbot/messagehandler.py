@@ -1,8 +1,6 @@
 import time
 from openpyxl import load_workbook #This loads a library that allows me to read/write excel files
 
-start = time.time()
-
 wb = load_workbook(filename = 'wordsdatabase.xlsx') #Tell the program what file i'm using
 sheet = wb['main'] #Tells the program which sheet in the document i'm using
 secsheet = wb['secondary']
@@ -53,20 +51,22 @@ def joinandsplitspace(word_list):
         #print(list_of_words[x]) #prints all the words in the sentence
     return list_of_words;
 
-def readfile();
+def readfile():
     topic = input("Enter the main topic of this text:")
     text_file = open("dissectedmessage.txt", "r") #opens the text file to read it
     word_list = text_file.read()
     print("read")
     return word_list;
 
-def start():
+def writemessagetofile(messagetext):
+    message_file = open("message.txt", "w")
+    message_file.write(messagetext)
+    message_file.close()
+
+def start(messagetext):
     print("Lets start the search")
+    writemessagetofile(messagetext)
     removepunctuation()
     word_list = readfile()
     list_of_words = joinandsplitspace(word_list)
-
-
-wb.save("wordsdatabase.xlsx")
-end = time.time()
-print(end - start) #time taken for the program to run
+    print(list_of_words)

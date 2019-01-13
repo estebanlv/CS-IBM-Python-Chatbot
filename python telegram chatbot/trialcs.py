@@ -40,10 +40,8 @@ def at_converter(message):
 # Handle all other messages with content_type 'text' (content_types defaults to ['text'])
 @bot.message_handler(func=lambda message: True)
 def echo_message(message):
-    text_message = open("newmessage.txt", "w")
-    write(message)
-    text_message.close()
-    new_message = messagehandler.start()
+    message_str = str(message.text)
+    new_message = messagehandler.start(message_str)
     bot.reply_to(message, new_message.text)
 
 while True:
