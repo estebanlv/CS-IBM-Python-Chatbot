@@ -41,3 +41,18 @@ Secure exposure of apps to the public
 Choose between a public IP address, an IBM provided route, or your own custom domain to access services in your cluster from the internet.
 IBM Cloud service integration	
 Add extra capabilities to your app through the integration of IBM Cloud services, such as Watson APIs, Blockchain, data services, or Internet of Things.
+ontainer Registry
+Manage Docker container images in a fully managed private registry. Push private images into this registry to run them in IBM Cloud Kubernetes Service and other runtime environments. Images are checked for security issues, so that you can make informed decisions about your deployments.
+Highly available and scalable private registry
+Set up your own image namespace in a multi-tenant, highly available, scalable private registry that is hosted and managed by IBM. Securely store your private Docker images and share them with users in your IBM Cloud account.
+Image security compliance with Vulnerability Advisor
+Benefit from the automatic scanning of images in your namespaces. Review suggestions, which are specific to your operating system, to fix potential vulnerabilities and protect your containers from being compromised.
+Quota limits for storage and pull traffic
+Benefit from free storage and pull traffic to your private images until you reach the limit for your free quota. Set custom quota limits for the amount of storage and pull traffic per month so that you avoid exceeding your preferred payment level.
+se IBM® Cloud Container Registry to safely store and access private Docker images in a highly available and scalable architecture.
+
+IBM Cloud Container Registry provides a multi-tenant, highly available, and scalable private image registry that is hosted and managed by IBM. You can use the private registry by setting up your own image namespace and pushing Docker images to your namespace.
+A Docker image is the basis for every container that you create. An image is created from a Dockerfile, which is a file that contains instructions to build the image. A Dockerfile might reference build artifacts in its instructions that are stored separately, such as an app, the app's configuration, and its dependencies. Images are typically stored in a registry that can either be accessible by the public (public registry) or set up with limited access for a small group of users (private registry). By using IBM Cloud Container Registry, only users with access to your IBM Cloud account can access your images.
+
+When you push images to IBM Cloud Container Registry, you benefit from the built-in Vulnerability Advisor features that scan for potential security issues and vulnerabilities. Vulnerability Advisor checks for vulnerable packages in specific Docker base images, and known vulnerabilities in app configuration settings. When vulnerabilities are found, information about the vulnerability is provided. You can use this information to resolve security issues so that containers are not deployed from vulnerable images.
+IBM® Cloud Container Registry provides a multi-tenant, highly available, and scalable private image registry that is hosted and managed by IBM. You can use the private registry by setting up your own image namespace and pushing Docker images to your namespace.

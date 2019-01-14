@@ -41,3 +41,284 @@ Secure exposure of apps to the public
 Choose between a public IP address, an IBM provided route, or your own custom domain to access services in your cluster from the internet.
 IBM Cloud service integration	
 Add extra capabilities to your app through the integration of IBM Cloud services, such as Watson APIs, Blockchain, data services, or Internet of Things.
+Bare metal servers provide the raw horsepower you demand for your processor-intensive and disk I/O-intensive workloads. These servers come with the most complete package of standard features and services.
+IBM Bare Metal Servers provide performance, flexibility, on-demand provisioning, and control. Choose between hourly or monthly pre-configured servers or customize with single to quad processing solutions that range from 4 to 72 cores. Bare metal servers are available worldwide and with no monthly contracts so you can build the best solution for your workloads.
+Control & Security
+A single tenant bare metal server is dedicated to customers for complete control, flexibility, and security.
+Customizable
+Choose a processor that best meets your performance needs. Upgrade from the base configuration to fine tune the hardware for your workload with customizable RAM, SSD, and more.
+On-demand
+Provision servers in IBM Cloud data centers around the world in two to four hours. If you need to be online in minutes or only need limited resources, select an hourly bare metal server.
+Powerful
+Available options from single processor 4-core architectures to quad-processor 12-core architectures and up to 3TB RAM. Local storage ranges from 800 GB to 1.2 TB SSDs and up to 36 drivers per server.
+GPUs
+Provision bare metal servers with cutting-edge GPUs to handle your most complex compute-intensive workloads. NVIDIA Tesla GPUs on IBM Cloud are designed for high performance acceleration of scientific computation, data analytics, and professional-grade virtualized graphics.
+SAP
+Shift SAP environments from on-prem to the fully powered IBM Cloud to realize all the advantages of cloud: cost reductions, on-demand flexibility, and limitless growth potential. SAP HANA 4-socket and 8-socket bare metal servers are SAP certified for production S/4 HANA workloads.
+IBM® Cloud Bare Metal Servers are the cornerstone for your infrastructure-as-a-service solution. Whether you're a gaming developer who requires high-speed I/O or you need to up high-performance servers for your users, Bare Metal Servers can answer your compute needs.
+
+Your Bare Metal Servers is an hourly or monthly, single-tenant server that is dedicated to you; it is not shared in any part, including server resources, with other customers. You manage your server, which is provisioned without a hypervisor, and can be deployed in one or more data centers. Multiple Bare Metal Servers can communicate on the IBM Cloud virtual private network as if stationed on the same rack.
+This service gives you the WebSphere Application Server experience in Bluemix. Choose from traditional or Liberty installations of WebSphere Application Server, preconfigured and hosted on your own Red Hat Enterprise Linux guest.
+Features
+WebSphere Experience
+Reuse your WebSphere administration skills and scripts to ease your transition to cloud.
+Full-Feature Application Servers
+Leverage sophisticated enterprise features like transactions, just like you do on-premise.
+Shell and Admin UI Management
+Use a secure shell, or log into the Admin Center/Console to control your WebSphere environment.
+Customize just what you need
+We've already installed and configured WebSphere, now all you have to do is make those minor changes to get your application just the way you need it.
+It's a cloud service after all. Use it for an hour. Drive it hard. Delete it. Grab a new one when you need it; it's up to you.
+BM® WebSphere Application Server for IBM Cloud facilitates quick setup on a pre-configured WebSphere Application Server Liberty, Traditional Network Deployment, or Traditional WebSphere Java EE instance in a hosted cloud environment on IBM Cloud.
+You are given a familiar WebSphere administration experience and have full access to the underlying operating system. You can reuse your existing scripts and make the little system tweaks that you need to make to work with your own, or third party, frameworks. The Admin Center and Admin Consoles are provided to administer your WebSphere Application Server Liberty, ND or Traditional service, just like your on-premises WebSphere configurations.
+
+The WebSphere Application Server in IBM Cloud Network Deployment Plan consists of a WebSphere Application Server Network Deployment cell environment with two or more virtual machines. The first virtual machine contains the Deployment Manager and IBM HTTP Server and the remaining virtual machines contain custom nodes (node agents) federated to the Deployment Manager. Use your existing wsadmin scripts to create your WebSphere configuration or use the WebSphere Admin Console to manually configure the environment. These new capabilities allow users to set up a clustered environment, which is a critical aspect of any middleware enterprise application. Clients can now elect to cluster a topology to load balance requests across two or more Instances.
+
+The WebSphere Application Server in IBM Cloud Network Deployment Plan also includes the use of a Liberty collective. The Liberty collective is an administrative domain for a group of Liberty profiles (servers) and consists of two or more virtual machines. The first virtual machine contains the collective controller Liberty server, which is a control point for the Liberty collective. In addition to the Liberty collective, this virtual machine also contains the IBM HTTP Server, which allows access to your applications from a web browser. The remaining virtual machines are the collective hosts where the collective members reside (Liberty profile servers). The Liberty Admin Center feature is also enabled on the Liberty controller server.
+HPCaaS from Rescale enables you to rapidly deploy your HPC jobs on the IBM Cloud with your chosen execution environment. The service allows you to pick your desired software package, compute and storage configuration for your HPC job. Once submitted, HPCaaS from Rescale provides a live tailing feature and enables easy access to the execution environment for debugging. Once your job has completed, you can download the results or continue to do further analysis on the IBM Cloud.
+Custom HPC Clusters On Demand
+Create customized private clusters in seconds. Tailor your hardware configurations and let the platforms handle the work of building a cluster for you, instant or on demand.
+Run Simulation Software
+Select your simulation of choice. Rescale supports a wide variety of simulation software including commercial, open source, and custom code.
+Create Templates and Variables
+Securely upload your input files. Add your own custom templates or use the library of template files provided by Rescale's simulation platform.
+View Simulation Progress in Real Time
+Live Tailing and intermediate file access allow you to instantly view, download, and track any output file in real time.
+Perform High-Level Analysis
+Analyze key, high-level results directly in your web browser. Rescale's simulation platform allow you to sort and visualize your data to quickly gain design insights.
+HPCaaS from Rescale enables you to rapidly deploy your HPC jobs on the IBM Cloud with your chosen execution environment. The service allows you to pick your desired software package, compute and storage configuration for your HPC job. Once submitted, HPCaaS from Rescale provides a live tailing feature and enables easy access to the execution environment for debugging. Once your job is completed, you can download the results or continue to do further analysis on the IBM Cloud.
+
+HPCaaS from Rescale is a third party service that is fully integrated into the IBM Cloud catalog. All consumption associated with this service will be included on your monthly IBM Cloud invoice. You will benefit from a joint support model between IBM Cloud and Rescale.
+VMware vCenter Server on IBM Cloud is a hosted private cloud that delivers the VMware vSphere stack as a service. The VMware environment is built on top of a minimum of two IBM Cloud bare metal servers, shared file-level storage, and it includes the automatic deployment and configuration of an easy-to-manage logical edge firewall that is powered by VMware NSX. The entire environment can be provisioned in a matter of hours, and the elastic bare metal infrastructure can scale out the compute capacity rapidly when needed. IBM Cloud provides you full, native access to the entire VMware stack, including vSphere 6.5 Enterprise Plus edition, NSX for Service Providers edition, and the centralized platform for management, vCenter Server. You can move your workloads to and from the cloud without changing your apps, tooling, scripts, or investing in new skills. Platform instances and expansion nodes are priced per-month and they include access to IBM Support and all VMware components that comprise the service.
+VMware Cloud Foundation on IBM Cloud brings together VMware vSphere, vSAN, and NSX into a natively-integrated stack of virtual compute, virtual storage, and virtual networking built on IBM Cloud compute infrastructure dedicated to you. The environment can be operated independently or as a seamless, hybrid extension of your on-premises data center.
+
+Using advanced automation, the Cloud Foundation stack is deployed in a standard, prescriptive manner according to a VMware-validated design reference architecture. Each instance deployment includes native user interface access to the VMware products, VMware and IBM-provided lifecycle management capabilities to automate day 2 operational tasks, and an integrated backup service for the management plane.
+
+You can deploy a base instance in one or more of the available IBM Cloud Data Centers worldwide. After the based instance is deployed, you can expand or retract virtualized workload capacity on demand using standard capacity nodes. You can link up to eight instances to create a multi-site configuration.
+
+Platform instances and expansion nodes are priced per-month and include access to IBM Support and all VMware product licenses that comprise the service.
+VMware vSphere on IBM Cloud provides you with maximum flexibility to build your own IBM-hosted environment using VMware-compatible hardware and the right set of VMware components that fit your business needs and expertise.
+
+You can design your hosted VMware environment any way you want: from a single ESXi cluster to a robust software-defined data center (SDDC) architecture. The VMware vSphere offering helps you extend your on-premises VMware environment into IBM Cloud.
+
+vSphere on IBM Cloud lets you start as small as a single ESXi server and scale the cluster by rapidly provisioning ESXi on single-tenant bare metal servers. Expand your on-premises data center capacity without sacrificing the enhanced security of dedicated infrastructure. vSphere on IBM Cloud also offers the latest in native VMware encryption options at the VM-level or at the vSAN datastore-level.
+
+Access the IBM-hosted VMware environment with the same level of control and visibility that you have on-premises. With full administration permissions to the VMware stack, you have total control and can continue leveraging your investment in tools, scripts, and training to manage the off-premises environment.
+NetApp® ONTAP® Select on IBM Cloud, a software-defined storage virtual appliance, extends existing data management capabilities by implementing NetApp ONTAP software as a service on the dedicated bare metal servers of IBM Cloud. You can provision storage resources with agility and flexibility while protecting your data by using advanced data management functions of NetApp, such as the fast and efficient NetApp Snapshot® copies, FlexClone® copies, and SnapMirror® replication. NetApp ONTAP Select accelerates application DevOps while reducing the complexity and overhead associated with physical storage systems.
+
+NetApp ONTAP Select on IBM Cloud is offered in both high performance (all SSD) and high capacity (all SATA) configurations, which can meet the range of use cases you demand today. You can use the tools provided by NetApp ONTAP Select to address your hybrid cloud needs, such as addressing disaster recovery scenarios, providing file services, and managing rapid transactional data workloads.
+
+NetApp ONTAP Select on IBM Cloud helps to improve productivity and efficiency, reduce IT overhead costs, and gain agility by offloading IT resources and management complexity from the cloud. The offering can accelerate hybrid cloud adoption by harnessing the NetApp integrated ONTAP capabilities with VMware running on IBM Cloud bare metal servers. The offering enables easier, security-rich, and near-seamless extension of existing workloads from on-premises data centers to IBM Cloud Data Centers worldwide.
+Reacting to a rapidly changing marketplace has accelerated the need for new approaches to modernizing and building applications.
+
+To help organizations respond to our dynamic world, IBM is delivering IBM Cloud Private Hosted on VMware vCenter Server on IBM Cloud, which brings together the power of containerized IBM software, Kubernetes, and VMware to organizations on the IBM Cloud.
+
+IBM Cloud Private Hosted brings the power of microservices and containers to your VMware environment in the IBM Cloud. This service extends the same familiar VMware and IBM Cloud Private operational model and tooling from on-premises into the IBM Cloud. IBM deploys the environment for you, but you maintain complete control and visibility down the entire stack.
+
+You can choose either a 'production' or 'development/test' deployment size for IBM Cloud Private Hosted depending on how much capacity is needed on VMware vCenter Server on IBM Cloud. The development/test deployment is designed for small development/test workloads while the large deployment is designed for large production workloads. Automation built by IBM will then configure and install IBM Cloud Private Hosted as on your cloud instance. Cloud Automation Manager (CAM) is also configured and installed as a function of IBM Cloud Private Hosted.
+
+The 'production' minimum configuration size is 3 ESXi nodes each with 28 physical cores, 384 GB RAM, and 8 TB of attached storage.
+
+For 'development/test' use cases, we recommend a minimum configuration size is 3 ESXi nodes each with 16 physical cores, 128 GB RAM, and 8 TB of attached storage.
+
+IBM Cloud Private Hosted licensing must be purchased separately from this ordering portal. You can do so by contacting your IBM account representative or by purchasing through Passport Advantage.
+
+Key Features
+Control and access the whole stack from the container workload down to the VMware stack running on dedicated servers.
+Access to a native catalog of services through IBM Cloud Private Hosted.
+Manage VMware VMs in the cloud and on premise with Cloud Automation Manager.
+Add capacity, patch, and upgrade the platform on your schedule.
+Use the same VMware tools and skills you use on-premises to manage the IBM-hosted VMware environment.
+The FortiGate Security Appliance on IBM Cloud service provides top-rated network and content security services. By combining an intuitive operating system and an applied threat intelligence platform, the service offers you exceptional workload security performance with better visibility and control. This all starts with the flagship firewall platform, FortiGate 300 series Security Appliance. IBM Cloud deploys a pair of dedicated single-tenant appliances that are connected upstream from your VMware servers. The appliances protect all the servers and virtual machines on the public VLAN of your instances.
+
+The appliances are deployed in a highly available active-passive mode with synchronized configurations. IBM Cloud deploys the FortiGate 300 series Security Appliance within a Virtual Domain (VDOM) on the dedicated appliance, which gives you full access to that virtual domain without compromising the integrity of the appliance. You have virtually full access to advanced features and the ability to fine tune the appliance to a much higher degree than other products. The firewall blocks or shapes traffic before the traffic ever reaches your VMware servers. You can manage the FortiGate Security Appliance on IBM Cloud service by using the FortiOS Web Client or the Command Line Interface via SSH.
+Fortinet on IBM Cloud provides top-rated network and content security services for your VMware environment. By combining an intuitive operating system and an applied threat intelligence platform, the solution offers you exceptional workload security performance with better visibility and control. This starts with the FortiGate Virtual Appliance. IBM Cloud deploys a pair of dedicated FortiGate virtual machines (VMs) and configures them on the management interface. Later, you can attach and configure other interfaces as needed. In addition, SNAT and firewall rules are created on the management NSX Edge along with static routes on the FortiGate VMs to allow outbound public internet access for license activation and for acquiring latest security policies and content.
+
+FortiGate virtual appliances allow you to mitigate blind spots by implementing critical security controls within your virtual infrastructure. They also allow you to rapidly provision security infrastructure whenever and wherever it is needed. FortiGate virtual appliances have all the security and networking services common to traditional hardware-based FortiGate appliances. With the addition of virtual appliances from Fortinet on IBM Cloud, you can deploy a mix of hardware and virtual appliances, operating together and managed from a common centralized management platform.
+
+Using the advanced FortiOS™ operating system, FortiGate appliances effectively neutralize a wide range of security threats facing your virtualized environment. Whether deployed at the edge as a front-line defense, or deep within the virtual infrastructure for inter-zone security, FortiGate appliances protect your infrastructure with some of the most effective security services available today by enabling the features you need: application control, web filtering, IPS, AV and malware to secure your workload.
+
+The following licensing options are available for FortiGate virtual appliances:
+
+Standard FW
+Stateful Packet Inspection, VLAN Protection and Advanced Logging, Ingress/Egress Firewall Rules, SSL/IPSec VPN Termination and 24x7 support.
+
+Standard FW + UTM
+All Standard Firewall services PLUS Advanced Malware Protection (AMP) service (which includes: Antivirus, Botnet IP/Domain Service, Mobile Malware Security, FortiSandbox Cloud, Virus Outbreak Protection Service and Content Disarm & Reconstruct), as well as Web Filtering, IPS, Antispam, Application Control and FortiCare.
+
+Standard FW + Enterprise
+All Standard Firewall and UTM services PLUS the following the services:
+CASB – Provides visibility, compliance, data security and threat protection for cloud-based services.
+Industrial Security Service – Provides signatures for common ICS/SCADA protocols.
+Security Rating – Provides audit checking capabilities to identify critical vulnerabilities and configuration weaknesses and implement best practice recommendations.
+
+Security and compliance are the largest concerns of customers who are considering cloud infrastructure and thus the largest barrier to cloud adoption. To address this, IBM has partnered with Intel & HyTrust to create a "first to market" VMware solution that not only encrypts but also geo-fences data at the hardware level, providing users with a solid foundation to address their security and compliance concerns. Whether clients are looking to meet the upcoming GDPR (General Data Protection Regulation) requirements, or just looking to reduce audit risk for PCI, HIPAA, and other common certifications, this solution is ideal.
+
+IBM Cloud Secure Virtualization combines the power of IBM Cloud, Intel TXT (Intel Trusted Execution Technology), VMware, and HyTrust security software to give your business the benefits of cloud computing while maintaining the strongest levels of data protection, visibility, and auditing.
+
+Intel TXT allows the reading and writing of platform signatures and other secrets (such as keys) into a discrete TPM chip. Intel TXT is built into Intel® Xeon® processors, and includes capabilities in the microprocessor, chipset, I/O subsystems, and other platform components. When coupled with VMware vCenter, HyTrust CloudControl (HTCC), and HyTrust DataControl (HTDC), Intel TXT helps verify whether hosts launch into a trusted state, identify the physical location of hosts, and helps these systems prevent an attack on the centralized infrastructure of a cloud. These capabilities reinforce confidentiality and integrity of data in the face of increasingly hostile environments.
+
+IBM Cloud Secure Virtualization is deployed on the IBM Cloud infrastructure according to a VMware, HyTrust, IBM and Intel validated design reference architecture. IBM Cloud Secure Virtualization is initially deployed as a four-node cluster within the choice of client of available IBM Cloud Data Centers worldwide.
+
+To implement this service, you must have an IBM Professional Services agreement to ensure best practice configuration parameters and optimal delivery time of your environment. Once the environment is built, it is handed to you for management.
+Cloud security solutions help defend and protect the most important asset in the IT inventory – the hypervisor. For most organizations, their virtualization infrastructure is the crown jewel of the IT organization and the hypervisor the "one ring to rule them all". With that in mind, it is more important than ever to pay particular attention to cloud security solutions that help better harden the hypervisor, lock down access, and provide better visibility into and control over the environment.
+
+With HyTrust CloudControl (HTCC) you get a variety of security and policy enhancements without impacting the GUI that your vSphere, NSX, and ESXi administrators already know and use.? HTCC is deployed as a transparent proxy, and it mediates the actions taken by hypervisor administrators using familiar interfaces. Approved actions are allowed, disapproved actions are blocked, and additional approval is enabled, with logging all along.
+
+Key Features
+
+Complete Virtual Stack Protection
+Instant policy-based protection for the hypervisor, VMs, and data
+Continuous monitoring of hypervisor and VMs for security and compliance
+One-click security and compliance remediation on vulnerable VMs
+
+Visibility and Control
+Complete visibility of the entire security state, configurations, administrator actions, and compliance for all VMs running in virtualized, private, or software-defined data centers (SDDCs)
+
+BoundaryControl
+Prevent VMs from being moved from a designated host or onto a host that does not have acceptable security policy
+Enforce data policy based on software tags or using Intel TXT
+HyTrust DataControl (HTDC) is a powerful encryption and key management solution. HTDC can secure an entire workload, including the operating systems, applications, and data, throughout its lifecycle - from deployment and migration to sanctioned decommission. HTDC includes an easy-to-use, high-available, and FIPS 140-2 Level 1 validated key management solution, and a zero-downtime, zero-touch, hardware-accelerated encryption solution.
+
+Key Features
+FIPS 140-2 Level 3 support with HSM (or FIPS 140-2 Level 1 certified without)
+KMIP support
+Dashboard and log based forensic analytics
+Role-based access control (RBAC) for administrative controls over policy and key access
+Cross-cloud (public and private) key management
+Pre-integration with HyTrust CloudControl and HyTrust BoundaryControl to provide automated data geo-fencing for workloads
+File/folder level encryption on selected operating systems
+Pre-integration with Intel TXT/TPM for hardware host attestation
+HyTrust KeyControl (HTKC) simplifies management of encrypted workloads by automating and simplifying the lifecycle of encryption keys; including key storage, distribution, rotation, and key revocation. Using FIPS 140-2 compliant encryption, businesses can easily manage encryption keys at scale. HyTrust KeyControl is a VMware certified, scalable, and feature-rich KMIP 1 server to simplify key management for encrypted workloads. It serves as a Key Management Server for VMware vSphere and vSAN encrypted clients, or other products that support KMIP.
+
+HyTrust KeyControl manages the encryption keys for all your virtual machines and encrypted data stores and can scale to support thousands of encrypted workloads in large deployments.
+
+Key Features
+Enterprise scale and availability
+VMware Certified Key Manager Server (KMS) for vSphere 6.5, 6.7 – vSAN6.6
+Supports KMIP
+Highly Availability (HA) active- active deployments and clustering
+Up to four KeyControl Nodes in a cluster. Please refer to the Best Practice guide to extend beyond the initial implementation of a 2-Node KeyControl cluster.
+FIPS 140-2 Level 1 validated. FIPS 140-2 Level 3 compliance via HSM support Pre-integration with Intel TXT/TPM for hardware host attestation
+Easily upgradable to HyTrust DataControl for complete, multi-cloud workload encryption. Please refer to the Best Practice guide to extend the initial implementation of HyTrust KeyControl.
+The KMIP for VMware on IBM Cloud service provides a 24x7 highly available service to manage encryption keys that are used by VMware in the IBM Cloud. The service not only offers runtime capability to allow customers to create, retrieve, activate, revoke, and destroy the encryption keys, but also provides management capability to maintain the association between the client credentials and those encryption keys.
+
+KMIP for VMware on IBM Cloud serves as a standard Key Management Service (KMS) that accepts client encryption key operations required by VMware vSphere encryption and VMware vSAN encryption using the Key Management Interoperability Protocol (KMIP). Supported client applications are VMware vCenter 6.5 and VMware vSphere 6.5.
+
+KMIP for VMware on IBM Cloud serves as an adapter to the IBM Key Protect Service, which is a standard IBM RESTful service that provides full-fledged encryption key management capability including customer root key management, data encryption key management, and customer root key-based data encryption key wrapping and unwrapping. The management service of KMIP for VMware on IBM Cloud allows you to configure the relationship between your VMware client certificate, which is used to authenticate with and access the KMIP for VMware service, your IBM Key Protect Service instance, which is used for key management, and your customer root key stored within this instance, which is used for key management transactions. The runtime adapter service of KMIP for VMware on IBM Cloud allows the transformation of KMIP key management operations to RESTful requests to the IBM Key Protect Service for a unified IBM Cloud key management experience.
+
+KMIP for VMware on IBM Cloud relies on IBM Cloud Key Protect for highly available root key storage and key management services and provides its own highly available interface using multiple service endpoints and replicated databases in each region where the service is offered.
+
+The KMIP for VMware on IBM Cloud service is available to V2.2 or later instances only.
+
+IBM Cloud for VMware Solutions enables you to quickly and seamlessly integrate or migrate your on-premises VMware workloads to the IBM® Cloud by using the scalable, secure, and high-performance IBM Cloud infrastructure and the industry-leading VMware hybrid virtualization technology. It also allows you to easily deploy your VMware virtual environments and manage the infrastructure resources on IBM Cloud.
+IBM® Spectrum Protect Plus™ on IBM Cloud is a data protection and availability solution for virtual environments. It can be implemented as a stand-alone solution or integrated with your IBM Spectrum Protect environment to off-load copies for long term storage and data governance with scale and efficiency.
+
+IBM® Spectrum Protect Plus™ on IBM Cloud provides the data protection, data reuse, and recovery tools to the IBM Cloud for VMware Solutions users.
+
+IBM® Spectrum Protect Plus on IBM Cloud:
+Deploys scalable, efficient, and easy-to-use data protection for modern IT environments
+Achieves instant search and recovery of virtual machines (VMs), databases, and files from a single global catalog
+Enables self-service access to data for DevOps and analytics teams
+Can be configured to protect production VMs with the touch of a button
+Integrates with IBM® Spectrum Protect™ (optional) for advanced data protection and storage
+Instantly identifies storage utilization and backup compliance status with service level agreement (SLA)-driven protection management and monitoring
+
+This service is available only to VMware Cloud Foundation instances and VMware vCenter Server instances that are deployed in (or upgraded to) V2.2 or later releases.
+
+For instances that are deployed in V2.5 or later, this service is installed with a separate server to host the vSnap repository and the VADP proxy.
+
+Veeam enables Availability for the Always-On Enterprise™ with integrated backup, recovery and replication on IBM Cloud. Veeam delivers efficient backups of IBM Cloud for VMware Solutions workloads and flexible recovery from IBM Cloud backup repositories.
+
+Veeam is quickly and seamlessly deployed in your IBM Cloud environment for:
+Fast and agentless image-based backups
+Recovery of entire VMs, individual files, and application items
+Item-level recovery and eDiscovery for Microsoft Exchange, SharePoint, and Active Directory
+Transaction-level restore of Oracle and Microsoft SQL Server databases
+Automatic testing and reporting of every backup and replica
+Monitoring and alerting to unseen issues which can impact backup and application performance
+
+Veeam Backup and Replication seamlessly integrates directly with your VMware hypervisors to help your enterprise achieve high availability. It provides recovery point and time objectives of less than 15 minutes for your applications and data.
+Zerto on IBM Cloud provides on-premise and IBM Cloud customers with a secure, flexible and scalable Disaster Recovery solution. It is a single tenant solution, ordered and provisioned from the IBM Cloud for VMware Solutions console, with the option of Cloud Foundation or vCenter Server as a target environment. These environments are deployed on IBM Cloud according to standardized pre-defined compute and network configurations.
+
+By using standardized IBM Cloud compute, network, and storage infrastructure dedicated to your deployment, the provisioning process is fully automated, and the environment is rapidly deployed to the IBM Cloud and made available to you. You can access and manage the IBM-hosted environment via the native Zerto and VMware tools, Command Line Interface (CLI), or other familiar vSphere API-compatible tools.
+
+Zerto on IBM Cloud is a flexible solution that allows you to scale compute capacity horizontally.
+Enterprises can now confidently migrate mission critical workloads to the IBM Cloud, capable of delivering an aggregate 99.99% uptime in six multi-zone regions around the world.
+
+Mission critical applications are those legacy applications that require near continuous availability. They are essential to the survival of the business and cannot be impacted. This capability enables our clients to deploy in IBM Cloud a more robust high availability solution than they can afford to implement in a traditional data center.
+
+A fully managed service delivered by IBM Services, Mission Critical VMware on IBM Cloud delivers greater availability, resiliency, and support than many enterprises currently maintain on premises.
+
+This capability provides near-continuous availability of VMs, without the need for modification. This design consists of a full stack of VMware software-defined virtualization technology and associated tooling to enable the consumption of services. The stack includes performance and capacity management (vRealize Suite), Active Directory, resiliency, integration with Netcool/Bluecare, and integration with the IBM Services Platform with Watson.
+
+Key Benefits
+Multi-site solution that leverages IBM Cloud multi-zone locations
+Highly available environment with targeted aggregate SLA 99.99%
+Zero data loss on disk.
+Automated recovery from site failure of compute, storage, and network
+Managing your VMware virtual infrastructure comprising of compute, network, and storage virtualization can be complex, costly, and time consuming.
+
+IBM Integrated Managed Infrastructure (IMI) can simplify VMware virtual infrastructure management with modular services. IMI uses advanced automation and analytics to manage critical infrastructure components worldwide and to deliver dynamic remote management services for a broad range of traditional and cloud virtual infrastructures. And you only pay for what you need.
+
+IMI can serve as a single, trusted provider to reduce complexity of monitoring and managing virtual IT infrastructures by offering single-pane-of-glass managed services for VMware Cloud Foundation and VMware vCenter Server environments.
+
+IMI provides managed services for Cloud Foundation and vCenter Server instances, which include advanced VMware vSphere management, full VMware NSX coverage to ensure highly available and secure virtual network infrastructure, and VMware vSAN monitoring to ensure availability of data.
+
+Key benefits
+Well-defined architecture and automated deployment, jointly developed by VMware and IBM experts.
+Reliable performance backed by industry-leading SLAs and best practices to monitor and manage your deployed virtual infrastructure.
+Leveraging tools such as vRealize Operations Manager, vRealize Log Insight, vRealize Network Insight, and custom scripts to capture, analyze and report the entire virtual infrastructure.
+Transform your virtual datacenter, enhance enterprise mobility, and improve application delivery through seamless adoption of compute, network, and storage virtualization.
+Veeam enables Availability for the Always-On Enterprise™ with integrated backup, recovery and replication on IBM Cloud. Veeam delivers efficient backups of IBM Cloud for VMware Solutions workloads and flexible recovery from IBM Cloud backup repositories.
+
+Veeam is quickly and seamlessly deployed in your IBM Cloud environment for:
+Fast and agentless image-based backups
+Recovery of entire VMs, individual files, and application items
+Item-level recovery and eDiscovery for Microsoft Exchange, SharePoint, and Active Directory
+Transaction-level restore of Oracle and Microsoft SQL Server databases
+Automatic testing and reporting of every backup and replica
+Monitoring and alerting to unseen issues which can impact backup and application performance
+
+Veeam Backup and Replication seamlessly integrates directly with your VMware hypervisors to help your enterprise achieve high availability. It provides recovery point and time objectives of less than 15 minutes for your applications and data.
+
+The Veeam on IBM Cloud service is only available to V1.8 and higher instances.
+
+IBM Resiliency Managed Service for Veeam on IBM Cloud
+
+IBM Resiliency Backup as a Service with Veeam provides a fully-managed backup service using Veeam backup software to clients who want to protect their critical business data. This service provides a choice of data protection solutions to enable security-rich, automated protection of critical business data on dedicated on-premises environments, IBM Cloud infrastructures, or IBM Resiliency Services Center, either as primary or secondary locations. This service also provides a scalable and flexible data protection solution to reduce the total cost of ownership and manage the compliance requirements of client.
+IBM Resiliency Services provide a fully managed service to clients who do not want to manage the complexity of their own Disaster Recovery solution. The following types of managed services are available for Zerto on IBM Cloud:
+
+IBM Orchestrated Managed Services for Zerto
+
+This service includes the provision of the IBM Cloud Resiliency Orchestration service for the Zerto on IBM Cloud offering.
+
+With IBM Cloud Resiliency Orchestration integration, the offering allows for continuous protection of virtual machines, operating systems, and data to the IBM Cloud, with uninterrupted DR testing, RTO/RPO visibility, fail-over and fail-back capability and all are managed via the Cloud Resiliency Orchestration dashboard by IBM Resiliency Services Global Command Center.
+
+This offering provides a service to IBM Cloud clients who are leveraging the Zerto on IBM Cloud Disaster Recovery offering.
+IBM Managed Services for Zerto (without Orchestration)
+
+This service includes the provision of a managed DR solution for the Zerto on IBM Cloud offering.
+
+This offering provides a service to IBM Cloud clients who want a managed service for Zerto Virtual Replication without the IBM Cloud Resiliency Orchestration service on the IBM Cloud. This IBM Resiliency Services offering provides a fully managed service model for Zerto on IBM Cloud.
+With IBM® Cloud Functions you can use you can use your favorite programming language to write lightweight code that executes app logic in a scalable way. You can run code on-demand with HTTP-based API requests from applications or automatically in response to IBM Cloud services and third-party events. The Function-as-a-Service (Faas) programming platform is based on the open source project Apache OpenWhisk.
+
+Because Cloud Functions is serverless, you're not limited in the languages that you can use and you don't have to spend time explicitly provisioning backend infrastructure. You can focus on writing app logic instead of worrying about auto-scaling, high availability, updates, or maintenance. Out of the box, IBM provides the hardware, networking, software administration, load balancing, plugins, and so on. 
+Despite their benefit, microservice-based solutions remain difficult to build by using mainstream cloud technologies, often requiring control of a complex toolchain, and separate build and operations pipelines. Small and agile teams spend too much time with infrastructural and operational complexities such as fault-tolerance, load balancing, auto-scaling, and logging. These teams want a way to develop streamlined, value-added code with programming languages they already know, love, and that are best suited to solve particular problems.
+
+The modular and inherently scalable nature of Cloud Functions makes it ideal for implementing granular pieces of logic in actions. Cloud Functions actions are independent of each other and can be implemented by using various different languages that are supported by Cloud Functions and access various backend systems. Each action can be independently deployed and managed, is scaled independently of other actions. Interconnectivity between actions is provided by Cloud Functions in the form of rules, sequences, and naming conventions. This type of environment bodes well for microservices based applications.
+
+Another important argument in favor of Cloud Functions is the cost of a system in a disaster recovery configuration. Compare microservices with PaaS or CaaS vs. using Cloud Functions by assuming that you have 10 microservices, which use containers or CloudFoundry runtimes. This comparison equates to 10 continuously running and billable processes in a single availability zone, 20 when run across 2 AZs, and 40 when run across two regions with two zones each. To achieve the same goal with Cloud Functions, you can run them across as many AZs or regions as you like, without having to pay a penny of incremental costs.
+Develop, deploy, and scale Java web apps with ease. IBM WebSphere Liberty Profile is a highly composable, ultra-fast, ultra-light profile of IBM WebSphere Application Server designed for the cloud.
+Develop, deploy, and scale server-side JavaScript® apps with ease. The IBM SDK for Node.js™ provides enhanced performance, security, and serviceability.
+Develop, deploy, and scale ASP.NET Core web apps with ease.
+A Kitura based server application that you can use as a starting point to get your own Kitura application up and running quickly on Bluemix.
+Develop, deploy and scale IBM XPages applications with ease. The IBM XPages runtime provides you with a cloud-ready XPages web container designed for running XPages applications in Bluemix. Once you've created your application, download and install IBM Domino Designer for free to start developing XPages application for the cloud.
+Develop, deploy, and scale Go web apps with ease.
+Develop, deploy, and scale PHP web apps with ease.
+Develop, deploy, and scale Python web apps with ease.
+Develop, deploy, and scale Ruby web apps with ease.
+Develop, deploy, and scale Tomcat web apps with ease.
+
+
+
