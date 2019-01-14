@@ -103,6 +103,16 @@ def relevanceextraction(list_of_words):
         if failed_attempts == 9999: #if every word in the main file failed then...
             print(nothing)
 
+def topicalgorithm():
+    no_of_topics = 13 #There are actually 14 topics but in the array the num 14 is represented as 13
+    best_topic_score = 0 
+    best_topic = ""
+    for x in range(0,13):
+        score = topics[x][1]
+        if score > best_topic_score:
+            best_topic_score = score
+            best_topic = topics[x][0]
+
 
 def start(messagetext):
     print("Lets start the search")
@@ -116,3 +126,4 @@ def start(messagetext):
         #debug to see the relevances
         print(topics[x][0])
         print(topics[x][1])
+    topicalgorithm()
