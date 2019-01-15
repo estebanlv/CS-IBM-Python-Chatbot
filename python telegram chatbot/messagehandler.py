@@ -3,11 +3,14 @@ from array import *
 from openpyxl import load_workbook #This loads a library that allows me to read/write excel files
 
 wb = load_workbook(filename = 'wordsdatabase.xlsx') #Tell the program what file i'm using
+linkdatabase = load_workbook(filename = 'sourcess.xlsx')
 sheet = wb['main'] #Tells the program which sheet in the document i'm using
 secsheet = wb['secondary']
 total = wb['total']
+linksheet = linkdatabase['main']
 letters = ["A","B","C","D","E","F","G","H","I","K","J","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
 topics = [["compute", 0],["containers", 0],["networking", 0],["storage", 0],["ai", 0],["analytics", 0],["databases", 0],["devtools", 0],["integration", 0],["iot", 0],["secandid", 0],["starterkits", 0],["webmobile", 0],["webapp", 0]]
+linkcell = ["D2","D4","D6","D8","D10","D12","D14","D16","D18","D20","D22","D24","D26","D28"]
 #These variable above is for cell values
 
 def removepunctuation():
@@ -107,12 +110,19 @@ def topicalgorithm():
     no_of_topics = 13 #There are actually 14 topics but in the array the num 14 is represented as 13
     best_topic_score = 0 
     best_topic = ""
-    for x in range(0,13):
-        score = topics[x][1]
-        if score > best_topic_score:
-            best_topic_score = score
-            best_topic = topics[x][0]
+    for x in range(0,13): #for every topic do...
+        score = topics[x][1] #takes the score from the topic
+        if score > best_topic_score: #if the current score is better than the best score do:
+            best_topic_score = score #best score is updated with the new one
+            best_topic = topics[x][0] #Saves the topic name with the best score
+    return best_topic; #returns the best topic
 
+def choosethelink(best_topic):
+	for i in range(0,13): #for every topic do...
+		if best_topic == topics[i][0]: #if the best topic is equal to the topic saved in the array
+			link_cell = linkcell[i] #saves the cell number assigned to that topic
+			link = str(linksheet[link_cell].value) #Saves the link that is stored in the database
+	return link; #returns the link
 
 def start(messagetext):
     print("Lets start the search")
@@ -126,4 +136,6 @@ def start(messagetext):
         #debug to see the relevances
         print(topics[x][0])
         print(topics[x][1])
-    topicalgorithm()
+    best_topic = topicalgorithm()
+    message = choosethelink(best_topic)
+    return message; #sends the link to the main program
