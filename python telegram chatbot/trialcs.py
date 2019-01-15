@@ -42,7 +42,8 @@ def at_converter(message):
 def echo_message(message):
     message_str = str(message.text)
     new_message = messagehandler.start(message_str)
-    bot.reply_to(message, new_message.text)
+    #bot.reply_to(message, new_message.text)
+    bot.reply_to(message, new_message)
 
 while True:
     try:

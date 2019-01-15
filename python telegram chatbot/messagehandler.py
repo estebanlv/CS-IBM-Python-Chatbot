@@ -3,14 +3,14 @@ from array import *
 from openpyxl import load_workbook #This loads a library that allows me to read/write excel files
 
 wb = load_workbook(filename = 'wordsdatabase.xlsx') #Tell the program what file i'm using
-linkdatabase = load_workbook(filename = 'sourcess.xlsx')
+linkdatabase = load_workbook(filename = 'sources.xlsx')
 sheet = wb['main'] #Tells the program which sheet in the document i'm using
 secsheet = wb['secondary']
 total = wb['total']
 linksheet = linkdatabase['main']
 letters = ["A","B","C","D","E","F","G","H","I","K","J","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
 topics = [["compute", 0],["containers", 0],["networking", 0],["storage", 0],["ai", 0],["analytics", 0],["databases", 0],["devtools", 0],["integration", 0],["iot", 0],["secandid", 0],["starterkits", 0],["webmobile", 0],["webapp", 0]]
-linkcell = ["D2","D4","D6","D8","D10","D12","D14","D16","D18","D20","D22","D24","D26","D28"]
+linkcell = ["C2","C4","C6","C8","C10","C12","C14","C16","C18","C20","C22","C24","C26","C28"]
 #These variable above is for cell values
 
 def removepunctuation():
@@ -104,11 +104,11 @@ def relevanceextraction(list_of_words):
             else: #if the word is not in the database then...
                 failed_attempts = failed_attempts + 1 #for every failed attempt, 1 is added to the variable
         if failed_attempts == 9999: #if every word in the main file failed then...
-            print(nothing)
+            print("nothing")
 
 def topicalgorithm():
     no_of_topics = 13 #There are actually 14 topics but in the array the num 14 is represented as 13
-    best_topic_score = 0 
+    best_topic_score = 0
     best_topic = ""
     for x in range(0,13): #for every topic do...
         score = topics[x][1] #takes the score from the topic
@@ -124,6 +124,13 @@ def choosethelink(best_topic):
 			link = str(linksheet[link_cell].value) #Saves the link that is stored in the database
 	return link; #returns the link
 
+def deletecontents():
+    for x in range(0,13): #for every topic do...
+        topics[x][1] = 0 #change the relevance to 0
+    #this part below resets the dissectedmessage file in order to reuse it again
+    f = open("dissectedmessage.txt", "w")
+    f.close()
+
 def start(messagetext):
     print("Lets start the search")
     writemessagetofile(messagetext)
@@ -138,4 +145,6 @@ def start(messagetext):
         print(topics[x][1])
     best_topic = topicalgorithm()
     message = choosethelink(best_topic)
+    deletecontents()
+    print(message)
     return message; #sends the link to the main program
