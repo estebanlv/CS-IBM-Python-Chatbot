@@ -115,6 +115,9 @@ def topicalgorithm():
         if score > best_topic_score: #if the current score is better than the best score do:
             best_topic_score = score #best score is updated with the new one
             best_topic = topics[x][0] #Saves the topic name with the best score
+    if best_topic_score == 0:
+        best_topic = "none"
+    print(best_topic)
     return best_topic; #returns the best topic
 
 def choosethelink(best_topic):
@@ -144,7 +147,12 @@ def start(messagetext):
         print(topics[x][0])
         print(topics[x][1])
     best_topic = topicalgorithm()
-    message = choosethelink(best_topic)
-    deletecontents()
-    print(message)
-    return message; #sends the link to the main program
+    if best_topic == "none":
+        deletecontents()
+        link = "Sorry but your request was unsuccesful, please try again"
+        return(link)
+    else:
+        message = choosethelink(best_topic)
+        deletecontents()
+        print(message)
+        return message; #sends the link to the main program
