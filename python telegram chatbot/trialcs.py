@@ -28,11 +28,15 @@ and I will do my best to find it for you.\
 # Handle all other messages with content_type 'text' (content_types defaults to ['text'])
 @bot.message_handler(func=lambda message: True)
 def echo_message(message):
+    #print(message.from_user.id)
     message_str = str(message.text)
+    print(message_str)
+    print(message.from_user.id)
     new_message = messagehandler.start(message_str)
     #bot.reply_to(message, new_message.text)
-    bot.reply_to(message, new_message)
-
+    #bot.send_message(message.from_user.id, "I think this might help you.")
+    #bot.reply_to(message, new_message)
+    bot.send_message(message.from_user.id, new_message)
 while True:
     try:
         bot.polling()
