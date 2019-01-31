@@ -123,7 +123,7 @@ def dotopics(ystr, topic):
         number_of_topics_str = str(number_of_topics) #stores it as a string
         sheet[topic_no_cell].value = number_of_topics_str #stores the value at the respective cell
     elif number_of_topics != 0: #if the number of topics isnt 0 then...
-        num_letter = number_of_topics + 4 #who the fuck knows what this line does
+        num_letter = number_of_topics + 4
         for y in range(number_of_topics): #for every topic do...
             if num_letter > 25:
                 num_letter = 25
@@ -155,7 +155,7 @@ def dosectopics(ystr, topic):
         number_of_topics_str = str(number_of_topics) #stores it as a string
         secsheet[topic_no_cell].value = number_of_topics_str #stores the value at the respective cell
     elif number_of_topics != 0: #if the number of topics isnt 0 then...
-        num_letter = number_of_topics + 4 #who the fuck knows what this line does
+        num_letter = number_of_topics + 4 
         for y in range(number_of_topics): #for every topic do...
             if num_letter > 25:
                 num_letter = 25
