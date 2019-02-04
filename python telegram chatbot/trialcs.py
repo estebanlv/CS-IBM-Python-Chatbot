@@ -29,6 +29,7 @@ and I will do my best to find it for you.\
 @bot.message_handler(func=lambda message: True)
 def echo_message(message):
     message_str = str(message.text)
+    print(message)
     print(message_str)
     print(message.from_user.id)
     new_message = messagehandler.start(message_str)

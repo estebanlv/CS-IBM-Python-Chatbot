@@ -155,7 +155,7 @@ def dosectopics(ystr, topic):
         number_of_topics_str = str(number_of_topics) #stores it as a string
         secsheet[topic_no_cell].value = number_of_topics_str #stores the value at the respective cell
     elif number_of_topics != 0: #if the number of topics isnt 0 then...
-        num_letter = number_of_topics + 4 
+        num_letter = number_of_topics + 4
         for y in range(number_of_topics): #for every topic do...
             if num_letter > 25:
                 num_letter = 25
@@ -244,7 +244,7 @@ removepunctuation()
 wordcheck()
 calculatepercentage()
 calculatesecpercentage()
-wb.save("wordsdatabase.xlsx")
+#wb.save("wordsdatabase.xlsx")
 
 end = time.time()
 print(end - start) #time taken for the program to run

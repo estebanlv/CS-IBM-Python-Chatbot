@@ -143,17 +143,18 @@ def start(messagetext):
     list_of_words = joinandsplitspace(word_list)
     #print(list_of_words)
     relevanceextraction(list_of_words)
-    #for x in range(0,14):
+    for x in range(0,14):
         #debug to see the relevances
-        #print(topics[x][0])
-        #print(topics[x][1])
+        print(topics[x][0])
+        print(topics[x][1])
     best_topic = topicalgorithm()
     if best_topic == "none":
         deletecontents()
         link = "Sorry but your request was unsuccesful, please try again"
+        print(link)
         return(link)
     else:
         message = choosethelink(best_topic)
         deletecontents()
-        #print(message)
+        print(message)
         return message; #sends the link to the main program
